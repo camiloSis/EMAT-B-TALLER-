@@ -187,34 +187,36 @@
     \item $n$: tamaño de la muestra
 \end{itemize}
 
+\begin{table}[H]
+    \centering
+    \caption{Cantidad de horas programando de los estudiantes de EMAT B(horas enteras)}
+    \label{tab:media-horas-programando}
+    \begin{tabular}{@{}lccc@{}}
+        \toprule
+        $x_i$ & $f_i$ & $x_i \cdot f_i$ \\
+        \midrule
+        2 & 4 & 8 \\
+        5 & 4 & 20 \\
+        10 & 4 & 40 \\
+        15 & 3 & 45 \\
+        22 & 3 & 66 \\
+        28 & 1 & 28 \\
+        30 & 1 & 30 \\
+        40+ & 2 & 80 \\
+        \midrule
+        \textbf{Total} & \textbf{22} & \textbf{317} \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
 \textbf{Desarrollo:}
 \begin{equation*}
-    \bar{x} = \frac{(2)(4)+(5)(4)+(10)(4)+(15)(3)+(22)(3)+(28)(1)+(30)(1)+(40)(2)}{22} = \frac{317}{22} \approx 14.41
+    \bar{x} = \frac{317}{22} \approx 14.41
 \end{equation*}
 
 \textbf{Interpretación:} Los estudiantes de EMAT B dedican en promedio 14 horas programando a la semana.
 
-\subsection*{2. Promedio Ponderado}
-\begin{equation*}
-    \bar{x}_p = \frac{\sum_{i=1}^{k} w_i \cdot x_i}{\sum_{i=1}^{k} w_i}
-\end{equation*}
-
-\textbf{Notación:}
-\begin{itemize}
-    \item $x_i$: valor de la variable
-    \item $w_i$: peso asociado a $x_i$ (en este caso, la frecuencia $f_i$)
-\end{itemize}
-
-\textbf{Desarrollo:}
-
-Tomando las frecuencias $f_i$ como los pesos $w_i$ de cada valor:
-\begin{equation*}
-    \bar{x}_p = \frac{(4)(2)+(4)(5)+(4)(10)+(3)(15)+(3)(22)+(1)(28)+(1)(30)+(2)(40)}{4+4+4+3+3+1+1+2} = \frac{317}{22} \approx 14.41
-\end{equation*}
-
-\textbf{Interpretación:} Considerando el peso de cada frecuencia, los estudiantes de EMAT B dedican en promedio 14 horas programando a la semana.
-
-\subsection*{3. Mediana (Md)}
+\subsection*{2. Mediana (Md)}
 \begin{equation*}
     \text{Posición} = \frac{n}{2}
 \end{equation*}
@@ -223,6 +225,28 @@ Tomando las frecuencias $f_i$ como los pesos $w_i$ de cada valor:
 \begin{itemize}
     \item $n$: tamaño de la muestra (total de elementos)
 \end{itemize}
+
+\begin{table}[H]
+    \centering
+    \caption{Cantidad de horas programando de los estudiantes de EMAT B(horas enteras)}
+    \label{tab:mediana-cuantiles-horas}
+    \begin{tabular}{@{}ccc@{}}
+        \toprule
+        $x_i$ & $f_i$ & $F_i$ \\
+        \midrule
+        2 & 4 & 4 \\
+        5 & 4 & 8 \\
+        10 & 4 & 12 \\
+        15 & 3 & 15 \\
+        22 & 3 & 18 \\
+        28 & 1 & 19 \\
+        30 & 1 & 20 \\
+        40+ & 2 & 22 \\
+        \midrule
+        \textbf{Total} & \textbf{22} & \\
+        \bottomrule
+    \end{tabular}
+\end{table}
 
 \textbf{Desarrollo:}
 
@@ -237,7 +261,7 @@ Tomando las frecuencias $f_i$ como los pesos $w_i$ de cada valor:
 
 \textbf{Interpretación:} El 50\% de los estudiantes de EMAT B dedica a lo mucho 10 horas programando a la semana, mientras que el otro 50% dedica 10 horas o más.
 
-\subsection*{4. Moda (Mo)}
+\subsection*{3. Moda (Mo)}
 \begin{equation*}
     Mo = x_i \text{ tal que } f_i \text{ es máxima}
 \end{equation*}
@@ -248,6 +272,28 @@ Tomando las frecuencias $f_i$ como los pesos $w_i$ de cada valor:
     \item $f_i$: frecuencia absoluta de $x_i$
 \end{itemize}
 
+\begin{table}[H]
+    \centering
+    \caption{Cantidad de horas programando de los estudiantes de EMAT B(horas enteras)}
+    \label{tab:moda-horas}
+    \begin{tabular}{@{}cc@{}}
+        \toprule
+        $x_i$ & $f_i$ \\
+        \midrule
+        2 & 4 \\
+        5 & 4 \\
+        10 & 4 \\
+        15 & 3 \\
+        22 & 3 \\
+        28 & 1 \\
+        30 & 1 \\
+        40+ & 2 \\
+        \midrule
+        \textbf{Total} & \textbf{22} \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
 \textbf{Desarrollo:}
 
 La frecuencia máxima es $f_i = 4$, alcanzada por tres valores: $x_i = 2$, $x_i = 5$ y $x_i = 10$.
@@ -257,7 +303,7 @@ La frecuencia máxima es $f_i = 4$, alcanzada por tres valores: $x_i = 2$, $x_i 
 
 \textbf{Interpretación:} Los valores de horas que más se repiten entre los estudiantes de EMAT B son 2, 5 y 10 horas programando a la semana.
 
-\subsection*{5. Cuartiles}
+\subsection*{4. Cuartiles}
 \begin{equation*}
     Q_j = L_i + a \cdot \frac{\left(\dfrac{j \cdot m}{4}\right) - F_{i-1}}{f_i}
 \end{equation*}
@@ -271,6 +317,28 @@ La frecuencia máxima es $f_i = 4$, alcanzada por tres valores: $x_i = 2$, $x_i 
     \item $F_{i-1}$: frecuencia acumulada de la fila anterior
     \item $f_i$: frecuencia absoluta de la fila donde se ubica la posición
 \end{itemize}
+
+\begin{table}[H]
+    \centering
+    \caption{Cantidad de horas programando de los estudiantes de EMAT B(horas enteras)}
+    \label{tab:mediana-cuantiles-horas}
+    \begin{tabular}{@{}ccc@{}}
+        \toprule
+        $x_i$ & $f_i$ & $F_i$ \\
+        \midrule
+        2 & 4 & 4 \\
+        5 & 4 & 8 \\
+        10 & 4 & 12 \\
+        15 & 3 & 15 \\
+        22 & 3 & 18 \\
+        28 & 1 & 19 \\
+        30 & 1 & 20 \\
+        40+ & 2 & 22 \\
+        \midrule
+        \textbf{Total} & \textbf{22} & \\
+        \bottomrule
+    \end{tabular}
+\end{table}
 
 \textbf{Desarrollo:}
 
@@ -291,7 +359,7 @@ La frecuencia máxima es $f_i = 4$, alcanzada por tres valores: $x_i = 2$, $x_i 
 
 \textbf{Interpretación:} Por ejemplo para $Q_1$, el 25\% de los estudiantes de EMAT B dedica a lo mucho 5 horas programando a la semana, mientras que el otro 75\% dedica 5 horas o más.
 
-\subsection*{6. Deciles}
+\subsection*{5. Deciles}
 \begin{equation*}
     D_j = L_i + a \cdot \frac{\left(\dfrac{j \cdot m}{10}\right) - F_{i-1}}{f_i}
 \end{equation*}
@@ -305,6 +373,28 @@ La frecuencia máxima es $f_i = 4$, alcanzada por tres valores: $x_i = 2$, $x_i 
     \item $F_{i-1}$: frecuencia acumulada de la fila anterior
     \item $f_i$: frecuencia absoluta de la fila donde se ubica la posición
 \end{itemize}
+
+\begin{table}[H]
+    \centering
+    \caption{Cantidad de horas programando de los estudiantes de EMAT B(horas enteras)}
+    \label{tab:mediana-cuantiles-horas}
+    \begin{tabular}{@{}ccc@{}}
+        \toprule
+        $x_i$ & $f_i$ & $F_i$ \\
+        \midrule
+        2 & 4 & 4 \\
+        5 & 4 & 8 \\
+        10 & 4 & 12 \\
+        15 & 3 & 15 \\
+        22 & 3 & 18 \\
+        28 & 1 & 19 \\
+        30 & 1 & 20 \\
+        40+ & 2 & 22 \\
+        \midrule
+        \textbf{Total} & \textbf{22} & \\
+        \bottomrule
+    \end{tabular}
+\end{table}
 
 \textbf{Desarrollo:}
 
@@ -322,7 +412,7 @@ La frecuencia máxima es $f_i = 4$, alcanzada por tres valores: $x_i = 2$, $x_i 
 
 \textbf{Interpretación:} Para $D_1$, el 10\% de los estudiantes de EMAT B dedica a lo mucho 2 horas programando a la semana.
 
-\subsection*{7. Percentiles}
+\subsection*{6. Percentiles}
 \begin{equation*}
     P_j = L_i + a \cdot \frac{\left(\dfrac{j \cdot m}{100}\right) - F_{i-1}}{f_i}
 \end{equation*}
@@ -336,6 +426,28 @@ La frecuencia máxima es $f_i = 4$, alcanzada por tres valores: $x_i = 2$, $x_i 
     \item $F_{i-1}$: frecuencia acumulada de la fila anterior
     \item $f_i$: frecuencia absoluta de la fila donde se ubica la posición
 \end{itemize}
+
+\begin{table}[H]
+    \centering
+    \caption{Cantidad de horas programando de los estudiantes de EMAT B(horas enteras)}
+    \label{tab:mediana-cuantiles-horas}
+    \begin{tabular}{@{}ccc@{}}
+        \toprule
+        $x_i$ & $f_i$ & $F_i$ \\
+        \midrule
+        2 & 4 & 4 \\
+        5 & 4 & 8 \\
+        10 & 4 & 12 \\
+        15 & 3 & 15 \\
+        22 & 3 & 18 \\
+        28 & 1 & 19 \\
+        30 & 1 & 20 \\
+        40+ & 2 & 22 \\
+        \midrule
+        \textbf{Total} & \textbf{22} & \\
+        \bottomrule
+    \end{tabular}
+\end{table}
 
 \textbf{Desarrollo:}
 
