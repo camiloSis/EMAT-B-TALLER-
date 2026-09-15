@@ -1,44 +1,69 @@
 \documentclass[12pt,letterpaper]{article}
-
+ 
 % ---------- Idioma y codificación ----------
 \usepackage[spanish,es-noshorthands]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{csquotes}
-
+ 
 % ---------- Estructura y layout ----------
 \usepackage{tabularx}
 \usepackage{float}
 \usepackage{scrhack}
 \usepackage[margin=2.5cm]{geometry}
-
+ 
 % ---------- Tipografía ----------
 \usepackage{newtxtext}
 \usepackage{newtxmath}
 \usepackage{setspace}
 \onehalfspacing
-
+ 
 % ---------- Imágenes y tablas ----------
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{xcolor}
 \usepackage{enumitem}
-
+ 
 % ---------- Placeholder visual ----------
 \newcommand{\relleno}{\textcolor{red}{\itshape [completar]}}
-
-%\title{\vspace{-1.5cm}Variable estadística: Lenguaje de programación favorito}
-%\author{Facultad de Ingeniería de Producción y Servicios (FIPS)}
-%\date{}
-
+ 
+% =========================================================
+% DATOS DEL ENCABEZADO (edita aquí los valores que falten)
+% =========================================================
+\newcommand{\itemUniversity}{Universidad Nacional de San Agustín de Arequipa}
+\newcommand{\itemFaculty}{Facultad de Ingeniería de Producción y Servicios}
+\newcommand{\itemDepartment}{Departamento Académico de Ingeniería de Sistemas e Informática}
+\newcommand{\itemSchool}{Escuela Profesional de Ingeniería de Sistemas}
+\newcommand{\itemCourse}{Estadística matemática, probabilidades y métodos empíricos} % <-- ajusta al nombre real del curso
+\newcommand{\itemStudent}{Grupo N°1} % <-- ajusta si es necesario
+ 
+%-------ENCABEZADO------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{40.51407pt}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+ 
+\fancyhead[L]{\raisebox{-0.2\height}{\includegraphics[width=3cm]{img/logo_episunsa.png}}}
+\fancyhead[C]{\fontsize{7}{7}\selectfont    \itemUniversity \\ \itemFaculty \\ \itemDepartment \\ \itemSchool \\ \textbf{\itemCourse}}
+\fancyhead[R]{\raisebox{-0.2\height}{\includegraphics[width=1.2cm]{img/logo_abet.png}}}
+ 
+%------PIE DE PÁGINA-----
+\fancyfoot[L]{\itemStudent}
+\fancyfoot[C]{\itemCourse}
+\fancyfoot[R]{Página \thepage}
+ 
 \begin{document}
+ \input{portada.tex}
+\section*{Ficha técnica}
+
 %\maketitle
 %\thispagestyle{empty}
 
 % =========================================================
 % ================ FICHA TÉCNICA DE LA VARIABLE ==========
 % =========================================================
-\section*{Ficha técnica}
 
 \begin{tabularx}{\textwidth}{@{}l X@{}}
 \textbf{Variable estadística $X$:} & Lenguaje de programación favorito (FIPS) \\[4pt]
@@ -229,7 +254,7 @@
 \begin{table}[H]
     \centering
     \caption{Cantidad de horas programando de los estudiantes de EMAT B(horas enteras)}
-    \label{tab:mediana-cuantiles-horas}
+    \label{tab:mediana-horas}
     \begin{tabular}{@{}ccc@{}}
         \toprule
         $x_i$ & $f_i$ & $F_i$ \\
@@ -321,7 +346,7 @@ La frecuencia máxima es $f_i = 4$, alcanzada por tres valores: $x_i = 2$, $x_i 
 \begin{table}[H]
     \centering
     \caption{Cantidad de horas programando de los estudiantes de EMAT B(horas enteras)}
-    \label{tab:mediana-cuantiles-horas}
+    \label{tab:cuartiles-horas}
     \begin{tabular}{@{}ccc@{}}
         \toprule
         $x_i$ & $f_i$ & $F_i$ \\
@@ -377,7 +402,7 @@ La frecuencia máxima es $f_i = 4$, alcanzada por tres valores: $x_i = 2$, $x_i 
 \begin{table}[H]
     \centering
     \caption{Cantidad de horas programando de los estudiantes de EMAT B(horas enteras)}
-    \label{tab:mediana-cuantiles-horas}
+    \label{tab:deciles-horas}
     \begin{tabular}{@{}ccc@{}}
         \toprule
         $x_i$ & $f_i$ & $F_i$ \\
@@ -430,7 +455,7 @@ La frecuencia máxima es $f_i = 4$, alcanzada por tres valores: $x_i = 2$, $x_i 
 \begin{table}[H]
     \centering
     \caption{Cantidad de horas programando de los estudiantes de EMAT B(horas enteras)}
-    \label{tab:mediana-cuantiles-horas}
+    \label{tab:percentiles-horas}
     \begin{tabular}{@{}ccc@{}}
         \toprule
         $x_i$ & $f_i$ & $F_i$ \\
@@ -461,4 +486,150 @@ Se muestran los percentiles más usados como ejemplo:
 \end{itemize}
 
 \textbf{Interpretación:} Para $P_{10}$, el 10\% de los estudiantes de EMAT B dedica a lo mucho 2 horas programando a la semana.
+
+\section*{Medidas de Dispersión}
+
+A partir de la distribución de frecuencias de los estudiantes de EMAT B, organizamos los cálculos para datos con frecuencia ($f_i$):
+
+\begin{enumerate}
+
+    \item \textbf{Cálculo de la Media Aritmética ($\bar{x}$):}
+
+        \begin{table}[H]
+        \centering
+        \caption{Cantidad de horas programando de los estudiantes de EMAT B(horas enteras)}
+        \label{tab:media-horas-programando}
+        \begin{tabular}{@{}lccc@{}}
+            \toprule
+            $x_i$ & $f_i$ & $x_i \cdot f_i$ \\
+            \midrule
+            2 & 4 & 8 \\
+            5 & 4 & 20 \\
+            10 & 4 & 40 \\
+            15 & 3 & 45 \\
+            22 & 3 & 66 \\
+            28 & 1 & 28 \\
+            30 & 1 & 30 \\
+            40+ & 2 & 80 \\
+            \midrule
+            \textbf{Total} & \textbf{22} & \textbf{317} \\
+            \bottomrule
+        \end{tabular}
+    \end{table}
+
+
+    $$\bar{x} = \frac{\sum f_i x_i}{n} = \frac{317}{22} \approx 14.41 \text{ horas}$$
+
+    \item \textbf{Cálculo de la Varianza ($S^2$):}
+    Utilizando la fórmula práctica para datos clasificados:
+
+    \begin{table}[H]
+    \centering
+    \caption{Cantidad de horas programando de los estudiantes de EMAT B (horas enteras)}
+    \label{tab:fi-xi2-horas}
+    \begin{tabular}{@{}cccc@{}}
+        \toprule
+        $x_i$ & $f_i$ & $x_i^2$ & $f_i x_i^2$ \\
+        \midrule
+        2 & 4 & 4 & 16 \\
+        5 & 4 & 25 & 100 \\
+        10 & 4 & 100 & 400 \\
+        15 & 3 & 225 & 675 \\
+        22 & 3 & 484 & 1452 \\
+        28 & 1 & 784 & 784 \\
+        30 & 1 & 900 & 900 \\
+        40+ & 2 & 1600 & 3200 \\
+        \midrule
+        \textbf{Total} & \textbf{22} & -- & $\mathbf{7527}$ \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+
+    $$S^2 = \frac{1}{n} \sum f_i x_i^2 - (\bar{x})^2$$
+    Sustituyendo los valores obtenidos ($\sum f_i x_i^2 = 7527$ y $n = 22$):
+    $$S^2 = \frac{7527}{22} - (14.41)^2$$
+    $$S^2 = 342.14 - 207.65 = 134.49 \text{ horas}^2$$
+
+    \item \textbf{Cálculo de la Desviación Estándar ($S$):}
+    $$S = \sqrt{S^2} = \sqrt{134.49} \approx 11.60 \text{ horas}$$
+
+    \item \textbf{Cálculo del Coeficiente de Variación ($CV$):}
+    $$CV = \frac{S}{\bar{x}} = \frac{11.60}{14.41} \approx 0.8049 \implies 80.49\%$$
+    \textit{Interpretación:} Al ser un coeficiente de variación mayor al $30\%$, indica que existe una alta dispersión y heterogeneidad en la cantidad de horas que los estudiantes dedican a programar.
+\end{enumerate}
+
+\section*{Medidas de distribución y de forma}
+
+Evaluamos la asimetría y el apuntamiento para los datos de los estudiantes de EMAT B (con $\bar{x} = 14.41$, Mediana $Me = 10$ al ubicarse en el acumulado, Desviación Estándar $S = 11.60$, cuartiles $Q_1 = 5$, $Q_3 = 22$ y percentiles aproximados $P_{10} = 2$, $P_{90} = 30$):
+
+\begin{enumerate}
+    \item \textbf{Coeficiente de Asimetría (Pearson - $AS_2$):}
+    $$AS_2 = \frac{3(\bar{x} - Me)}{S} = \frac{3(14.41 - 10)}{11.60} = \frac{13.23}{11.60} \approx 1.14$$
+    \textbf{Interpretación:} Como $AS_2 > 0$, la distribución presenta una \textbf{asimetría positiva} (sesgada hacia la derecha, con mayor concentración de estudiantes en pocas horas de programación y algunos valores altos que elevan la media).
+
+    \item \textbf{Coeficiente de Curtosis ($K$):}
+    Calculando $Q = \frac{Q_3 - Q_1}{2} = \frac{22 - 5}{2} = 8.5$:
+    $$K = \frac{Q}{P_{90} - P_{10}} = \frac{8.5}{30 - 2} = \frac{8.5}{28} \approx 0.30$$
+    \textbf{Interpretación:} Dado que $K \approx 0.30$ se ubica cerca de $0.25$, la curva de distribución tiende a ser \textbf{mesocúrtica}.
+\end{enumerate}
+
+\section*{Diagrama de caja}
+
+Son una presentación visual que describe varias características importantes, al mismo tiempo, tales como la dispersión y simetría. Sirve para hacer comparaciones en varios conjuntos de datos.
+
+% Nota: El gráfico inferior de la imagen describe esquemáticamente un diagrama de caja 
+% indicando el Rango, el Valor más bajo, el Primer cuartil, la Mediana, el Tercer cuartil y el Valor más alto.
+
+\clearpage 
+
+\section*{Probabilidad}
+ 
+\subsection*{Contexto general del experimento}
+ 
+\noindent
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\textbf{Experimento:} & Elegir un plumón al azar de un estuche de 12 plumones de colores. \\[6pt]
+\textbf{Espacio muestral ($S$):} & $S = $ \{azul, amarillo, rojo, verde, negro, blanco, anaranjado, morado, rosado, marrón, celeste, gris\}, con $n(S) = 12$. \\[6pt]
+\textbf{Evento ($A$):} & Escoger un color primario del estuche de plumones de colores: $A = $ \{amarillo, azul, rojo\}. \\[6pt]
+\end{tabularx}
+ 
+\subsection*{Evento Simple}
+ 
+\noindent
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\textbf{Experimento:} & Extraer un único plumón del estuche, en un solo intento. \\[6pt]
+\textbf{Espacio muestral ($S$):} & El mismo espacio muestral general, $n(S) = 12$. \\[6pt]
+\textbf{Evento ($B$):} & Obtener un plumón de color azul: $B = \{\text{azul}\}$, con $n(B) = 1$. \\[6pt]
+\end{tabularx}
+ 
+\noindent Al haber solo 1 plumón azul de un total de 12:
+$$P(B) = \frac{n(B)}{n(S)} = \frac{1}{12} \approx 0.0833 \quad (8.33\%)$$
+ 
+\noindent\textbf{Interpretación:} Al elegir un plumón al azar del estuche de colores, la probabilidad de que este sea de color azul es del $8.33\%$.
+ 
+\subsection*{Evento Compuesto}
+ 
+\noindent
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\textbf{Experimento:} & Extraer dos plumones de manera consecutiva y \textit{sin reposición}: primero un plumón amarillo, y a continuación un plumón rojo. \\[6pt]
+\textbf{Espacio muestral:} & Para el primer intento, $S_1$ es el espacio muestral general ($n(S_1) = 12$). Para el segundo intento, dado que no hay reposición, $S_2$ contiene los 11 plumones restantes ($n(S_2) = 11$). \\[6pt]
+\textbf{Evento ($D$):} & Obtener un plumón amarillo en el primer intento: $D = \{\text{amarillo}\}$. \\[6pt]
+\textbf{Evento ($E$):} & Obtener un plumón rojo en el segundo intento, dado que el primero fue amarillo: $E = \{\text{rojo} \mid \text{amarillo}\}$. \\[6pt]
+\textbf{Evento compuesto ($C$):} & $C = D \cap E$. \\[6pt]
+\end{tabularx}
+ 
+\noindent Al depender el segundo resultado del primero, aplicamos la definición de \textbf{probabilidad condicional} y su regla de multiplicación para eventos dependientes:
+$$P(D \cap E) = P(D) \cdot P(E \mid D)$$
+ 
+\begin{itemize}
+    \item Probabilidad de sacar amarillo en el primer intento: $P(D) = \dfrac{1}{12}$
+    \item Probabilidad condicional de sacar rojo en el segundo intento, dado que el primero fue amarillo: $P(E \mid D) = \dfrac{1}{11}$
+\end{itemize}
+ 
+\noindent Multiplicando ambas probabilidades según la fórmula:
+$$P(C) = P(D \cap E) = \frac{1}{12} \times \frac{1}{11} = \frac{1}{132} \approx 0.00757 \quad (0.76\%)$$
+ 
+\noindent\textbf{Interpretación:} La probabilidad de extraer primero un plumón amarillo y, de manera consecutiva y sin reposición, un plumón rojo es del $0.76\%$.
+ 
 \end{document}
