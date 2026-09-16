@@ -1,0 +1,48 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{5}{}%
+\contentsline {section}{\numberline {2}Marco Teórico}{6}{}%
+\contentsline {subsection}{\numberline {2.1}Estadística Descriptiva e Inferencial}{6}{}%
+\contentsline {subsection}{\numberline {2.2}Población}{6}{}%
+\contentsline {subsection}{\numberline {2.3}Muestra}{6}{}%
+\contentsline {subsection}{\numberline {2.4}Variables estadísticas}{7}{}%
+\contentsline {subsubsection}{\numberline {2.4.1}Variable cualitativa}{7}{}%
+\contentsline {subsubsection}{\numberline {2.4.2}Variable cuantitativa}{7}{}%
+\contentsline {subsection}{\numberline {2.5}Tabla de distribución de frecuencias}{7}{}%
+\contentsline {subsubsection}{\numberline {2.5.1}Distribución de frecuencias: Variable cualitativa}{7}{}%
+\contentsline {subsection}{\numberline {2.6}Medidas de tendencia central}{8}{}%
+\contentsline {subsubsection}{\numberline {2.6.1}Media o promedio aritmético ($\bar {X}$)}{8}{}%
+\contentsline {subsubsection}{\numberline {2.6.2}Promedio ponderado ($\bar {x}_w$)}{9}{}%
+\contentsline {subsubsection}{\numberline {2.6.3}Mediana ($Me$)}{9}{}%
+\contentsline {subsubsection}{\numberline {2.6.4}Moda ($Mo$)}{9}{}%
+\contentsline {subsubsection}{\numberline {2.6.5}Las cuantilas}{10}{}%
+\contentsline {subsection}{\numberline {2.7}Medidas de dispersión}{11}{}%
+\contentsline {subsubsection}{\numberline {2.7.1}Rango ($R$):}{11}{}%
+\contentsline {subsubsection}{\numberline {2.7.2}Rango intercuartil (IQR):}{11}{}%
+\contentsline {subsubsection}{\numberline {2.7.3}Varianza ($S^2$):}{11}{}%
+\contentsline {subsubsection}{\numberline {2.7.4}Desviación estandar ($S$):}{11}{}%
+\contentsline {subsubsection}{\numberline {2.7.5}Coeficiente de variación (CV):}{12}{}%
+\contentsline {subsection}{\numberline {2.8}Medidas de distribución y de forma}{12}{}%
+\contentsline {subsubsection}{\numberline {2.8.1}Coeficiente de asimetría}{12}{}%
+\contentsline {subsubsection}{\numberline {2.8.2}Coeficiente de curtosis}{12}{}%
+\contentsline {section}{\numberline {3}Metodología}{13}{}%
+\contentsline {section}{\numberline {4}Ficha técnica}{13}{}%
+\contentsline {section}{\numberline {5}Tabla de distribución de frecuencias}{14}{}%
+\contentsline {section}{\numberline {6}Representación gráfica}{14}{}%
+\contentsline {section}{\numberline {7}Ficha técnica}{16}{}%
+\contentsline {section}{\numberline {8}Tabla de distribución de frecuencias}{16}{}%
+\contentsline {section}{\numberline {9}Representación gráfica}{17}{}%
+\contentsline {section}{\numberline {10}Medidas de tendencia central}{18}{}%
+\contentsline {subsection}{\numberline {10.1}1. Promedio (Media Aritmética)}{18}{}%
+\contentsline {subsection}{\numberline {10.2}2. Mediana (Md)}{18}{}%
+\contentsline {subsection}{\numberline {10.3}3. Moda (Mo)}{19}{}%
+\contentsline {subsection}{\numberline {10.4}4. Cuartiles}{20}{}%
+\contentsline {subsection}{\numberline {10.5}5. Deciles}{21}{}%
+\contentsline {subsection}{\numberline {10.6}6. Percentiles}{23}{}%
+\contentsline {section}{\numberline {11}Medidas de Dispersión}{24}{}%
+\contentsline {section}{\numberline {12}Medidas de distribución y de forma}{25}{}%
+\contentsline {section}{\numberline {13}Diagrama de caja}{26}{}%
+\contentsline {section}{\numberline {14}Probabilidad}{27}{}%
+\contentsline {subsection}{\numberline {14.1}Contexto general del experimento}{27}{}%
+\contentsline {subsection}{\numberline {14.2}Evento Simple}{27}{}%
+\contentsline {subsection}{\numberline {14.3}Evento Compuesto}{27}{}%
+\contentsline {section}{Referencias}{28}{}%

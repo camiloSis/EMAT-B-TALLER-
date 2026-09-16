@@ -1,32 +1,32 @@
 \documentclass[12pt,letterpaper]{article}
- 
 % ---------- Idioma y codificación ----------
 \usepackage[spanish,es-noshorthands]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{csquotes}
- 
 % ---------- Estructura y layout ----------
 \usepackage{tabularx}
 \usepackage{float}
 \usepackage{scrhack}
 \usepackage[margin=2.5cm]{geometry}
- 
 % ---------- Tipografía ----------
 \usepackage{newtxtext}
 \usepackage{newtxmath}
 \usepackage{setspace}
 \onehalfspacing
- 
 % ---------- Imágenes y tablas ----------
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{xcolor}
 \usepackage{enumitem}
- 
 % ---------- Placeholder visual ----------
+
 \newcommand{\relleno}{\textcolor{red}{\itshape [completar]}}
- 
+
+%-----REFERENCIAS----
+\usepackage[backend=biber, style=apa]{biblatex}
+\addbibresource{referencias.bib}
+
 % =========================================================
 % DATOS DEL ENCABEZADO (edita aquí los valores que falten)
 % =========================================================
@@ -56,7 +56,306 @@
  
 \begin{document}
  \input{portada.tex}
-\section*{Ficha técnica}
+
+% ---------- Tabla ECA manejo de asistencias --------
+
+
+
+% ---------- Resumen ----------
+\section*{Resumen}
+jjkjk
+
+\textbf{Palabras Claves:} adsfadsf
+
+% ---------- Abstract ----------
+\newpage
+\section*{Abstract}
+asdf
+
+\textbf{Keywords:} adsfadsf
+
+\clearpage
+\tableofcontents
+\clearpage
+
+\section{Introducción}
+ 
+En el presente informe se analiza el comportamiento de distintas variables estadísticas, así como el proceso de recolección e interpretación de datos aplicado a las medidas de tendencia central, las medidas de dispersión y las medidas de distribución y forma. Como recurso principal de demostración se emplean tablas de distribución de frecuencias, a partir de las cuales se calculan e interpretan los distintos estadísticos abordados a lo largo del documento.
+ 
+Para dicho fin, el grupo recolectó información sobre la cantidad de horas semanales que los estudiantes del curso de Estadística Matemática, Probabilidad y Métodos Empíricos (grupo B), correspondientes al segundo año de la carrera de Ingeniería de Sistemas, dedican a la programación.
+
+\clearpage
+
+\section{Marco Teórico}
+
+\subsection{Estadística Descriptiva e Inferencial}
+
+La ciencia de la estadística tiene sus orígenes en dos intereses humanos muy distintos: la organización de los Estados y los juegos de azar. En sus primeras etapas, el método estadístico consistía principalmente en recopilar datos, generalmente en grandes cantidades, sobre el comportamiento de los individuos de una población en relación con el fenómeno que se buscaba estudiar.
+Estos datos, una vez clasificados y organizados en tablas, sirven como base para realizar un análisis matemático que permite obtener resultados y establecer ciertas regularidades que representan las características del comportamiento promedio de una población.
+
+Se denomina \textit{estadística descriptiva} al conjunto de métodos estadísticos que se relacionan con el resumen y descripción de los datos, como tablas, gráficas, y el análisis mediante algunos cálculos \parencite{cordova2003}.
+
+Se denomina \textit{estadística inferencial} al conjunto de métodos con los que se hacen la generalización o la inferencia sobre una población utilizando una muestra. La inferencia puede contener conclusiones que pueden no ser ciertas en forma absoluta, por lo que es necesario que éstas sean dadas con una medida de confiabilidad que es la probabilidad \parencite{cordova2003}.
+
+Estas dos partes de la estadística no son mutuamente excluyentes, ya que para utilizar los métodos de la inferencia estadística, se requiere conocer los métodos de la estadística descriptiva \parencite{cordova2003}.
+
+\subsection{Población}
+
+A un conjunto de elementos (objetos, personas, etc) que tienen en común una o más características observables de naturaleza \textit{cuantitativa} o \textit{cualitativa} que se puedan medir en ellos se le llama población. A los elementos de este último se les denomina unidad elemental, unidad estadística o \textit{unidad de observación}.
+
+\subsection{Muestra}
+
+Para definir una investigación estadística se debe decicir investigar a la población completa o solo una parte de él, a este subconjunto se le denomina muestra. Esta última debe seleccionarse de manera representativa de la población.
+
+\subsection{Variables estadísticas}
+
+Se denomina variable estadística a una característica definida en la 
+población por la investigación estadística que pueda tomar dos o más 
+valores (cualidades o números). Entre las que tenemos, nos interesan 
+dos que se han utilizado para el desarrollo de este informe:
+
+\subsubsection{Variable cualitativa}
+
+Una variable cualitativa expresa una cualidad o atributo que no puede 
+medirse numéricamente. Se clasifica en:
+
+\begin{description}
+    \item[Nominal] No existe un orden entre sus categorías (ej. sexo, 
+    color de ojos).
+    \item[Ordinal] Existe un orden o jerarquía entre sus categorías 
+    (ej. nivel educativo, grado de satisfacción).
+\end{description}
+
+\subsubsection{Variable cuantitativa}
+
+Una variable cuantitativa expresa una cantidad y se mide numéricamente. 
+Se clasifica en:
+
+\begin{description}
+    \item[Discreta] Toma valores numéricos finitos o contables 
+    (ej. número de hijos).
+    \item[Continua] Toma cualquier valor dentro de un intervalo 
+    (ej. estatura, peso).
+\end{description}
+
+\subsection{Tabla de distribución de frecuencias}
+
+\subsubsection{Distribución de frecuencias: Variable cualitativa}
+
+Supóngase que en una muestra de $n$ unidades estadísticas se identifican 
+$k$ categorías o modalidades distintas, $C_1, C_2, \dots, C_k$, de una 
+variable cualitativa $X$. La organización de estos $n$ datos según sus 
+categorías constituye la \textit{distribución de frecuencias}, tal como 
+se muestra en el Cuadro \ref{tab:frecuencias-cualitativa}.
+
+La \textbf{frecuencia absoluta} $f_i$ corresponde al número de 
+observaciones registradas en cada categoría. La suma de todas las 
+frecuencias absolutas es igual al total $n$ de datos observados:
+
+\begin{equation}
+    \sum_{i=1}^{k} f_i = n
+\end{equation}
+
+La \textbf{frecuencia relativa} $h_i$ se obtiene, para cada categoría, 
+mediante la razón entre su frecuencia absoluta y el total de datos:
+
+\begin{equation}
+    h_i = \frac{f_i}{n}
+\end{equation}
+
+La suma de todas las frecuencias relativas es igual a uno.
+
+La \textbf{frecuencia porcentual} $p_i$ se calcula, en cada categoría, 
+expresando la frecuencia relativa como porcentaje:
+
+\begin{equation}
+    p_i = h_i \times 100\%
+\end{equation}
+
+La suma de todas las frecuencias porcentuales es igual a cien.
+
+\begin{table}[h!]
+    \centering
+    \caption{Distribución de frecuencias de una variable cualitativa}
+    \label{tab:frecuencias-cualitativa}
+    \begin{tabular}{cccc}
+        \hline
+        \textbf{Categorías de la} & \textbf{Frecuencias} & \textbf{Frecuencias} & \textbf{Frecuencias} \\
+        \textbf{Variable $X$} & \textbf{Absolutas $f_i$} & \textbf{Relativas $h_i$} & \textbf{Porcentuales $p_i$} \\
+        \hline
+        $C_1$ & $f_1$ & $h_1$ & $p_1$ \\
+        $C_2$ & $f_2$ & $h_2$ & $p_2$ \\
+        $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$ \\
+        $C_k$ & $f_k$ & $h_k$ & $p_k$ \\
+        \hline
+        \textbf{Total} & $n$ & $1.00$ & $100.00$ \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Medidas de tendencia central}
+
+La primera característica de un conjunto de datos que deseamos medir es el centro o la tendencia central. El propósito de una "medida de tendencia central" es resumir un conjunto de datos en un valor numérico, de forma que podemos tener un panorama general del resto de la información.
+
+
+    \subsubsection{Media o promedio aritmético ($\bar{X}$)}
+
+    \begin{itemize}
+        \item[\textbf{a)}] \textbf{Para datos no clasificados:} Sean $x_1, x_2, \dots, x_n$ las variables estadísticas que representan los datos muéstrales, entonces la media o el promedio de $x$ es:
+        $$\bar{X} = \frac{\sum_{i=1}^{n} x_i}{n}$$
+        \item[\textbf{b)}] \textbf{Para datos clasificados:} Sean $x_1, x_2, \dots, x_k$ las marcas de clases y sean $f_1, f_2, \dots, f_k$ las frecuencias absolutas. $k$: número de clases. Entonces:
+        $$\bar{X} = \frac{\sum_{i=1}^{k} x_i f_i}{\sum_{i=1}^{k} f_i} = \frac{\sum x_i f_i}{n}$$
+        (Las frecuencias absolutas también se denotan por $n$), donde $n$ es el número total de datos.
+    \end{itemize}
+
+    \subsubsection{Promedio ponderado ($\bar{x}_w$)}
+    
+    Es una media de cantidades a las que se ha asignado una serie de coeficientes, llamados pesos, para tener en cuenta adecuadamente su importancia relativa. Si para los datos $x_i$, tenemos los pesos $w_i$, entonces:
+    $$\bar{x}_w = \frac{\sum_{i=1}^{n} w_i x_i}{\sum_{i=1}^{n} w_i}$$
+    
+    \subsubsection{Mediana ($Me$)}
+    
+    Es el puntaje ordenado medio. También se denotan por $Md$.
+    \begin{itemize}
+        \item[\textbf{a)}] \textbf{Para datos no clasificados:} Sean $x_1, x_2, \dots, x_n$ las variables estadísticas, tales que $x_1 \le x_2 \le \dots \le x_n$, entonces:
+        $$Me = \begin{cases} x_{(n+1)/2} & \text{si } n \text{ es impar} \\ \frac{1}{2}(x_{n/2} + x_{(n/2)+2}) & \text{si } n \text{ es par} \end{cases}$$
+        \item[\textbf{b)}] \textbf{Para datos clasificados:}
+        $$Me = L_i + a \left( \frac{\frac{n}{2} - F_{i-1}}{f_i} \right)$$
+    \end{itemize}
+    \textbf{Donde:}
+    \begin{itemize}
+        \item $L_i$: Límite inferior de la clase mediana
+        \item $n$: Número total de datos (tamaño de la muestra)
+        \item $F_{i-1}$: Frecuencia absoluta acumulada hasta la clase mediana anterior a la clase mediana.
+        \item $f_i$: Frecuencia absoluta de la clase mediana.
+        \item $a$: Ancho de clase.
+    \end{itemize}
+
+    \subsubsection{Moda ($Mo$)}
+    
+    Si existe, es el puntaje más frecuente.
+
+    \begin{itemize}
+        \item[\textbf{a)}] \textbf{Para datos no clasificados:} Se localiza observando los datos, se escoge a aquel cuya frecuencia absoluta es mayor.
+        \item[\textbf{b)}] \textbf{Para datos clasificados:}
+        $$Mo = L_i + a \left( \frac{\Delta_1}{\Delta_1 + \Delta_2} \right), \quad Mo = L_i + c \frac{f_i - f_{i-1}}{(f_i - f_{i-1}) + (f_i - f_{i+1})}$$
+    \end{itemize}
+    \textbf{Donde:}
+    \begin{itemize}
+        \item $L_i$: Límite inferior de la clase modal
+        \item $n$: Número total de datos
+        \item $a = l_s - l_i$
+        \item $\Delta_1 = f_i - f_{i-1}$
+        \item $\Delta_2 = f_i - f_{i+1}$
+        \item $a$: Ancho de clase, algunas veces el ancho de clase se denota por "$c$".
+    \end{itemize}
+
+    \subsubsection{Las cuantilas}
+    
+    Las cuartilas o cuantiles de mayor uso son: los Cuartiles ($Q_j$), los Deciles ($D_j$) y los Percentiles ($P_j$).
+    
+    \begin{itemize}
+        \item \textbf{Cuartiles:}
+        $$Q_j = L_i + a \left( \frac{\frac{jn}{4} - F_{i-1}}{f_i} \right), \quad j = 1, 2, 3$$
+        Los valores $Q_1, Q_2, Q_3$ dividen al total de los datos en 4 partes iguales, por ejemplo, $Q_1$ es el cuarto inferior.
+        
+        \item \textbf{Deciles:}
+        $$D_j = L_i + a \left( \frac{\frac{jn}{10} - F_{i-1}}{f_i} \right), \quad j = 1, 2, \dots, 9$$
+        Los valores $D_1, \dots, D_2$ dividen al total de los datos en 10 partes iguales.
+        
+        \item \textbf{Percentiles:}
+        $$P_j = L_i + a \left( \frac{\frac{jn}{100} - F_{i-1}}{f_i} \right), \quad j = 1, 2, \dots, 99$$
+        Los valores $P_1, \dots, P_{99}$ dividen al total de los datos en 100 partes iguales.
+    \end{itemize}
+    
+    \textbf{Donde:}
+    \begin{itemize}
+        \item $L_i$: Límite inferior de la clase $Q_j, D_j \text{ o } P_j$, respectivamente.
+        \item $n$: Número total de datos (tamaño de la muestra).
+        \item $F_{i-1}$: Frecuencia absoluta acumulada hasta la clase anterior de la clase pertinente de $Q_j, D_j \text{ o } P_j$.
+        \item $f_i$: Frecuencia absoluta de la clase mediana.
+        \item $a$: Ancho de clase.
+    \end{itemize}
+
+\subsection{Medidas de dispersión}
+
+Son las que cuantifican el grado de dispersión o concentración de los valores de la variable.
+
+    \subsubsection{Rango ($R$):} Es la diferencia entre el dato mayor y el dato menor: 
+        $$R = X_{\text{max}} - X_{\text{min}}$$
+
+    \subsubsection{Rango intercuartil (IQR):} 
+        $$\text{IQR} = Q_3 - Q_1$$
+
+    \subsubsection{Varianza ($S^2$):} También se denota por $\text{Var}(X)$ o simplemente por $V(X)$.
+        \begin{itemize}
+            \item[\textbf{a)}] \textbf{Para datos no clasificados:}
+            $$S^2 = \frac{\sum_{i=1}^{n}(x_i - \bar{x})^2}{n} \quad \text{para } n > 30$$
+            $$S^2 = \frac{\sum_{i=1}^{n}(x_i - \bar{x})^2}{n-1} \quad \text{generalmente cuando } n \le 30$$
+            
+            \item[\textbf{b)}] \textbf{Para datos clasificados:}
+            $$S^2 = \frac{\sum_{i=1}^{k} f_i(x_i - \bar{x})^2}{n} \quad \text{o} \quad S^2 = \frac{\sum_{i=1}^{k} f_i(x_i - \bar{x})^2}{n-1}$$
+        \end{itemize}
+        \textbf{Fórmulas para cálculos:}
+        $$S^2 = \frac{1}{n} \sum x^2 - (\bar{x})^2, \quad S^2 = \frac{1}{n} \sum f_i x_i^2 - (\bar{x})^2, \quad S^2 = \frac{n \sum x^2 - (\sum x)^2}{n(n-1)}$$
+
+    \subsubsection{Desviación estandar ($S$):} Es la raíz cuadrada de $S^2$, es decir: 
+        $$S = \sqrt{\text{Var}(x)}$$
+
+    \subsubsection{Coeficiente de variación (CV):} Por lo general se expresa como porcentaje: 
+        $$\text{CV} = \frac{S}{\bar{x}} \times 100\%$$ 
+        Se utiliza para comparar la variabilidad de dos o más conjuntos de datos.
+
+\subsection{Medidas de distribución y de forma}
+
+La asimetría de los gráficos de distribuciones unimodales se mide según el coeficiente de Pearson. Mientras que el apuntamiento o aplastamiento de su polígono de frecuencia con el coeficiente de curtosis.
+
+    \subsubsection{Coeficiente de asimetría}
+    Se presentan en tres tipos:
+    $$AS_1 = \frac{\bar{X} - Mo}{S}, \quad AS_2 = \frac{3(\bar{X} - Me)}{S}, \quad AS_3 = \frac{Q_3 - 2Q_2 + Q_1}{Q_3 - Q_1}$$
+
+    De acuerdo al valor de los AS se tiene:
+    \begin{itemize}
+        \item[\textbf{a)}] Si $AS > 0$, asimetría positiva.
+        \item[\textbf{b)}] Si $AS < 0$, asimetría negativa.
+        \item[\textbf{c)}] Si $AS = 0$, asimetría nula (simétrica).
+    \end{itemize}
+
+    \subsubsection{Coeficiente de curtosis}
+    $$K = \frac{Q}{P_{75} - P_{25}}, \quad \text{para } Q = \frac{Q_3 - Q_1}{2}$$
+
+    De modo que:
+    \begin{itemize}
+        \item[\textbf{a)}] Si $K$ es cercano a $0.5$ se dice que la curva es leptocúrtica.
+        \item[\textbf{b)}] Si $K$ es cercano a $0.25$ se dice que la curva es mesocúrtica.
+        \item[\textbf{c)}] Si $K$ es cercano a $0$ se dice que la curva es platicúrtica.
+    \end{itemize}
+
+\section{Metodología}
+
+El presente estudio empleó un muestreo dirigido a un grupo específico 
+de un curso, conformado por 22 estudiantes. La variable analizada fue 
+la cantidad de horas semanales dedicadas a programar (horas enteras) por los 
+integrantes de Estadística matemática, probabilidades y métodos empíricos del grupo B, la cual corresponde a una variable 
+cuantitativa continua.
+
+Para la elaboración de este informe se emplearon los siguientes recursos:
+
+\begin{itemize}
+    \item \textbf{Recolección de datos:} se utilizó Google Forms para 
+    aplicar una encuesta al grupo mencionado.
+    \item \textbf{Procesamiento y visualización:} los gráficos 
+    estadísticos se generaron en Python, utilizando las librerías 
+    \texttt{pandas} (manejo y limpieza de datos), \texttt{matplotlib} 
+    y \texttt{seaborn} (generación de gráficos).
+    \item \textbf{Redacción del documento:} el informe se elaboró 
+    utilizando \LaTeX{}, lo que permitió un formato estructurado y 
+    consistente a lo largo del trabajo.
+\end{itemize}
+
+
+
+\section{Ficha técnica}
 
 %\maketitle
 %\thispagestyle{empty}
@@ -79,7 +378,7 @@
 % =========================================================
 % ============ TABLA DE DISTRIBUCIÓN DE FRECUENCIAS ======
 % =========================================================
-\section*{Tabla de distribución de frecuencias}
+\section{Tabla de distribución de frecuencias}
 
 \begin{table}[H]
     \centering
@@ -105,7 +404,7 @@
 % =========================================================
 % ==================== DIAGRAMAS ==========================
 % =========================================================
-\section*{Representación gráfica}
+\section{Representación gráfica}
 
 \begin{figure}[H]
     \centering
@@ -129,7 +428,7 @@
 % =========================================================
 % ================ FICHA TÉCNICA DE LA VARIABLE ==========
 % =========================================================
-\section*{Ficha técnica}
+\section{Ficha técnica}
 
 \begin{tabularx}{\textwidth}{@{}l X@{}}
 \textbf{Variable estadística $X$:} & Cantidad de horas programando (horas enteras) \\[4pt]
@@ -145,7 +444,7 @@
 % =========================================================
 % ============ TABLA DE DISTRIBUCIÓN DE FRECUENCIAS ======
 % =========================================================
-\section*{Tabla de distribución de frecuencias}
+\section{Tabla de distribución de frecuencias}
 
 \begin{table}[H]
     \centering
@@ -182,7 +481,7 @@
 % =========================================================
 % ==================== DIAGRAMAS ==========================
 % =========================================================
-\section*{Representación gráfica}
+\section{Representación gráfica}
 
 \begin{figure}[H]
     \centering
@@ -198,9 +497,9 @@
     \label{fig:histograma-horas}
 \end{figure}
 
-\section*{Medidas de tendencia central}
+\section{Medidas de tendencia central}
 
-\subsection*{1. Promedio (Media Aritmética)}
+\subsection{1. Promedio (Media Aritmética)}
 \begin{equation*}
     \bar{x} = \frac{\sum_{i=1}^{k} x_i \cdot f_i}{n}
 \end{equation*}
@@ -241,7 +540,7 @@
 
 \textbf{Interpretación:} Los estudiantes de EMAT B dedican en promedio 14 horas programando a la semana.
 
-\subsection*{2. Mediana (Md)}
+\subsection{2. Mediana (Md)}
 \begin{equation*}
     \text{Posición} = \frac{n}{2}
 \end{equation*}
@@ -286,7 +585,7 @@
 
 \textbf{Interpretación:} El 50\% de los estudiantes de EMAT B dedica a lo mucho 10 horas programando a la semana, mientras que el otro 50% dedica 10 horas o más.
 
-\subsection*{3. Moda (Mo)}
+\subsection{3. Moda (Mo)}
 \begin{equation*}
     Mo = x_i \text{ tal que } f_i \text{ es máxima}
 \end{equation*}
@@ -328,7 +627,7 @@ La frecuencia máxima es $f_i = 4$, alcanzada por tres valores: $x_i = 2$, $x_i 
 
 \textbf{Interpretación:} Los valores de horas que más se repiten entre los estudiantes de EMAT B son 2, 5 y 10 horas programando a la semana.
 
-\subsection*{4. Cuartiles}
+\subsection{4. Cuartiles}
 \begin{equation*}
     Q_j = L_i + a \cdot \frac{\left(\dfrac{j \cdot m}{4}\right) - F_{i-1}}{f_i}
 \end{equation*}
@@ -384,7 +683,7 @@ La frecuencia máxima es $f_i = 4$, alcanzada por tres valores: $x_i = 2$, $x_i 
 
 \textbf{Interpretación:} Por ejemplo para $Q_1$, el 25\% de los estudiantes de EMAT B dedica a lo mucho 5 horas programando a la semana, mientras que el otro 75\% dedica 5 horas o más.
 
-\subsection*{5. Deciles}
+\subsection{5. Deciles}
 \begin{equation*}
     D_j = L_i + a \cdot \frac{\left(\dfrac{j \cdot m}{10}\right) - F_{i-1}}{f_i}
 \end{equation*}
@@ -437,7 +736,7 @@ La frecuencia máxima es $f_i = 4$, alcanzada por tres valores: $x_i = 2$, $x_i 
 
 \textbf{Interpretación:} Para $D_1$, el 10\% de los estudiantes de EMAT B dedica a lo mucho 2 horas programando a la semana.
 
-\subsection*{6. Percentiles}
+\subsection{6. Percentiles}
 \begin{equation*}
     P_j = L_i + a \cdot \frac{\left(\dfrac{j \cdot m}{100}\right) - F_{i-1}}{f_i}
 \end{equation*}
@@ -487,7 +786,7 @@ Se muestran los percentiles más usados como ejemplo:
 
 \textbf{Interpretación:} Para $P_{10}$, el 10\% de los estudiantes de EMAT B dedica a lo mucho 2 horas programando a la semana.
 
-\section*{Medidas de Dispersión}
+\section{Medidas de Dispersión}
 
 A partir de la distribución de frecuencias de los estudiantes de EMAT B, organizamos los cálculos para datos con frecuencia ($f_i$):
 
@@ -559,7 +858,7 @@ A partir de la distribución de frecuencias de los estudiantes de EMAT B, organi
     \textit{Interpretación:} Al ser un coeficiente de variación mayor al $30\%$, indica que existe una alta dispersión y heterogeneidad en la cantidad de horas que los estudiantes dedican a programar.
 \end{enumerate}
 
-\section*{Medidas de distribución y de forma}
+\section{Medidas de distribución y de forma}
 
 Evaluamos la asimetría y el apuntamiento para los datos de los estudiantes de EMAT B (con $\bar{x} = 14.41$, Mediana $Me = 10$ al ubicarse en el acumulado, Desviación Estándar $S = 11.60$, cuartiles $Q_1 = 5$, $Q_3 = 22$ y percentiles aproximados $P_{10} = 2$, $P_{90} = 30$):
 
@@ -574,7 +873,7 @@ Evaluamos la asimetría y el apuntamiento para los datos de los estudiantes de E
     \textbf{Interpretación:} Dado que $K \approx 0.30$ se ubica cerca de $0.25$, la curva de distribución tiende a ser \textbf{mesocúrtica}.
 \end{enumerate}
 
-\section*{Diagrama de caja}
+\section{Diagrama de caja}
 
 Son una presentación visual que describe varias características importantes, al mismo tiempo, tales como la dispersión y simetría. Sirve para hacer comparaciones en varios conjuntos de datos.
 
@@ -583,9 +882,9 @@ Son una presentación visual que describe varias características importantes, a
 
 \clearpage 
 
-\section*{Probabilidad}
+\section{Probabilidad}
  
-\subsection*{Contexto general del experimento}
+\subsection{Contexto general del experimento}
  
 \noindent
 \begin{tabularx}{\textwidth}{@{}l X@{}}
@@ -594,7 +893,7 @@ Son una presentación visual que describe varias características importantes, a
 \textbf{Evento ($A$):} & Escoger un color primario del estuche de plumones de colores: $A = $ \{amarillo, azul, rojo\}. \\[6pt]
 \end{tabularx}
  
-\subsection*{Evento Simple}
+\subsection{Evento Simple}
  
 \noindent
 \begin{tabularx}{\textwidth}{@{}l X@{}}
@@ -608,7 +907,7 @@ $$P(B) = \frac{n(B)}{n(S)} = \frac{1}{12} \approx 0.0833 \quad (8.33\%)$$
  
 \noindent\textbf{Interpretación:} Al elegir un plumón al azar del estuche de colores, la probabilidad de que este sea de color azul es del $8.33\%$.
  
-\subsection*{Evento Compuesto}
+\subsection{Evento Compuesto}
  
 \noindent
 \begin{tabularx}{\textwidth}{@{}l X@{}}
@@ -632,4 +931,5 @@ $$P(C) = P(D \cap E) = \frac{1}{12} \times \frac{1}{11} = \frac{1}{132} \approx 
  
 \noindent\textbf{Interpretación:} La probabilidad de extraer primero un plumón amarillo y, de manera consecutiva y sin reposición, un plumón rojo es del $0.76\%$.
  
+\printbibliography[heading=bibintoc]
 \end{document}
