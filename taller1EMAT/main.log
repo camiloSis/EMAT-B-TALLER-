@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.24)  15 SEP 2026 22:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.24)  16 SEP 2026 11:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -46,8 +46,8 @@ Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 \es@quottoks=\toks17
 \es@quotdepth=\count285
 ))
-LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) on input line 4.
-LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1) on input line 4.
+LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) on input line 15.
+LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1) on input line 15.
  (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks18
@@ -155,6 +155,70 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen165
 \Gm@layoutvoffset=\dimen166
 \Gm@dimlist=\toks26
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip54
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks27
+\ex@=\dimen167
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen168
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count299
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count300
+\leftroot@=\count301
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count302
+\DOTSCASE@=\count303
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box58
+\strutbox@=\box59
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen169
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count304
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count305
+\dotsspace@=\muskip17
+\c@parentequation=\count306
+\dspbrk@lvl=\count307
+\tag@help=\toks28
+\row@=\count308
+\column@=\count309
+\maxfields@=\count310
+\andhelp@=\toks29
+\eqnshift@=\dimen170
+\alignsep@=\dimen171
+\tagshift@=\dimen172
+\tagwidth@=\dimen173
+\totwidth@=\dimen174
+\lineht@=\dimen175
+\@envbody=\toks30
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks31
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
 ) (/usr/share/texlive/texmf-dist/tex/latex/newtx/newtxtext.sty
 Package: newtxtext 2024/04/01 v1.744(Michael Sharpe) latex and unicode latex support for TeXGyreTermesX
  `newtxtext' v1.744, 2024/04/01 Text macros taking advantage of TeXGyre Termes and its extensions (msharpe) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -178,17 +242,17 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 ) (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2025/11/04 v2.10 package option processing (HA)
  (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks27
-\XKV@tempa@toks=\toks28
-\XKV@tempb@toks=\toks29
+\XKV@toks=\toks32
+\XKV@tempa@toks=\toks33
+\XKV@tempb@toks=\toks34
 )
-\XKV@depth=\count299
+\XKV@depth=\count311
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 ) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
-\xs_counta=\count300
-\xs_countb=\count301
+\xs_counta=\count312
+\xs_countb=\count313
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
@@ -199,8 +263,8 @@ LaTeX Font Info:    Setting ntxTLF sub-encoding to TS1/0 on input line 24.
 LaTeX Font Info:    Setting ntxOsF sub-encoding to TS1/0 on input line 24.
 LaTeX Font Info:    Setting ntxTOsF sub-encoding to TS1/0 on input line 24.
  (/usr/share/texlive/texmf-dist/tex/generic/kastrup/binhex.tex)
-\ntx@tmpcnta=\count302
-\ntx@cnt=\count303
+\ntx@tmpcnta=\count314
+\ntx@cnt=\count315
  (/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty
 Package: fontaxes 2026-01-02 v2.0.2 Font selection axes (deprecated)
 Applying: [2024-11-01] Use figureversions if present on input line 74.
@@ -209,88 +273,24 @@ Package: figureversions 2025-04-29 v1.0.1 Figure versions
 )
 Already applied: [0000-00-00] Fall back to v1 on input line 76.
 )
-\tx@sixem=\dimen167
-\tx@y=\dimen168
-\tx@x=\dimen169
-\tx@tmpdima=\dimen170
-\tx@tmpdimb=\dimen171
-\tx@tmpdimc=\dimen172
-\tx@tmpdimd=\dimen173
-\tx@tmpdime=\dimen174
-\tx@tmpdimf=\dimen175
-\tx@dimA=\dimen176
-\tx@dimAA=\dimen177
-\tx@dimB=\dimen178
-\tx@dimBB=\dimen179
-\tx@dimC=\dimen180
+\tx@sixem=\dimen176
+\tx@y=\dimen177
+\tx@x=\dimen178
+\tx@tmpdima=\dimen179
+\tx@tmpdimb=\dimen180
+\tx@tmpdimc=\dimen181
+\tx@tmpdimd=\dimen182
+\tx@tmpdime=\dimen183
+\tx@tmpdimf=\dimen184
+\tx@dimA=\dimen185
+\tx@dimAA=\dimen186
+\tx@dimB=\dimen187
+\tx@dimBB=\dimen188
+\tx@dimC=\dimen189
 LaTeX Info: Redefining \oldstylenums on input line 902.
 ) (/usr/share/texlive/texmf-dist/tex/latex/newtx/newtxmath.sty
 Package: newtxmath 2024/09/22 v1.754
- `newtxmath' v1.754, 2024/09/22 Math macros based originally on txfonts (msharpe) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2025/07/09 v2.17z AMS math features
-\@mathmargin=\skip54
-
-For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2024/11/17 v2.01 AMS text
- (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks30
-\ex@=\dimen181
-)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen182
-) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2022/04/08 v2.04 operator names
-)
-\inf@bad=\count304
-LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count305
-\leftroot@=\count306
-LaTeX Info: Redefining \overline on input line 398.
-LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count307
-\DOTSCASE@=\count308
-LaTeX Info: Redefining \ldots on input line 495.
-LaTeX Info: Redefining \dots on input line 498.
-LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box58
-\strutbox@=\box59
-LaTeX Info: Redefining \big on input line 721.
-LaTeX Info: Redefining \Big on input line 722.
-LaTeX Info: Redefining \bigg on input line 723.
-LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen183
-LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count309
-LaTeX Info: Redefining \bmod on input line 904.
-LaTeX Info: Redefining \pmod on input line 909.
-LaTeX Info: Redefining \smash on input line 939.
-LaTeX Info: Redefining \relbar on input line 969.
-LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count310
-\dotsspace@=\muskip17
-\c@parentequation=\count311
-\dspbrk@lvl=\count312
-\tag@help=\toks31
-\row@=\count313
-\column@=\count314
-\maxfields@=\count315
-\andhelp@=\toks32
-\eqnshift@=\dimen184
-\alignsep@=\dimen185
-\tagshift@=\dimen186
-\tagwidth@=\dimen187
-\totwidth@=\dimen188
-\lineht@=\dimen189
-\@envbody=\toks33
-\multlinegap=\skip55
-\multlinetaggap=\skip56
-\mathdisplay@stack=\toks34
-LaTeX Info: Redefining \[ on input line 2950.
-LaTeX Info: Redefining \] on input line 2951.
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/centernot.sty
+ `newtxmath' v1.754, 2024/09/22 Math macros based originally on txfonts (msharpe) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/centernot.sty
 Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 )
 \tx@cntz=\count316
@@ -723,60 +723,56 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
-LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line 57.
+LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line 73.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 57.
+(Font)              scaled to size 12.0pt on input line 73.
  (./main.aux
 LaTeX Info: Redefining \. on input line 5.
 LaTeX Info: Redefining \% on input line 5.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported on input line 5.
-
-
-LaTeX Warning: Label `tab:media-horas-programando' multiply defined.
-
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 57.
-LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 57.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 73.
+LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 73.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 57.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 57.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 73.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 73.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 57.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 57.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 73.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 73.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 57.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 57.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 73.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 73.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Info: Redefining \. on input line 57.
-LaTeX Info: Redefining \% on input line 57.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Info: Redefining \. on input line 73.
+LaTeX Info: Redefining \% on input line 73.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -812,6 +808,8 @@ LaTeX Info: Redefining \% on input line 57.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+LaTeX Info: Command `\dddot' is already robust on input line 73.
+LaTeX Info: Command `\ddddot' is already robust on input line 73.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count461
@@ -833,8 +831,6 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \c@mv@tabular=\count467
 \c@mv@boldtabular=\count468
-LaTeX Info: Command `\dddot' is already robust on input line 57.
-LaTeX Info: Command `\ddddot' is already robust on input line 57.
 Package biblatex Info: Trying to load language 'spanish' -> 'spanish-apa'...
 Package biblatex Info: ... file 'spanish-apa.lbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/spanish-apa.lbx
@@ -857,8 +853,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 57.
-Package biblatex Info: Reference segment=0 on input line 57.
+Package biblatex Info: Reference section=0 on input line 73.
+Package biblatex Info: Reference segment=0 on input line 73.
  (./portada.tex
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 18.0pt on input line 11.
@@ -955,39 +951,41 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc} <./img/Escudo_UNSA.png>])
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 65.
+(Font)              scaled to size 17.28pt on input line 79.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 65.
+(Font)              scaled to size 17.28pt on input line 79.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.0pt on input line 80.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 68.
+(Font)              scaled to size 12.0pt on input line 82.
 <img/logo_episunsa.png, id=11, 195.73125pt x 58.2175pt>
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 71.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 85.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.0pt on input line 71.
+(Font)              scaled to size 7.0pt on input line 85.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 7.0pt on input line 71.
+(Font)              scaled to size 7.0pt on input line 85.
 <img/logo_abet.png, id=12, 58.2175pt x 65.24374pt>
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 71.
+Package pdftex.def Info: img/logo_abet.png  used on input line 85.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 71.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 85.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 71.
+(Font)              scaled to size 12.0pt on input line 85.
  [1{/usr/share/texlive/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc} <./img/logo_episunsa.png> <./img/logo_abet.png>]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 77.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 92.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 77.
+Package pdftex.def Info: img/logo_abet.png  used on input line 92.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
  [2] (./main.toc
 LaTeX Info: Redefining \sptext on input line 1.
@@ -995,304 +993,291 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 33.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 35.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 33.
+Package pdftex.def Info: img/logo_abet.png  used on input line 35.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
  [3
 
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}])
+])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 79.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 94.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 79.
+Package pdftex.def Info: img/logo_abet.png  used on input line 94.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
  [4]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 87.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 106.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 87.
+Package pdftex.def Info: img/logo_abet.png  used on input line 106.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
  [5
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 91.
+(Font)              scaled to size 14.4pt on input line 115.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 91.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 96.
+(Font)              scaled to size 14.4pt on input line 115.
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 116.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 139.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 116.
+Package pdftex.def Info: img/logo_abet.png  used on input line 139.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
  [6
 
 ]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 171.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 178.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 171.
+Package pdftex.def Info: img/logo_abet.png  used on input line 178.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [7]
+ [7{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 214.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 232.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 214.
+Package pdftex.def Info: img/logo_abet.png  used on input line 232.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
  [8]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 221.
+(Font)              scaled to size 8.8pt on input line 253.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 221.
+(Font)              scaled to size 6.6pt on input line 253.
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 246.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 260.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 246.
+Package pdftex.def Info: img/logo_abet.png  used on input line 260.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
  [9]
-Overfull \hbox (8.90678pt too wide) in paragraph at lines 275--276
-[]$\OML/ntxmi/m/it/12 F[]$\T1/ntxtlf/m/n/12 : Fre-cuen-cia ab-so-lu-ta acu-mu-la-da has-ta la cla-se an-te-rior de la cla-se per-ti-nen-te de $\OML/ntxmi/m/it/12 Q[]; D[][]P[]$\T1/ntxtlf/m/n/12 . 
- []
-
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 284.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 301.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 284.
+Package pdftex.def Info: img/logo_abet.png  used on input line 301.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
-[10]
+ [10]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 306.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 336.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 306.
+Package pdftex.def Info: img/logo_abet.png  used on input line 336.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
  [11]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 341.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 365.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 341.
+Package pdftex.def Info: img/logo_abet.png  used on input line 365.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
  [12]
-LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 349.
+File: img/logo_episunsa.png Graphic file (type png)
+<use img/logo_episunsa.png>
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 387.
+(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
+File: img/logo_abet.png Graphic file (type png)
+<use img/logo_abet.png>
+Package pdftex.def Info: img/logo_abet.png  used on input line 387.
+(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
+ [13]
+LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 408.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 349.
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 374--375
-[][] 
- []
-
+(Font)              scaled to size 12.0pt on input line 408.
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 401.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 414.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 401.
+Package pdftex.def Info: img/logo_abet.png  used on input line 414.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
-[13]
-<Figure2barras.png, id=64, 722.7pt x 433.62pt>
+ [14
+
+]
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 437--438
+[][] 
+ []
+
+<Figure2barras.png, id=67, 722.7pt x 433.62pt>
 File: Figure2barras.png Graphic file (type png)
 <use Figure2barras.png>
-Package pdftex.def Info: Figure2barras.png  used on input line 411.
+Package pdftex.def Info: Figure2barras.png  used on input line 470.
 (pdftex.def)             Requested size: 424.82523pt x 254.89404pt.
-<FigureCircular.png, id=65, 722.7pt x 433.62pt>
+File: img/logo_episunsa.png Graphic file (type png)
+<use img/logo_episunsa.png>
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 474.
+(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
+File: img/logo_abet.png Graphic file (type png)
+<use img/logo_abet.png>
+Package pdftex.def Info: img/logo_abet.png  used on input line 474.
+(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
+[15
+
+]
+<FigureCircular.png, id=71, 722.7pt x 433.62pt>
 File: FigureCircular.png Graphic file (type png)
 <use FigureCircular.png>
-Package pdftex.def Info: FigureCircular.png  used on input line 418.
+Package pdftex.def Info: FigureCircular.png  used on input line 477.
 (pdftex.def)             Requested size: 377.62642pt x 226.57542pt.
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 422.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 482.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 422.
+Package pdftex.def Info: img/logo_abet.png  used on input line 482.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [14 <./Figure2barras.png>]
-File: img/logo_episunsa.png Graphic file (type png)
-<use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 423.
-(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
-File: img/logo_abet.png Graphic file (type png)
-<use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 423.
-(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [15 <./FigureCircular.png>]
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 440--441
+ [16 <./Figure2barras.png> <./FigureCircular.png>]
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 501--502
 [][] 
  []
 
-<FigureBarras1png.png, id=74, 722.7pt x 433.62pt>
+<FigureBarras1png.png, id=77, 722.7pt x 433.62pt>
 File: FigureBarras1png.png Graphic file (type png)
 <use FigureBarras1png.png>
-Package pdftex.def Info: FigureBarras1png.png  used on input line 488.
+Package pdftex.def Info: FigureBarras1png.png  used on input line 550.
 (pdftex.def)             Requested size: 424.82523pt x 254.89404pt.
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 492.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 554.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 492.
+Package pdftex.def Info: img/logo_abet.png  used on input line 554.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
-[16]
-<FigureHistograma1.png, id=78, 722.7pt x 433.62pt>
+[17
+
+]
+<FigureHistograma1.png, id=81, 722.7pt x 433.62pt>
 File: FigureHistograma1.png Graphic file (type png)
 <use FigureHistograma1.png>
-Package pdftex.def Info: FigureHistograma1.png  used on input line 495.
+Package pdftex.def Info: FigureHistograma1.png  used on input line 557.
 (pdftex.def)             Requested size: 377.62642pt x 226.57542pt.
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 505.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 562.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 505.
+Package pdftex.def Info: img/logo_abet.png  used on input line 562.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [17 <./FigureBarras1png.png> <./FigureHistograma1.png>]
+ [18 <./FigureBarras1png.png> <./FigureHistograma1.png>]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 574.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 619.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 574.
+Package pdftex.def Info: img/logo_abet.png  used on input line 619.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [18]
-File: img/logo_episunsa.png Graphic file (type png)
-<use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 620.
-(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
-File: img/logo_abet.png Graphic file (type png)
-<use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 620.
-(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [19]
-File: img/logo_episunsa.png Graphic file (type png)
-<use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 666.
-(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
-File: img/logo_abet.png Graphic file (type png)
-<use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 666.
-(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [20]
-File: img/logo_episunsa.png Graphic file (type png)
-<use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 695.
-(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
-File: img/logo_abet.png Graphic file (type png)
-<use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 695.
-(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [21]
-File: img/logo_episunsa.png Graphic file (type png)
-<use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 742.
-(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
-File: img/logo_abet.png Graphic file (type png)
-<use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 742.
-(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [22]
-File: img/logo_episunsa.png Graphic file (type png)
-<use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 789.
-(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
-File: img/logo_abet.png Graphic file (type png)
-<use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 789.
-(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [23]
-LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 12.0pt on input line 842.
-LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 8.8pt on input line 842.
-LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 6.6pt on input line 842.
-File: img/logo_episunsa.png Graphic file (type png)
-<use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 848.
-(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
-File: img/logo_abet.png Graphic file (type png)
-<use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 848.
-(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [24]
-File: img/logo_episunsa.png Graphic file (type png)
-<use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 874.
-(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
-File: img/logo_abet.png Graphic file (type png)
-<use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 874.
-(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [25]
-File: img/logo_episunsa.png Graphic file (type png)
-<use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 883.
-(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
-File: img/logo_abet.png Graphic file (type png)
-<use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 883.
-(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [26]
-File: img/logo_episunsa.png Graphic file (type png)
-<use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 926.
-(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
-File: img/logo_abet.png Graphic file (type png)
-<use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 926.
-(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [27
+ [19
 
 ]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 935.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 659.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 935.
+Package pdftex.def Info: img/logo_abet.png  used on input line 659.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [28] (./main.aux
+ [20]
+LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
+(Font)              scaled to size 12.0pt on input line 702.
+LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
+(Font)              scaled to size 8.8pt on input line 702.
+LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
+(Font)              scaled to size 6.6pt on input line 702.
+File: img/logo_episunsa.png Graphic file (type png)
+<use img/logo_episunsa.png>
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 712.
+(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
+File: img/logo_abet.png Graphic file (type png)
+<use img/logo_abet.png>
+Package pdftex.def Info: img/logo_abet.png  used on input line 712.
+(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
+ [21]
+File: img/logo_episunsa.png Graphic file (type png)
+<use img/logo_episunsa.png>
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 740.
+(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
+File: img/logo_abet.png Graphic file (type png)
+<use img/logo_abet.png>
+Package pdftex.def Info: img/logo_abet.png  used on input line 740.
+(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
+ [22]
+File: img/logo_episunsa.png Graphic file (type png)
+<use img/logo_episunsa.png>
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 791.
+(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
+File: img/logo_abet.png Graphic file (type png)
+<use img/logo_abet.png>
+Package pdftex.def Info: img/logo_abet.png  used on input line 791.
+(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
+ [23
+
+]
+File: img/logo_episunsa.png Graphic file (type png)
+<use img/logo_episunsa.png>
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 798.
+(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
+File: img/logo_abet.png Graphic file (type png)
+<use img/logo_abet.png>
+Package pdftex.def Info: img/logo_abet.png  used on input line 798.
+(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
+ [24]
+File: img/logo_episunsa.png Graphic file (type png)
+<use img/logo_episunsa.png>
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 820.
+(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
+File: img/logo_abet.png Graphic file (type png)
+<use img/logo_abet.png>
+Package pdftex.def Info: img/logo_abet.png  used on input line 820.
+(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
+ [25
+
+]
+File: img/logo_episunsa.png Graphic file (type png)
+<use img/logo_episunsa.png>
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 828.
+(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
+File: img/logo_abet.png Graphic file (type png)
+<use img/logo_abet.png>
+Package pdftex.def Info: img/logo_abet.png  used on input line 828.
+(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
+ [26
+
+] (./main.aux
 LaTeX Info: Redefining \sptext on input line 5.
 LaTeX Info: Redefining \. on input line 5.
 LaTeX Info: Redefining \% on input line 5.
@@ -1301,27 +1286,23 @@ LaTeX Info: Redefining \% on input line 5.
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19878 strings out of 467356
- 349634 string characters out of 5418691
- 1337460 words of memory out of 6000000
- 48668 multiletter control sequences out of 15000+600000
- 714738 words of font info for 112 fonts, out of 8000000 for 9000
+ 19873 strings out of 467356
+ 349499 string characters out of 5418691
+ 1334324 words of memory out of 6000000
+ 48665 multiletter control sequences out of 15000+600000
+ 713593 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,17n,134p,1231b,2897s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (29 pages, 804490 bytes).
+Output written on main.pdf (27 pages, 784832 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
+ 160 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
