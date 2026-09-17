@@ -1,0 +1,183 @@
+% ============================================================
+% INFORME DE ESTADÍSTICA DESCRIPTIVA - UNSA / EPIS
+% Compilar: pdflatex -> biber -> pdflatex -> pdflatex
+% Archivos requeridos en la misma carpeta:
+%   portada.tex, referencias.bib, Escudo_UNSA.png,
+%   img/logo_episunsa.png, img/logo_abet.png,
+%   Figure2barras.png, FigureCircular.png,
+%   FigureBarras1png.png, FigureHistograma1.png
+% ============================================================
+
+\documentclass[12pt,letterpaper]{article}
+
+% ---------- Idioma y codificación ----------
+\usepackage[spanish,es-noshorthands]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{csquotes}
+
+% ---------- Estructura y layout ----------
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage{scrhack}
+\usepackage[margin=2.5cm]{geometry}
+
+% ---------- Matemáticas ----------
+\usepackage{amsmath}
+
+% ---------- Tipografía ----------
+\usepackage{newtxtext}
+\usepackage{newtxmath}
+\usepackage{setspace}
+\onehalfspacing
+
+% ---------- Imágenes y tablas ----------
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{enumitem}
+
+% ---------- Placeholder visual ----------
+% Marca el contenido que aún falta completar antes de la entrega.
+\newcommand{\relleno}{\textcolor{red}{\itshape [completar]}}
+
+% ---------- Bibliografía ----------
+\usepackage[backend=biber, style=apa]{biblatex}
+\addbibresource{referencias.bib}
+
+% ---------- Datos que se muestran en el encabezado y pie ----------
+\newcommand{\itemUniversity}{Universidad Nacional de San Agustín de Arequipa}
+\newcommand{\itemFaculty}{Facultad de Ingeniería de Producción y Servicios}
+\newcommand{\itemDepartment}{Departamento Académico de Ingeniería de Sistemas e Informática}
+\newcommand{\itemSchool}{Escuela Profesional de Ingeniería de Sistemas}
+\newcommand{\itemCourse}{Estadística matemática, probabilidades y métodos empíricos}
+\newcommand{\itemStudent}{Grupo N.º 1}
+
+% ---------- Encabezado y pie de página ----------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{40.51407pt}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+
+\fancyhead[L]{\raisebox{-0.2\height}{\includegraphics[width=3cm]{img/logo_episunsa.png}}}
+\fancyhead[C]{\fontsize{7}{7}\selectfont \itemUniversity \\ \itemFaculty \\ \itemDepartment \\ \itemSchool \\ \textbf{\itemCourse}}
+\fancyhead[R]{\raisebox{-0.2\height}{\includegraphics[width=1.2cm]{img/logo_abet.png}}}
+
+\fancyfoot[L]{\itemStudent}
+\fancyfoot[C]{\itemCourse}
+\fancyfoot[R]{Página \thepage}
+
+% ============================================================
+\begin{document}
+
+% ---------- Portada (archivo externo, sin encabezado ni pie) ----------
+\input{portada.tex}
+
+% ---------- Resumen en español ----------
+\section*{Resumen}
+\relleno
+
+\textbf{Palabras clave:} \relleno
+
+% ---------- Resumen en inglés ----------
+\newpage
+\section*{Abstract}
+\relleno
+
+\textbf{Keywords:} \relleno
+
+% ---------- Índice general ----------
+\clearpage
+\tableofcontents
+\clearpage
+
+% ============================================================
+% 1. INTRODUCCIÓN
+% Qué se analiza y por qué. Anuncia las dos variables del informe.
+% ============================================================
+\section{Introducción}
+\clearpage
+\section{Marco Teórico}
+% ---------- 2.9 Probabilidad ----------
+\section{Nociones de probabilidad}
+
+Un \textbf{experimento aleatorio} es aquel cuyo resultado no puede predecirse con certeza antes de realizarlo. El conjunto de todos los resultados posibles se denomina \textbf{espacio muestral} ($S$), y cualquier subconjunto de éste se denomina \textbf{evento}.
+
+Bajo la definición clásica de Laplace, si todos los resultados del espacio muestral son igualmente probables, la probabilidad de un evento $A$ es:
+$$P(A) = \frac{n(A)}{n(S)}$$
+
+\noindent donde $n(A)$ es el número de resultados favorables al evento y $n(S)$ el número total de resultados posibles.
+
+Cuando la ocurrencia de un evento modifica la probabilidad de otro, se habla de \textbf{eventos dependientes}. En ese caso se aplica la \textbf{probabilidad condicional} y su regla de multiplicación:
+$$P(A \cap B) = P(A) \cdot P(B \mid A), \qquad P(B \mid A) = \frac{P(A \cap B)}{P(A)}, \quad P(A) > 0$$
+
+
+% ============================================================
+% 4.3 APLICACIÓN DE PROBABILIDAD
+% Experimento aleatorio independiente de las variables anteriores.
+% ============================================================
+\section{Aplicación de probabilidad}
+
+% ---------- Contexto del experimento ----------
+\subsection{Contexto general del experimento}
+
+\noindent
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\textbf{Experimento:} & Elegir un plumón al azar de un estuche de 12 plumones de colores. \\[6pt]
+\textbf{Espacio muestral ($S$):} & $S = $ \{azul, amarillo, rojo, verde, negro, blanco, anaranjado, morado, rosado, marrón, celeste, gris\}, con $n(S) = 12$. \\[6pt]
+\textbf{Evento ($A$):} & Escoger un color primario del estuche de plumones: $A = $ \{amarillo, azul, rojo\}. \\[6pt]
+\end{tabularx}
+
+% ---------- Evento simple ----------
+\subsection{Evento simple}
+
+\noindent
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\textbf{Experimento:} & Extraer un único plumón del estuche, en un solo intento. \\[6pt]
+\textbf{Espacio muestral ($S$):} & El mismo espacio muestral general, $n(S) = 12$. \\[6pt]
+\textbf{Evento ($B$):} & Obtener un plumón de color azul: $B = $ \{azul\}, con $n(B) = 1$. \\[6pt]
+\end{tabularx}
+
+\noindent Al haber solo 1 plumón azul de un total de 12:
+$$P(B) = \frac{n(B)}{n(S)} = \frac{1}{12} \approx 0.0833 \quad (8.33\%)$$
+
+\noindent\textbf{Interpretación:} al elegir un plumón al azar del estuche de colores, la probabilidad de que este sea de color azul es del 8.33\%.
+
+% ---------- Evento compuesto ----------
+\subsection{Evento compuesto}
+
+\noindent
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\textbf{Experimento:} & Extraer dos plumones de manera consecutiva y \textit{sin reposición}: primero un plumón amarillo y a continuación un plumón rojo. \\[6pt]
+\textbf{Espacio muestral:} & Para el primer intento, $S_1$ es el espacio muestral general ($n(S_1) = 12$). Para el segundo intento, dado que no hay reposición, $S_2$ contiene los 11 plumones restantes ($n(S_2) = 11$). \\[6pt]
+\textbf{Evento ($D$):} & Obtener un plumón amarillo en el primer intento: $D = $ \{amarillo\}. \\[6pt]
+\textbf{Evento ($E$):} & Obtener un plumón rojo en el segundo intento, dado que el primero fue amarillo. \\[6pt]
+\textbf{Evento compuesto ($C$):} & $C = D \cap E$. \\[6pt]
+\end{tabularx}
+
+\noindent Al depender el segundo resultado del primero, se aplica la regla de multiplicación para eventos dependientes:
+$$P(D \cap E) = P(D) \cdot P(E \mid D)$$
+
+\begin{itemize}[nosep]
+    \item Probabilidad de sacar amarillo en el primer intento: $P(D) = \dfrac{1}{12}$
+    \item Probabilidad condicional de sacar rojo en el segundo intento, dado que el primero fue amarillo: $P(E \mid D) = \dfrac{1}{11}$
+\end{itemize}
+
+\noindent Multiplicando ambas probabilidades:
+$$P(C) = P(D \cap E) = \frac{1}{12} \times \frac{1}{11} = \frac{1}{132} \approx 0.00757 \quad (0.76\%)$$
+
+\noindent\textbf{Interpretación:} la probabilidad de extraer primero un plumón amarillo y, de manera consecutiva y sin reposición, un plumón rojo es del 0.76\%.
+
+\clearpage
+
+\section{Metología}
+\clearpage 
+\section{Resultados}
+\clearpage
+\section{Conclusiones}
+\clearpage 
+
+\printbibliography[heading=bibintoc]
+\end{document}
