@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.24)  17 SEP 2026 12:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.18)  18 SEP 2026 21:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -954,297 +954,244 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 17.28pt on input line 79.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 17.28pt on input line 79.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 80.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 82.
+(Font)              scaled to size 12.0pt on input line 84.
 <img/logo_episunsa.png, id=11, 195.73125pt x 58.2175pt>
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 85.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 87.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.0pt on input line 85.
+(Font)              scaled to size 7.0pt on input line 87.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 7.0pt on input line 85.
+(Font)              scaled to size 7.0pt on input line 87.
 <img/logo_abet.png, id=12, 58.2175pt x 65.24374pt>
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 85.
+Package pdftex.def Info: img/logo_abet.png  used on input line 87.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 85.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 87.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 85.
+(Font)              scaled to size 12.0pt on input line 87.
  [1{/usr/share/texlive/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc} <./img/logo_episunsa.png> <./img/logo_abet.png>]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 92.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 96.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 92.
+Package pdftex.def Info: img/logo_abet.png  used on input line 96.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
  [2] (./main.toc
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-File: img/logo_episunsa.png Graphic file (type png)
-<use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 35.
-(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
-File: img/logo_abet.png Graphic file (type png)
-<use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 35.
-(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [3
-
-])
+)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 94.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 98.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 94.
+Package pdftex.def Info: img/logo_abet.png  used on input line 98.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [4]
+ [3
+
+]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 106.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 110.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 106.
+Package pdftex.def Info: img/logo_abet.png  used on input line 110.
+(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
+ [4
+
+]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 14.4pt on input line 120.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 14.4pt on input line 120.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.0pt on input line 122.
+File: img/logo_episunsa.png Graphic file (type png)
+<use img/logo_episunsa.png>
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 138.
+(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
+File: img/logo_abet.png Graphic file (type png)
+<use img/logo_abet.png>
+Package pdftex.def Info: img/logo_abet.png  used on input line 138.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
  [5
 
-]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 115.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 115.
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 139.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 177.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 139.
+Package pdftex.def Info: img/logo_abet.png  used on input line 177.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [6
-
-]
-File: img/logo_episunsa.png Graphic file (type png)
-<use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 178.
-(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
-File: img/logo_abet.png Graphic file (type png)
-<use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 178.
-(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [7{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}]
-File: img/logo_episunsa.png Graphic file (type png)
-<use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 232.
-(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
-File: img/logo_abet.png Graphic file (type png)
-<use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 232.
-(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [8]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 253.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 253.
-File: img/logo_episunsa.png Graphic file (type png)
-<use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 260.
-(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
-File: img/logo_abet.png Graphic file (type png)
-<use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 260.
-(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [9]
-File: img/logo_episunsa.png Graphic file (type png)
-<use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 301.
-(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
-File: img/logo_abet.png Graphic file (type png)
-<use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 301.
-(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [10]
-File: img/logo_episunsa.png Graphic file (type png)
-<use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 336.
-(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
-File: img/logo_abet.png Graphic file (type png)
-<use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 336.
-(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [11]
-File: img/logo_episunsa.png Graphic file (type png)
-<use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 365.
-(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
-File: img/logo_abet.png Graphic file (type png)
-<use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 365.
-(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [12]
-LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 393.
+ [6]
+LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 177.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 393.
+(Font)              scaled to size 12.0pt on input line 177.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.8pt on input line 178.
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 399.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 183.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 399.
+Package pdftex.def Info: img/logo_abet.png  used on input line 183.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [13]
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 422--423
+ [7]
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 206--207
 [][] 
  []
 
-<Figure2barras.png, id=64, 722.7pt x 433.62pt>
+<Figure2barras.png, id=45, 722.7pt x 433.62pt>
 File: Figure2barras.png Graphic file (type png)
 <use Figure2barras.png>
-Package pdftex.def Info: Figure2barras.png  used on input line 456.
+Package pdftex.def Info: Figure2barras.png  used on input line 240.
 (pdftex.def)             Requested size: 424.82523pt x 254.89404pt.
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 460.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 244.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 460.
+Package pdftex.def Info: img/logo_abet.png  used on input line 244.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
-[14
+[8
 
 ]
-<FigureCircular.png, id=68, 722.7pt x 433.62pt>
+<FigureCircular.png, id=49, 722.7pt x 433.62pt>
 File: FigureCircular.png Graphic file (type png)
 <use FigureCircular.png>
-Package pdftex.def Info: FigureCircular.png  used on input line 463.
+Package pdftex.def Info: FigureCircular.png  used on input line 247.
 (pdftex.def)             Requested size: 377.62642pt x 226.57542pt.
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 468.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 252.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 468.
+Package pdftex.def Info: img/logo_abet.png  used on input line 252.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [15 <./Figure2barras.png> <./FigureCircular.png>]
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 487--488
+ [9 <./Figure2barras.png> <./FigureCircular.png>]
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 271--272
 [][] 
  []
 
-<FigureBarras1png.png, id=74, 722.7pt x 433.62pt>
+<FigureBarras1png.png, id=55, 722.7pt x 433.62pt>
 File: FigureBarras1png.png Graphic file (type png)
 <use FigureBarras1png.png>
-Package pdftex.def Info: FigureBarras1png.png  used on input line 537.
+Package pdftex.def Info: FigureBarras1png.png  used on input line 321.
 (pdftex.def)             Requested size: 424.82523pt x 254.89404pt.
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 541.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 325.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 541.
+Package pdftex.def Info: img/logo_abet.png  used on input line 325.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
-[16
+[10
 
 ]
-<FigureHistograma1.png, id=78, 722.7pt x 433.62pt>
+<FigureHistograma1.png, id=59, 722.7pt x 433.62pt>
 File: FigureHistograma1.png Graphic file (type png)
 <use FigureHistograma1.png>
-Package pdftex.def Info: FigureHistograma1.png  used on input line 544.
+Package pdftex.def Info: FigureHistograma1.png  used on input line 328.
 (pdftex.def)             Requested size: 377.62642pt x 226.57542pt.
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 549.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 333.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 549.
+Package pdftex.def Info: img/logo_abet.png  used on input line 333.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [17 <./FigureBarras1png.png> <./FigureHistograma1.png>]
+ [11 <./FigureBarras1png.png> <./FigureHistograma1.png>]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.6pt on input line 371.
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 607.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 391.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 607.
+Package pdftex.def Info: img/logo_abet.png  used on input line 391.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [18
+ [12
 
 ]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 647.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 431.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 647.
+Package pdftex.def Info: img/logo_abet.png  used on input line 431.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [19]
+ [13]
 LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 12.0pt on input line 691.
+(Font)              scaled to size 12.0pt on input line 475.
 LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 8.8pt on input line 691.
+(Font)              scaled to size 8.8pt on input line 475.
 LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 6.6pt on input line 691.
+(Font)              scaled to size 6.6pt on input line 475.
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 701.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 485.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 701.
+Package pdftex.def Info: img/logo_abet.png  used on input line 485.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [20]
+ [14]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 729.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 513.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 729.
+Package pdftex.def Info: img/logo_abet.png  used on input line 513.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [21]
+ [15]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 750.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 534.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 750.
+Package pdftex.def Info: img/logo_abet.png  used on input line 534.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [22
+ [16
 
 ]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 758.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 542.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 758.
+Package pdftex.def Info: img/logo_abet.png  used on input line 542.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [23
+ [17
 
 ] (./main.aux
 LaTeX Info: Redefining \sptext on input line 5.
@@ -1260,18 +1207,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19873 strings out of 467356
- 349499 string characters out of 5418691
- 1334324 words of memory out of 6000000
- 48665 multiletter control sequences out of 15000+600000
+ 19863 strings out of 467356
+ 349282 string characters out of 5418691
+ 1334284 words of memory out of 6000000
+ 48655 multiletter control sequences out of 15000+600000
  713593 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,17n,134p,1231b,2897s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (24 pages, 777556 bytes).
+Output written on main.pdf (18 pages, 765126 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
+ 131 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

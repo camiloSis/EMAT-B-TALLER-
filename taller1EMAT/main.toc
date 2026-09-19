@@ -1,52 +1,35 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}Introducción}{5}{}%
-\contentsline {section}{\numberline {2}Marco Teórico}{6}{}%
-\contentsline {subsection}{\numberline {2.1}Estadística Descriptiva e Inferencial}{6}{}%
-\contentsline {subsection}{\numberline {2.2}Población}{6}{}%
-\contentsline {subsection}{\numberline {2.3}Muestra}{6}{}%
-\contentsline {subsection}{\numberline {2.4}Variables estadísticas}{7}{}%
-\contentsline {subsubsection}{\numberline {2.4.1}Variable cualitativa}{7}{}%
-\contentsline {subsubsection}{\numberline {2.4.2}Variable cuantitativa}{7}{}%
-\contentsline {subsection}{\numberline {2.5}Tabla de distribución de frecuencias}{7}{}%
-\contentsline {subsubsection}{\numberline {2.5.1}Distribución de frecuencias: variable cuantitativa}{7}{}%
-\contentsline {subsection}{\numberline {2.6}Medidas de tendencia central}{9}{}%
-\contentsline {subsubsection}{\numberline {2.6.1}Media o promedio aritmético}{9}{}%
-\contentsline {subsubsection}{\numberline {2.6.2}Promedio ponderado}{9}{}%
-\contentsline {subsubsection}{\numberline {2.6.3}Mediana}{9}{}%
-\contentsline {subsubsection}{\numberline {2.6.4}Moda}{10}{}%
-\contentsline {subsubsection}{\numberline {2.6.5}Las cuantilas}{10}{}%
-\contentsline {subsection}{\numberline {2.7}Medidas de dispersión}{11}{}%
-\contentsline {subsubsection}{\numberline {2.7.1}Rango}{11}{}%
-\contentsline {subsubsection}{\numberline {2.7.2}Rango intercuartil}{11}{}%
-\contentsline {subsubsection}{\numberline {2.7.3}Varianza}{11}{}%
-\contentsline {subsubsection}{\numberline {2.7.4}Desviación estándar}{12}{}%
-\contentsline {subsubsection}{\numberline {2.7.5}Coeficiente de variación}{12}{}%
-\contentsline {subsection}{\numberline {2.8}Medidas de distribución y de forma}{12}{}%
-\contentsline {subsubsection}{\numberline {2.8.1}Coeficiente de asimetría}{12}{}%
-\contentsline {subsubsection}{\numberline {2.8.2}Coeficiente de curtosis}{13}{}%
-\contentsline {section}{\numberline {3}Metodología}{13}{}%
-\contentsline {section}{\numberline {4}Resultados}{14}{}%
-\contentsline {subsection}{\numberline {4.1}Variable 1: Lenguaje de programación favorito}{14}{}%
-\contentsline {subsubsection}{\numberline {4.1.1}Ficha técnica}{14}{}%
-\contentsline {subsubsection}{\numberline {4.1.2}Tabla de distribución de frecuencias}{14}{}%
-\contentsline {subsubsection}{\numberline {4.1.3}Representación gráfica}{15}{}%
-\contentsline {subsection}{\numberline {4.2}Variable 2: Horas semanales dedicadas a programar}{16}{}%
-\contentsline {subsubsection}{\numberline {4.2.1}Ficha técnica}{16}{}%
-\contentsline {subsubsection}{\numberline {4.2.2}Tabla de distribución de frecuencias}{16}{}%
-\contentsline {subsubsection}{\numberline {4.2.3}Representación gráfica}{17}{}%
-\contentsline {subsubsection}{\numberline {4.2.4}Medidas de tendencia central}{18}{}%
-\contentsline {paragraph}{Promedio (media aritmética).}{18}{}%
-\contentsline {paragraph}{Mediana ($Md$).}{18}{}%
-\contentsline {paragraph}{Moda ($Mo$).}{19}{}%
-\contentsline {paragraph}{Cuartiles.}{19}{}%
-\contentsline {paragraph}{Deciles.}{19}{}%
-\contentsline {paragraph}{Percentiles.}{20}{}%
-\contentsline {subsubsection}{\numberline {4.2.5}Medidas de dispersión}{20}{}%
-\contentsline {paragraph}{Varianza ($S^2$).}{20}{}%
-\contentsline {paragraph}{Desviación estándar ($S$).}{21}{}%
-\contentsline {paragraph}{Coeficiente de variación ($CV$).}{21}{}%
-\contentsline {subsubsection}{\numberline {4.2.6}Medidas de distribución y de forma}{21}{}%
-\contentsline {paragraph}{Coeficiente de asimetría de Pearson ($AS_2$).}{21}{}%
-\contentsline {paragraph}{Coeficiente de curtosis ($K$).}{21}{}%
-\contentsline {section}{\numberline {5}Conclusiones}{22}{}%
-\contentsline {section}{Referencias}{23}{}%
+\contentsline {section}{\numberline {1}Introducción}{4}{}%
+\contentsline {section}{\numberline {2}Marco Teórico}{5}{}%
+\contentsline {subsection}{\numberline {2.1}Población y muestra}{5}{}%
+\contentsline {subsection}{\numberline {2.2}Variables estadísticas}{5}{}%
+\contentsline {subsection}{\numberline {2.3}Distribución de frecuencias}{5}{}%
+\contentsline {subsection}{\numberline {2.4}Medidas de tendencia central}{5}{}%
+\contentsline {subsection}{\numberline {2.5}Medidas de dispersión}{6}{}%
+\contentsline {subsection}{\numberline {2.6}Medidas de forma}{6}{}%
+\contentsline {section}{\numberline {3}Metodología}{6}{}%
+\contentsline {section}{\numberline {4}Resultados}{8}{}%
+\contentsline {subsection}{\numberline {4.1}Variable 1: Lenguaje de programación favorito}{8}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}Ficha técnica}{8}{}%
+\contentsline {subsubsection}{\numberline {4.1.2}Tabla de distribución de frecuencias}{8}{}%
+\contentsline {subsubsection}{\numberline {4.1.3}Representación gráfica}{9}{}%
+\contentsline {subsection}{\numberline {4.2}Variable 2: Horas semanales dedicadas a programar}{10}{}%
+\contentsline {subsubsection}{\numberline {4.2.1}Ficha técnica}{10}{}%
+\contentsline {subsubsection}{\numberline {4.2.2}Tabla de distribución de frecuencias}{10}{}%
+\contentsline {subsubsection}{\numberline {4.2.3}Representación gráfica}{11}{}%
+\contentsline {subsubsection}{\numberline {4.2.4}Medidas de tendencia central}{12}{}%
+\contentsline {paragraph}{Promedio (media aritmética).}{12}{}%
+\contentsline {paragraph}{Mediana ($Md$).}{12}{}%
+\contentsline {paragraph}{Moda ($Mo$).}{13}{}%
+\contentsline {paragraph}{Cuartiles.}{13}{}%
+\contentsline {paragraph}{Deciles.}{13}{}%
+\contentsline {paragraph}{Percentiles.}{14}{}%
+\contentsline {subsubsection}{\numberline {4.2.5}Medidas de dispersión}{14}{}%
+\contentsline {paragraph}{Varianza ($S^2$).}{14}{}%
+\contentsline {paragraph}{Desviación estándar ($S$).}{15}{}%
+\contentsline {paragraph}{Coeficiente de variación ($CV$).}{15}{}%
+\contentsline {subsubsection}{\numberline {4.2.6}Medidas de distribución y de forma}{15}{}%
+\contentsline {paragraph}{Coeficiente de asimetría de Pearson ($AS_2$).}{15}{}%
+\contentsline {paragraph}{Coeficiente de curtosis ($K$).}{15}{}%
+\contentsline {section}{\numberline {5}Conclusiones}{16}{}%
+\contentsline {section}{Referencias}{17}{}%

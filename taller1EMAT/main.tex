@@ -77,16 +77,20 @@
 
 % ---------- Resumen en español ----------
 \section*{Resumen}
-\relleno
+En este informe se analiza la información recopilada de 22 estudiantes del segundo año de Ingeniería de Sistemas del curso de Estadística Matemática, Probabilidades y Métodos Empíricos. Se estudian dos variables: el lenguaje de programación favorito, de tipo cualitativo nominal, y la cantidad de horas semanales dedicadas a programar, de tipo cuantitativo discreto. Con base en una encuesta aplicada al grupo, se elaboraron tablas de frecuencias, gráficos estadísticos y medidas descriptivas para resumir el comportamiento de los datos y describir las características principales de la muestra. El análisis permite identificar patrones de preferencia y distribución de tiempos de programación dentro del grupo observado.
 
-\textbf{Palabras clave:} \relleno
+\vspace{1em}
+
+\textbf{Palabras clave:} estadística descriptiva, variables cualitativas, variables cuantitativas, lenguaje de programación, horas semanales, análisis de datos.
 
 % ---------- Resumen en inglés ----------
 \newpage
 \section*{Abstract}
-\relleno
+This report analyzes the information collected from 22 students in the second year of the Systems Engineering program enrolled in the course of Mathematical Statistics, Probabilities and Empirical Methods. Two variables are studied: the preferred programming language, which is a nominal qualitative variable, and the number of hours spent programming per week, which is a discrete quantitative variable. Based on a survey applied to the group, frequency tables, statistical graphs and descriptive measures were developed to summarize the data behavior and describe the main characteristics of the sample. The analysis allows identifying patterns in programming preferences and the distribution of programming time within the observed group.
 
-\textbf{Keywords:} \relleno
+\vspace{1em}
+
+\textbf{Keywords:} descriptive statistics, qualitative variables, quantitative variables, programming language, weekly hours, data analysis.
 
 % ---------- Índice general ----------
 \clearpage
@@ -111,265 +115,45 @@ Para dicho fin, el grupo recolectó información de los estudiantes del curso de
 % ============================================================
 \section{Marco Teórico}
 
-% ---------- 2.1 Ramas de la estadística ----------
-\subsection{Estadística Descriptiva e Inferencial}
+La estadística permite organizar, resumir e interpretar datos para describir fenómenos y sacar conclusiones sobre una población a partir de una muestra. En este sentido, se distingue entre la estadística descriptiva, que resume y presenta la información, y la estadística inferencial, que generaliza resultados con un nivel de confianza asociado \parencite{cordova2003}.
 
-La ciencia de la estadística tiene sus orígenes en dos intereses humanos muy distintos: la organización de los Estados y los juegos de azar. En sus primeras etapas, el método estadístico consistía principalmente en recopilar datos, generalmente en grandes cantidades, sobre el comportamiento de los individuos de una población en relación con el fenómeno que se buscaba estudiar. Estos datos, una vez clasificados y organizados en tablas, sirven como base para realizar un análisis matemático que permite obtener resultados y establecer ciertas regularidades que representan las características del comportamiento promedio de una población.
+\subsection{Población y muestra}
 
-Se denomina \textit{estadística descriptiva} al conjunto de métodos estadísticos que se relacionan con el resumen y descripción de los datos, como tablas, gráficas, y el análisis mediante algunos cálculos \parencite{cordova2003}.
+Una \textit{población} es el conjunto de elementos que comparten una característica de interés. Cuando no es posible observar a toda la población, se trabaja con una \textit{muestra}, es decir, un subconjunto representativo de la misma. La validez del análisis depende de que la muestra refleje adecuadamente la población estudiada \parencite{cordova2003}.
 
-Se denomina \textit{estadística inferencial} al conjunto de métodos con los que se hacen la generalización o la inferencia sobre una población utilizando una muestra. La inferencia puede contener conclusiones que pueden no ser ciertas en forma absoluta, por lo que es necesario que éstas sean dadas con una medida de confiabilidad que es la probabilidad \parencite{cordova2003}.
-
-Estas dos partes de la estadística no son mutuamente excluyentes, ya que para utilizar los métodos de la inferencia estadística, se requiere conocer los métodos de la estadística descriptiva \parencite{cordova2003}.
-
-% ---------- 2.2 Población ----------
-\subsection{Población}
-
-A un conjunto de elementos (objetos, personas, etc.) que tienen en común una o más características observables de naturaleza \textit{cuantitativa} o \textit{cualitativa} que se puedan medir en ellos se le llama población. A los elementos de este último se les denomina unidad elemental, unidad estadística o \textit{unidad de observación} \parencite{cordova2003}.
-
-% ---------- 2.3 Muestra ----------
-\subsection{Muestra}
-
-Para definir una investigación estadística se debe decidir si se investigará a la población completa o solo una parte de ella; a este subconjunto se le denomina muestra. Esta última debe seleccionarse de manera representativa de la población \parencite{cordova2003}.
-
-% ---------- 2.4 Tipos de variable ----------
 \subsection{Variables estadísticas}
 
-Se denomina variable estadística a una característica definida en la población por la investigación estadística que pueda tomar dos o más valores (cualidades o números) \parencite{cordova2003}. Entre las que tenemos, nos interesan dos que se han utilizado para el desarrollo de este informe:
+Una variable estadística es una característica de la población que toma distintos valores. Si estos valores describen cualidades o atributos, la variable es \textit{cualitativa}; si se expresan en números, es \textit{cuantitativa}. Las cualitativas pueden ser nominales u ordinales, mientras que las cuantitativas pueden ser discretas o continuas.
 
-\subsubsection{Variable cualitativa}
+\subsection{Distribución de frecuencias}
 
-Una variable cualitativa expresa una cualidad o atributo que no puede medirse numéricamente. Se clasifica en:
+Para resumir datos, se construye una distribución de frecuencias. La \textbf{frecuencia absoluta} $f_i$ indica cuántas observaciones caen en cada valor o clase; la \textbf{frecuencia acumulada} $F_i$ acumula esas cantidades; la \textbf{frecuencia relativa} $h_i = f_i/n$ expresa la proporción del total; y la \textbf{frecuencia porcentual} $p_i = h_i \times 100\%$ permite interpretaciones más directas. Este tipo de tablas es la base para el análisis descriptivo de variables cuantitativas y cualitativas.
 
-\begin{description}
-    \item[Nominal] No existe un orden entre sus categorías (ej. sexo, color de ojos).
-    \item[Ordinal] Existe un orden o jerarquía entre sus categorías (ej. nivel educativo, grado de satisfacción).
-\end{description}
-
-\subsubsection{Variable cuantitativa}
-
-Una variable cuantitativa expresa una cantidad y se mide numéricamente. Se clasifica en:
-
-\begin{description}
-    \item[Discreta] Toma valores numéricos finitos o contables (ej. número de hijos).
-    \item[Continua] Toma cualquier valor dentro de un intervalo (ej. estatura, peso).
-\end{description}
-
-% ---------- 2.5 Frecuencias ----------
-\subsection{Tabla de distribución de frecuencias}
-
-\subsubsection{Distribución de frecuencias: variable cuantitativa}
-
-Supóngase que se dispone de un conjunto de $n$ observaciones correspondientes a una variable cuantitativa $X$. Dependiendo de la naturaleza de los datos, estos pueden organizarse mediante valores numéricos distintos $x_1, x_2, \dots, x_k$ (si es discreta) o agrupados en $k$ intervalos o clases $[L_{i-1}, L_i[$ (si es continua o discreta con un amplio rango). La organización de estos datos constituye la \textit{distribución de frecuencias}, tal como se muestra en el Cuadro \ref{tab:frecuencias-cuantitativa}.
-
-La \textbf{frecuencia absoluta} $f_i$ corresponde al número de observaciones registradas en cada valor o intervalo de clase. La suma de todas las frecuencias absolutas es igual al total $n$ de datos observados:
-
-\begin{equation}
-    \sum_{i=1}^{k} f_i = n
-\end{equation}
-
-La \textbf{frecuencia absoluta acumulada} $F_i$ representa el número de observaciones menores o iguales al límite superior de la clase $i$-ésima (o valor $x_i$), obtenida acumulando las frecuencias absolutas:
-
-\begin{equation}
-    F_i = \sum_{j=1}^{i} f_j
-\end{equation}
-
-La \textbf{frecuencia relativa} $h_i$ se obtiene, para cada valor o clase, mediante la razón entre su frecuencia absoluta y el total de datos:
-
-\begin{equation}
-    h_i = \frac{f_i}{n}
-\end{equation}
-
-La suma de todas las frecuencias relativas es igual a uno.
-
-La \textbf{frecuencia relativa acumulada} $H_i$ indica la proporción de datos menores o iguales al límite superior de la clase $i$-ésima:
-
-\begin{equation}
-    H_i = \sum_{j=1}^{i} h_j = \frac{F_i}{n}
-\end{equation}
-
-La \textbf{frecuencia porcentual} $p_i$ se calcula expresando la frecuencia relativa como porcentaje:
-
-\begin{equation}
-    p_i = h_i \times 100\%
-\end{equation}
-
-La suma de todas las frecuencias porcentuales es igual a cien.
-
-\begin{table}[H]
-    \centering
-    \caption{Distribución de frecuencias de una variable cuantitativa}
-    \vspace{1em}
-    \label{tab:frecuencias-cuantitativa}
-    \begin{tabular}{cccccc}
-        \hline
-        \textbf{Valores / Clases} & $f_i$ & $F_i$ & $h_i$ & $H_i$ & $p_i$ \\
-        \hline
-        $[L_0 - L_1[$ (o $x_1$) & $f_1$ & $F_1$ & $h_1$ & $H_1$ & $p_1$ \\
-        $[L_1 - L_2[$ (o $x_2$) & $f_2$ & $F_2$ & $h_2$ & $H_2$ & $p_2$ \\
-        $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$ \\
-        $[L_{k-1} - L_k]$ (o $x_k$) & $f_k$ & $F_k$ & $h_k$ & $H_k$ & $p_k$ \\
-        \hline
-        \textbf{Total} & $n$ & $-$ & $1.00$ & $-$ & $100.00$ \\
-        \hline
-    \end{tabular}
-\end{table}
-
-\noindent\textbf{Notación:}
-\begin{itemize}[nosep]
-    \item $f_i$: frecuencias absolutas
-    \item $F_i$: frecuencias absolutas acumuladas
-    \item $h_i$: frecuencias relativas
-    \item $H_i$: frecuencias relativas acumuladas
-    \item $p_i$: frecuencias porcentuales
-    \item $n$: número total de datos
-\end{itemize}
-
-% ---------- 2.6 Tendencia central ----------
 \subsection{Medidas de tendencia central}
 
-La primera característica de un conjunto de datos que deseamos medir es el centro o la tendencia central. El propósito de una medida de tendencia central es resumir un conjunto de datos en un valor numérico, de forma que podamos tener un panorama general del resto de la información.
+Las medidas de tendencia central buscan resumir un conjunto de datos en un valor representativo del centro de la distribución. Las más usadas son la \textbf{media}, la \textbf{mediana} y la \textbf{moda}. La media se calcula como el promedio aritmético, la mediana como el valor central cuando los datos se ordenan y la moda como el valor de mayor frecuencia. También existen los \textbf{cuartiles}, \textbf{deciles} y \textbf{percentiles}, que dividen la distribución en partes iguales y permiten estudiar la posición de los datos dentro del conjunto.
 
-\subsubsection{Media o promedio aritmético}
+\begin{equation}
+\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}
+\end{equation}
 
-\begin{itemize}
-    \item[\textbf{a)}] \textbf{Para datos no clasificados:} sean $x_1, x_2, \dots, x_n$ las variables estadísticas que representan los datos muestrales, entonces la media o el promedio de $x$ es:
-    $$\bar{X} = \frac{\sum_{i=1}^{n} x_i}{n}$$
-    \item[\textbf{b)}] \textbf{Para datos clasificados:} sean $x_1, x_2, \dots, x_k$ las marcas de clase y sean $f_1, f_2, \dots, f_k$ las frecuencias absolutas, donde $k$ es el número de clases. Entonces:
-    $$\bar{X} = \frac{\sum_{i=1}^{k} x_i f_i}{\sum_{i=1}^{k} f_i} = \frac{\sum x_i f_i}{n}$$
-    donde $n$ es el número total de datos.
-\end{itemize}
-
-\subsubsection{Promedio ponderado}
-
-Es una media de cantidades a las que se ha asignado una serie de coeficientes, llamados pesos, para tener en cuenta adecuadamente su importancia relativa. Si para los datos $x_i$ tenemos los pesos $w_i$, entonces:
-$$\bar{x}_w = \frac{\sum_{i=1}^{n} w_i x_i}{\sum_{i=1}^{n} w_i}$$
-
-\subsubsection{Mediana}
-
-Es el puntaje ordenado medio. También se denota por $Md$.
-\begin{itemize}
-    \item[\textbf{a)}] \textbf{Para datos no clasificados:} sean $x_1, x_2, \dots, x_n$ las variables estadísticas, tales que $x_1 \le x_2 \le \dots \le x_n$, entonces:
-    $$Me = \begin{cases} x_{(n+1)/2} & \text{si } n \text{ es impar} \\[4pt] \dfrac{1}{2}\left(x_{n/2} + x_{(n/2)+1}\right) & \text{si } n \text{ es par} \end{cases}$$
-    \item[\textbf{b)}] \textbf{Para datos clasificados:}
-    $$Me = L_i + a \left( \frac{\frac{n}{2} - F_{i-1}}{f_i} \right)$$
-\end{itemize}
-
-\noindent\textbf{Donde:}
-\begin{itemize}[nosep]
-    \item $L_i$: límite inferior de la clase mediana
-    \item $n$: número total de datos (tamaño de la muestra)
-    \item $F_{i-1}$: frecuencia absoluta acumulada hasta la clase anterior a la clase mediana
-    \item $f_i$: frecuencia absoluta de la clase mediana
-    \item $a$: ancho de clase
-\end{itemize}
-
-\subsubsection{Moda}
-
-Si existe, es el puntaje más frecuente.
-
-\begin{itemize}
-    \item[\textbf{a)}] \textbf{Para datos no clasificados:} se localiza observando los datos; se escoge aquel cuya frecuencia absoluta es mayor.
-    \item[\textbf{b)}] \textbf{Para datos clasificados:}
-    $$Mo = L_i + a \left( \frac{\Delta_1}{\Delta_1 + \Delta_2} \right)$$
-\end{itemize}
-
-\noindent\textbf{Donde:}
-\begin{itemize}[nosep]
-    \item $L_i$: límite inferior de la clase modal
-    \item $\Delta_1 = f_i - f_{i-1}$
-    \item $\Delta_2 = f_i - f_{i+1}$
-    \item $a$: ancho de clase (algunas veces denotado por $c$)
-\end{itemize}
-
-\subsubsection{Las cuantilas}
-
-Las cuantilas de mayor uso son: los cuartiles ($Q_j$), los deciles ($D_j$) y los percentiles ($P_j$).
-
-\begin{itemize}
-    \item \textbf{Cuartiles:}
-    $$Q_j = L_i + a \left( \frac{\frac{jn}{4} - F_{i-1}}{f_i} \right), \quad j = 1, 2, 3$$
-    Los valores $Q_1, Q_2, Q_3$ dividen al total de los datos en 4 partes iguales.
-
-    \item \textbf{Deciles:}
-    $$D_j = L_i + a \left( \frac{\frac{jn}{10} - F_{i-1}}{f_i} \right), \quad j = 1, 2, \dots, 9$$
-    Los valores $D_1, \dots, D_9$ dividen al total de los datos en 10 partes iguales.
-
-    \item \textbf{Percentiles:}
-    $$P_j = L_i + a \left( \frac{\frac{jn}{100} - F_{i-1}}{f_i} \right), \quad j = 1, 2, \dots, 99$$
-    Los valores $P_1, \dots, P_{99}$ dividen al total de los datos en 100 partes iguales.
-\end{itemize}
-
-\noindent\textbf{Donde:}
-\begin{itemize}[nosep]
-    \item $L_i$: límite inferior de la clase $Q_j$, $D_j$ o $P_j$, respectivamente
-    \item $n$: número total de datos (tamaño de la muestra)
-    \item $F_{i-1}$: frecuencia absoluta acumulada hasta la clase anterior a la clase pertinente
-    \item $f_i$: frecuencia absoluta de la clase pertinente
-    \item $a$: ancho de clase
-\end{itemize}
-
-% ---------- 2.7 Dispersión ----------
 \subsection{Medidas de dispersión}
 
-Son las que cuantifican el grado de dispersión o concentración de los valores de la variable.
+Las medidas de dispersión indican cuánto se alejan los datos del centro. El \textbf{rango} mide la diferencia entre el máximo y el mínimo; la \textbf{varianza} y la \textbf{desviación estándar} cuantifican la variabilidad alrededor de la media; y el \textbf{coeficiente de variación} permite comparar la variabilidad relativa entre grupos con distinta escala o promedio.
 
-\subsubsection{Rango}
-Es la diferencia entre el dato mayor y el dato menor:
-$$R = X_{\text{max}} - X_{\text{min}}$$
+\begin{equation}
+S^2 = \frac{\sum_{i=1}^{n}(x_i - \bar{x})^2}{n}, \qquad S = \sqrt{S^2}
+\end{equation}
 
-\subsubsection{Rango intercuartil}
-$$\text{IQR} = Q_3 - Q_1$$
+\subsection{Medidas de forma}
 
-\subsubsection{Varianza}
-También se denota por $\text{Var}(X)$ o simplemente $V(X)$.
-\begin{itemize}
-    \item[\textbf{a)}] \textbf{Para datos no clasificados:}
-    $$S^2 = \frac{\sum_{i=1}^{n}(x_i - \bar{x})^2}{n} \quad \text{(varianza descriptiva o poblacional)}$$
-    $$S^2 = \frac{\sum_{i=1}^{n}(x_i - \bar{x})^2}{n-1} \quad \text{(varianza muestral corregida)}$$
+Además de la tendencia central y la dispersión, la forma de la distribución aporta información sobre su comportamiento. La \textbf{asimetría} indica si la distribución se inclina hacia la derecha o la izquierda; la \textbf{curtosis} indica si la distribución es más apuntada o más plana que una normal. Estos indicadores permiten interpretar mejor la estructura de los datos más allá de la media y la desviación estándar.
 
-    \item[\textbf{b)}] \textbf{Para datos clasificados:}
-    $$S^2 = \frac{\sum_{i=1}^{k} f_i(x_i - \bar{x})^2}{n} \quad \text{o} \quad S^2 = \frac{\sum_{i=1}^{k} f_i(x_i - \bar{x})^2}{n-1}$$
-\end{itemize}
+\begin{equation}
+AS = \frac{\bar{x} - Mo}{S}, \qquad K = \frac{Q_3 - Q_1}{P_{90} - P_{10}}
+\end{equation}
 
-\noindent\textbf{Fórmulas prácticas de cálculo:}
-$$S^2 = \frac{1}{n} \sum x^2 - (\bar{x})^2, \quad S^2 = \frac{1}{n} \sum f_i x_i^2 - (\bar{x})^2, \quad S^2 = \frac{n \sum x^2 - (\sum x)^2}{n(n-1)}$$
-
-\subsubsection{Desviación estándar}
-Es la raíz cuadrada de la varianza:
-$$S = \sqrt{\text{Var}(x)}$$
-
-\subsubsection{Coeficiente de variación}
-Por lo general se expresa como porcentaje:
-$$\text{CV} = \frac{S}{\bar{x}} \times 100\%$$
-Se utiliza para comparar la variabilidad de dos o más conjuntos de datos.
-
-% ---------- 2.8 Forma de la distribución ----------
-\subsection{Medidas de distribución y de forma}
-
-La asimetría de los gráficos de distribuciones unimodales se mide según el coeficiente de Pearson, mientras que el apuntamiento o aplastamiento de su polígono de frecuencia se mide con el coeficiente de curtosis.
-
-\subsubsection{Coeficiente de asimetría}
-Se presentan en tres formas:
-$$AS_1 = \frac{\bar{X} - Mo}{S}, \quad AS_2 = \frac{3(\bar{X} - Me)}{S}, \quad AS_3 = \frac{Q_3 - 2Q_2 + Q_1}{Q_3 - Q_1}$$
-
-De acuerdo al valor de $AS$ se tiene:
-\begin{itemize}[nosep]
-    \item[\textbf{a)}] Si $AS > 0$, asimetría positiva.
-    \item[\textbf{b)}] Si $AS < 0$, asimetría negativa.
-    \item[\textbf{c)}] Si $AS = 0$, asimetría nula (simétrica).
-\end{itemize}
-
-\subsubsection{Coeficiente de curtosis}
-Se emplea el coeficiente percentílico de curtosis (Kelley):
-$$K = \frac{Q}{P_{90} - P_{10}}, \quad \text{donde } Q = \frac{Q_3 - Q_1}{2}$$
-
-De modo que:
-\begin{itemize}[nosep]
-    \item[\textbf{a)}] Si $K$ es cercano a $0.5$, la curva es leptocúrtica.
-    \item[\textbf{b)}] Si $K$ es cercano a $0.25$, la curva es mesocúrtica.
-    \item[\textbf{c)}] Si $K$ es cercano a $0$, la curva es platicúrtica.
-\end{itemize}
+En resumen, el marco teórico del estudio se basa en la organización de datos, la clasificación de variables, la construcción de tablas de frecuencia y la aplicación de medidas descriptivas que permiten resumir, comparar y analizar la información recolectada.
 
 % ============================================================
 % 3. METODOLOGÍA
