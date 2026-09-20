@@ -5,7 +5,7 @@
 %   portada.tex, referencias.bib, Escudo_UNSA.png,
 %   img/logo_episunsa.png, img/logo_abet.png,
 
-\documentclass[12pt,letterpaper]{article}
+\documentclass[10pt,letterpaper]{article}
 
 % ------ HYPERVINCULOS------
 \usepackage[unicode,colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black]{hyperref}
@@ -100,19 +100,128 @@
 \section{Introducción}
 \clearpage
 \section{Marco Teórico}
-% ---------- 2.9 Probabilidad ----------
-\section{Nociones de probabilidad}
 
-Un \textbf{experimento aleatorio} es aquel cuyo resultado no puede predecirse con certeza antes de realizarlo. El conjunto de todos los resultados posibles se denomina \textbf{espacio muestral} ($S$), y cualquier subconjunto de éste se denomina \textbf{evento}.
+La probabilidad permite cuantificar la incertidumbre asociada a experimentos aleatorios y evaluar la posibilidad de ocurrencia de eventos dentro de un espacio de resultados definido. Para ello, es necesario contar resultados posibles, distinguir entre eventos simples y compuestos, y aplicar leyes que vinculan la ocurrencia de distintos sucesos.
 
-Bajo la definición clásica de Laplace, si todos los resultados del espacio muestral son igualmente probables, la probabilidad de un evento $A$ es:
-$$P(A) = \frac{n(A)}{n(S)}$$
+\subsection{Técnicas de conteo}
 
-\noindent donde $n(A)$ es el número de resultados favorables al evento y $n(S)$ el número total de resultados posibles.
+Para calcular probabilidades es necesario contar el número de maneras en que puede ocurrir un evento. Una técnica fundamental es el \textbf{principio de la multiplicación}: si una operación se puede realizar de $n_1$ maneras, otra de $n_2$ maneras, y así sucesivamente hasta $n_k$ maneras, entonces la secuencia completa puede realizarse de
 
-Cuando la ocurrencia de un evento modifica la probabilidad de otro, se habla de \textbf{eventos dependientes}. En ese caso se aplica la \textbf{probabilidad condicional} y su regla de multiplicación:
-$$P(A \cap B) = P(A) \cdot P(B \mid A), \qquad P(B \mid A) = \frac{P(A \cap B)}{P(A)}, \quad P(A) > 0$$
+$$
+(n_1)(n_2)\cdots(n_k)
+$$
 
+maneras.
+
+\subsubsection{Permutaciones}
+
+Una \textbf{permutación} es un arreglo ordenado de objetos, donde el orden importa. El número de permutaciones de $n$ objetos diferentes tomados de $n$ en $n$ es
+
+$$P_n = n!$$
+
+y el número de permutaciones de $n$ objetos tomados de $r$ en $r$ es
+
+$$P_r^n = \frac{n!}{(n-r)!}$$
+
+\subsubsection{Combinaciones}
+
+Una \textbf{combinación} es un arreglo de objetos en el que el orden no importa. El número de combinaciones de $n$ objetos tomados de $r$ en $r$ es
+
+$$C_r^n = \frac{n!}{r!\,(n-r)!}$$
+
+\subsubsection{Permutaciones con repetición}
+
+Si existen $n_1, n_2, \ldots, n_k$ elementos repetidos de distintos tipos, entonces el número de permutaciones distintas es
+
+$$P^{n}_{n_1,n_2,\ldots,n_k} = \frac{n!}{n_1!\,n_2!\cdots n_k!}$$
+
+\subsection{Experimento aleatorio, espacio muestral y evento}
+
+Un \textbf{experimento aleatorio} es un proceso cuyo resultado no puede predecirse con certeza antes de ejecutarse. El conjunto de todos los resultados posibles se denomina \textbf{espacio muestral} y se denota por $\Omega$ o $S$. Un \textbf{evento} es cualquier subconjunto del espacio muestral.
+
+\subsection{Eventos excluyentes}
+
+Dos o más eventos son \textbf{mutuamente excluyentes} si, al ocurrir uno, los demás no pueden ocurrir simultáneamente. En este caso, si $A$ y $B$ son excluyentes, no pueden tener elementos comunes.
+
+\subsection{Probabilidad de un evento}
+
+Bajo la definición clásica de Laplace, si todos los resultados del espacio muestral son equiprobables, la probabilidad de un evento $A \subset \Omega$ es
+
+$$P(A) = \frac{n(A)}{n(\Omega)}$$
+
+donde $n(A)$ es el número de casos favorables y $n(\Omega)$ el número total de casos posibles.
+
+También puede definirse la probabilidad por \textbf{frecuencia relativa}: si un experimento se repite $n$ veces y el evento $A$ ocurre $n_A$ veces, entonces
+
+$$P(A) = \frac{n_A}{n}$$
+
+y, cuando $n$ crece indefinidamente,
+
+$$P(A) = \lim_{n \to \infty} \frac{n_A}{n}$$
+
+\subsection{Axiomas de probabilidad}
+
+La probabilidad se basa en los siguientes axiomas:
+
+\begin{enumerate}[leftmargin=1.5em]
+    \item $P(\Omega)=1$
+    \item $0 \leq P(A) \leq 1$, para cualquier $A \subset \Omega$
+    \item Si $A$ y $B$ son mutuamente excluyentes, entonces
+    $$P(A \cup B) = P(A) + P(B)$$
+\end{enumerate}
+
+\subsection{Teoremas importantes sobre probabilidades}
+
+\begin{itemize}[leftmargin=1.5em]
+    \item Si $\emptyset$ es el evento imposible, entonces
+    $$P(\emptyset)=0$$
+    \item Si $A^c$ es el complemento de $A$, entonces
+    $$P(A^c) = 1 - P(A)$$
+    \item Si $A \subset B$, entonces
+    $$P(A) \leq P(B)$$
+    \item Si $A$ y $B$ son dos eventos, entonces
+    $$P(A-B) = P(A) - P(A\cap B)$$
+    \item Si $A$ y $B$ son dos eventos cualesquiera, entonces
+    $$P(A \cup B) = P(A) + P(B) - P(A\cap B)$$
+\end{itemize}
+
+\subsection{Probabilidad condicional}
+
+La probabilidad condicional mide la probabilidad de que ocurra $B$ dado que $A$ ya ocurrió. Se define como
+
+$$P(B\mid A) = \frac{P(A \cap B)}{P(A)}, \qquad P(A) \neq 0$$
+
+\subsection{Regla de la multiplicación}
+
+Para dos eventos $A$ y $B$,
+
+$$P(A \cap B) = P(A)\,P(B\mid A)$$
+
+si $B$ depende de $A$. Si $A$ y $B$ son independientes, entonces
+
+$$P(A \cap B) = P(A)\,P(B)$$
+
+\subsection{Probabilidad total}
+
+Si $\{E_1, E_2, \ldots, E_n\}$ es una partición del espacio muestral $\Omega$, entonces para cualquier evento $E$,
+
+$$P(E) = \sum_{i=1}^{n} P(E_i)\,P(E\mid E_i)$$
+
+siempre que $P(E_i) \neq 0$ para $i=1,2,\ldots,n$.
+
+\subsection{Teorema de Bayes}
+
+Sea $\{E_1, E_2, \ldots, E_n\}$ una partición del espacio muestral, con $P(E_i) \neq 0$. Entonces para cualquier evento $E$ con $P(E) \neq 0$ y para $1 \leq k \leq n$,
+
+$$P(E_k\mid E) = \frac{P(E_k)\,P(E\mid E_k)}{\sum_{i=1}^{n} P(E_i)\,P(E\mid E_i)}$$
+
+Este teorema permite actualizar la probabilidad de una hipótesis a partir de la información observada.
+
+\clearpage
+
+\section{Metología}
+\clearpage 
+\section{Resultados}
 
 % ============================================================
 % 4.3 APLICACIÓN DE PROBABILIDAD
@@ -170,11 +279,7 @@ $$P(C) = P(D \cap E) = \frac{1}{12} \times \frac{1}{11} = \frac{1}{132} \approx 
 
 \noindent\textbf{Interpretación:} la probabilidad de extraer primero un plumón amarillo y, de manera consecutiva y sin reposición, un plumón rojo es del 0.76\%.
 
-\clearpage
 
-\section{Metología}
-\clearpage 
-\section{Resultados}
 \clearpage
 \section{Conclusiones}
 \clearpage 
