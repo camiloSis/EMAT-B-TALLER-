@@ -1,11 +1,11 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}Introducción}{4}{}%
-\contentsline {section}{\numberline {2}Marco Teórico}{5}{}%
-\contentsline {section}{\numberline {3}Nociones de probabilidad}{5}{}%
-\contentsline {section}{\numberline {4}Aplicación de probabilidad}{5}{}%
-\contentsline {subsection}{\numberline {4.1}Contexto general del experimento}{5}{}%
-\contentsline {subsection}{\numberline {4.2}Evento simple}{5}{}%
-\contentsline {subsection}{\numberline {4.3}Evento compuesto}{6}{}%
-\contentsline {section}{\numberline {5}Metología}{7}{}%
-\contentsline {section}{\numberline {6}Resultados}{8}{}%
-\contentsline {section}{\numberline {7}Conclusiones}{9}{}%
+\contentsline {section}{\numberline {1}Introducción}{4}{section.1}%
+\contentsline {section}{\numberline {2}Marco Teórico}{5}{section.2}%
+\contentsline {section}{\numberline {3}Nociones de probabilidad}{5}{section.3}%
+\contentsline {section}{\numberline {4}Aplicación de probabilidad}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Contexto general del experimento}{5}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Evento simple}{5}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Evento compuesto}{6}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Metología}{7}{section.5}%
+\contentsline {section}{\numberline {6}Resultados}{8}{section.6}%
+\contentsline {section}{\numberline {7}Conclusiones}{9}{section.7}%
