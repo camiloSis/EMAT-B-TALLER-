@@ -14,11 +14,20 @@
 \contentsline {subsection}{\numberline {2.8}Regla de la multiplicación}{7}{subsection.2.8}%
 \contentsline {subsection}{\numberline {2.9}Probabilidad total}{7}{subsection.2.9}%
 \contentsline {subsection}{\numberline {2.10}Teorema de Bayes}{7}{subsection.2.10}%
-\contentsline {section}{\numberline {3}Metología}{8}{section.3}%
-\contentsline {section}{\numberline {4}Resultados}{9}{section.4}%
-\contentsline {section}{\numberline {5}Aplicación de probabilidad}{9}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Contexto general del experimento}{9}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Evento simple}{9}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Evento compuesto}{9}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Aplicación del teorema de Bayes}{10}{subsection.5.4}%
-\contentsline {section}{\numberline {6}Conclusiones}{12}{section.6}%
+\contentsline {subsection}{\numberline {2.11}Variable aleatoria}{7}{subsection.2.11}%
+\contentsline {subsubsection}{\numberline {2.11.1}Tipos de variable aleatoria}{8}{subsubsection.2.11.1}%
+\contentsline {subsubsection}{\numberline {2.11.2}Función de distribución acumulada}{8}{subsubsection.2.11.2}%
+\contentsline {subsubsection}{\numberline {2.11.3}Esperanza matemática}{8}{subsubsection.2.11.3}%
+\contentsline {subsubsection}{\numberline {2.11.4}Varianza y desviación estándar}{9}{subsubsection.2.11.4}%
+\contentsline {subsubsection}{\numberline {2.11.5}Distribuciones de probabilidad comunes}{9}{subsubsection.2.11.5}%
+\contentsline {section}{\numberline {3}Metología}{10}{section.3}%
+\contentsline {section}{\numberline {4}Resultados}{11}{section.4}%
+\contentsline {section}{\numberline {5}Aplicación de probabilidad}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Contexto general del experimento}{11}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Evento simple}{11}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Evento compuesto}{11}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Aplicación del teorema de Bayes}{12}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Aplicación de variable aleatoria}{13}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.1}Caso sin reposición}{13}{subsubsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {5.5.2}Caso con reposición}{13}{subsubsection.5.5.2}%
+\contentsline {section}{\numberline {6}Conclusiones}{15}{section.6}%

@@ -34,6 +34,7 @@
 % ---------- Imágenes y tablas ----------
 \usepackage{graphicx}
 \usepackage{booktabs}
+\usepackage{multirow}
 \usepackage{xcolor}
 \usepackage{enumitem}
 
@@ -217,6 +218,151 @@ $$P(E_k\mid E) = \frac{P(E_k)\,P(E\mid E_k)}{\sum_{i=1}^{n} P(E_i)\,P(E\mid E_i)
 
 Este teorema permite actualizar la probabilidad de una hipótesis a partir de la información observada.
 
+\subsection{Variable aleatoria}
+
+Una \textbf{variable aleatoria} (v.a.) es una función que asigna un número real a cada resultado posible de un experimento aleatorio. Se representa como
+$X:\Omega\rightarrow\mathbb{R}$, donde $\Omega$ es el espacio muestral. 
+Las variables aleatorias se denotan generalmente mediante letras mayúsculas 
+($X,Y,Z$), mientras que sus valores particulares se representan mediante letras 
+minúsculas ($x,y,z$).
+
+\subsubsection{Tipos de variable aleatoria}
+
+\textbf{Variable aleatoria discreta.} Toma un número finito o infinito numerable 
+de valores. Se caracteriza mediante su función de probabilidad o función de masa 
+de probabilidad:
+
+\begin{equation}
+    P(X=x_i)=p_i,
+    \qquad p_i\geq 0,
+    \qquad \sum_i p_i=1.
+\end{equation}
+
+\textbf{Variable aleatoria continua.} Es aquella cuya distribución puede 
+describirse mediante una función de densidad de probabilidad $f(x)$, que satisface:
+
+\begin{equation}
+    f(x)\geq 0,
+    \qquad
+    \int_{-\infty}^{\infty}f(x)\,dx=1.
+\end{equation}
+
+En este caso, la probabilidad de que $X$ pertenezca a un intervalo se obtiene 
+mediante el área bajo la función de densidad:
+
+\begin{equation}
+    P(a\leq X\leq b)=\int_a^b f(x)\,dx.
+\end{equation}
+
+Además, para una variable aleatoria continua se cumple que
+$P(X=x)=0$ para cualquier valor puntual $x$.
+
+\subsubsection{Función de distribución acumulada}
+
+Para cualquier variable aleatoria, discreta o continua, la función de 
+distribución acumulada se define como:
+
+\begin{equation}
+    F(x)=P(X\leq x).
+\end{equation}
+
+La función $F(x)$ es no decreciente y satisface:
+
+\begin{equation}
+    \lim_{x\to-\infty}F(x)=0,
+    \qquad
+    \lim_{x\to\infty}F(x)=1.
+\end{equation}
+
+Para una variable aleatoria discreta:
+
+\begin{equation}
+    F(x)=\sum_{x_i\leq x}P(X=x_i)
+        =\sum_{x_i\leq x}p_i.
+\end{equation}
+
+Para una variable aleatoria continua con función de densidad $f(x)$:
+
+\begin{equation}
+    F(x)=\int_{-\infty}^{x}f(t)\,dt.
+\end{equation}
+
+Cuando $F$ es derivable, la función de densidad se obtiene mediante
+
+\begin{equation}
+    f(x)=F'(x).
+\end{equation}
+
+\subsubsection{Esperanza matemática}
+
+La esperanza matemática representa el valor promedio teórico de una variable 
+aleatoria. Para una variable aleatoria discreta se define como:
+
+\begin{equation}
+    E(X)=\sum_i x_i p_i.
+\end{equation}
+
+Para una variable aleatoria continua:
+
+\begin{equation}
+    E(X)=\int_{-\infty}^{\infty}x f(x)\,dx.
+\end{equation}
+
+Cuando las esperanzas involucradas existen, se cumplen las propiedades de 
+linealidad:
+
+\begin{equation}
+    E(aX+b)=aE(X)+b,
+    \qquad
+    E(X+Y)=E(X)+E(Y).
+\end{equation}
+
+La segunda propiedad no requiere que $X$ e $Y$ sean independientes.
+
+\subsubsection{Varianza y desviación estándar}
+
+La varianza mide la dispersión de los valores de una variable aleatoria respecto 
+a su esperanza matemática y se define como:
+
+\begin{equation}
+    \operatorname{Var}(X)
+    =E\left[(X-E(X))^2\right].
+\end{equation}
+
+Cuando $E(X^2)$ es finita, también puede expresarse como:
+
+\begin{equation}
+    \operatorname{Var}(X)
+    =E(X^2)-[E(X)]^2.
+\end{equation}
+
+Para una transformación lineal se cumple:
+
+\begin{equation}
+    \operatorname{Var}(aX+b)
+    =a^2\operatorname{Var}(X).
+\end{equation}
+
+La desviación estándar es la raíz cuadrada positiva de la varianza:
+
+\begin{equation}
+    \sigma_X=\sqrt{\operatorname{Var}(X)}.
+\end{equation}
+
+\subsubsection{Distribuciones de probabilidad comunes}
+
+Entre las distribuciones discretas destacan la \textbf{Bernoulli}, que modela 
+un único ensayo con dos resultados posibles; la \textbf{Binomial}, que 
+representa el número de éxitos en un número fijo de ensayos independientes; 
+y la \textbf{Poisson}, utilizada para modelar el número de ocurrencias de 
+eventos en un intervalo determinado.
+
+Entre las distribuciones continuas destacan la \textbf{Uniforme}, caracterizada 
+por una densidad constante en un intervalo; la \textbf{Normal}, cuya distribución 
+está determinada por su media $\mu$ y varianza $\sigma^2$; y la 
+\textbf{Exponencial}, empleada frecuentemente para modelar tiempos de espera 
+entre eventos.
+
 \clearpage
 
 \section{Metología}
@@ -295,7 +441,6 @@ Se definen los eventos:
 $$
 E_1 = \{\text{verde oscuro, fucsia, marrón, azul, negro, rojo, morado}\}
 $$
-
 $$
 E_2 = \{\text{amarillo, rosa, celeste, anaranjado, verde claro}\}
 $$
@@ -357,6 +502,75 @@ Finalmente, se verifica que
 $$
 P(E_1\mid E)+P(E_2\mid E)=\frac{2}{3}+\frac{1}{3}=1
 $$
+
+\subsection{Aplicación de variable aleatoria}
+
+\subsubsection{Caso sin reposición}
+
+Sea el experimento aleatorio que consiste en extraer 2 plumones, sin reposición, de un conjunto de 12 plumones de colores, de los cuales $K=5$ son claros (amarillo, rosa, celeste, anaranjado, verde claro) y $12-K=7$ son oscuros (verde oscuro, fucsia, marrón, azul, negro, rojo, morado).
+
+El espacio muestral está formado por todas las combinaciones posibles de 2 plumones tomados de los 12:
+\begin{equation}
+    \Omega = \{\{P_i, P_j\} : i \neq j,\ i,j \in \{1,2,\dots,12\}\}, \qquad |\Omega| = \binom{12}{2} = 66
+\end{equation}
+donde cada elemento $\{P_i, P_j\}$ representa un par no ordenado de plumones, ya que al extraerlos juntos (sin reposición) el orden de selección no es relevante.
+
+Se define la variable aleatoria $X$ como el número de plumones claros obtenidos:
+\begin{equation}
+    X: \Omega \rightarrow \{0,1,2\}, \qquad X(\{P_i,P_j\}) = \text{número de plumones claros en } \{P_i,P_j\}
+\end{equation}
+
+La distribución de $X$ sigue el modelo \textbf{Hipergeométrico}, y se resume en la siguiente tabla:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Resultado (tipo) & $X$ (N° de claros) & $P(X=x_i)$ \\
+\hline
+Oscuro--Oscuro & 0 & $\dfrac{\binom{7}{2}\binom{5}{0}}{\binom{12}{2}} = \dfrac{21}{66} = \dfrac{7}{22}$ \\[10pt]
+Claro--Oscuro & 1 & $\dfrac{\binom{5}{1}\binom{7}{1}}{\binom{12}{2}} = \dfrac{35}{66}$ \\[10pt]
+Claro--Claro & 2 & $\dfrac{\binom{5}{2}\binom{7}{0}}{\binom{12}{2}} = \dfrac{10}{66} = \dfrac{5}{33}$ \\
+\hline
+\textbf{Total} & & \textbf{1} \\
+\hline
+\end{tabular}
+\caption{Distribución de probabilidad de $X$, extracción sin reposición}
+\end{table}
+
+\subsubsection{Caso con reposición}
+
+Ahora se considera el mismo experimento, pero devolviendo el plumón extraído antes de la segunda extracción, de modo que las dos extracciones son independientes. La probabilidad de obtener un plumón claro en una extracción es $p = 5/12$.
+
+En este caso el espacio muestral sí distingue el orden de extracción:
+\begin{equation}
+    \Omega = \{CC,\ CO,\ OC,\ OO\}
+\end{equation}
+donde $C$ representa "salió claro" y $O$ representa "salió oscuro" en cada extracción, siendo la primera letra el resultado de la primera extracción y la segunda letra el resultado de la segunda. Como las extracciones son independientes, $CO$ y $OC$ son resultados distintos del espacio muestral (aunque produzcan el mismo valor de $X$).
+
+Se define la variable aleatoria $X$ como el número de plumones claros obtenidos:
+\begin{equation}
+    X: \Omega \rightarrow \{0,1,2\}, \qquad X(CC)=2,\ X(CO)=X(OC)=1,\ X(OO)=0
+\end{equation}
+
+La distribución de $X$ sigue el modelo \textbf{Binomial} con $n=2$ y $p=5/12$, y se resume en la siguiente tabla:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+$\Omega$ & $P$ & $X$ (N° de claros) & $P(X=x_i)$ \\
+\hline
+$CC$ & $\left(\dfrac{5}{12}\right)^2 = \dfrac{25}{144}$ & 2 & $\dfrac{25}{144}$ \\[10pt]
+$CO$ & $\dfrac{5}{12}\cdot\dfrac{7}{12} = \dfrac{35}{144}$ & \multirow{2}{*}{1} & \multirow{2}{*}{$\dfrac{70}{144} = \dfrac{35}{72}$} \\[6pt]
+$OC$ & $\dfrac{7}{12}\cdot\dfrac{5}{12} = \dfrac{35}{144}$ & & \\[6pt]
+$OO$ & $\left(\dfrac{7}{12}\right)^2 = \dfrac{49}{144}$ & 0 & $\dfrac{49}{144}$ \\
+\hline
+\textbf{Total} & \textbf{1} & & \textbf{1} \\
+\hline
+\end{tabular}
+\caption{Distribución de probabilidad de $X$, extracción con reposición}
+\end{table}
 
 \clearpage
 \section{Conclusiones}

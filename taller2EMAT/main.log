@@ -1,9 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.18)  21 SEP 2026 10:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.18)  25 SEP 2026 12:15
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
+**/home/camiloasd/Documentos/VS/informeEMAT/taller2EMAT/main
+(/home/camiloasd/Documentos/VS/informeEMAT/taller2EMAT/main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -22,80 +23,59 @@ File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen150
-)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2026-04-24 v7.01q Hypertext links for LaTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-)
-(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+ (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
-
-(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-
-(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count283
-)
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count284
-)
-(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
+) (/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
 \@linkdim=\dimen151
 \Hy@linkcounter=\count285
 \Hy@pagecounter=\count286
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2026-04-24 v7.01q Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-)
-(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count287
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2026-04-24 v7.01q Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -110,20 +90,16 @@ Package hyperref Info: Backreferencing OFF on input line 4219.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4466.
 \c@Hy@tempcnt=\count288
-
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4805.
 \XeTeXLinkMargin=\dimen152
-
-(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+ (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
+ (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count289
 \Field@Width=\dimen153
@@ -140,79 +116,55 @@ Package hyperref Info: PDF/A mode OFF on input line 6121.
 \c@Hfootnote=\count292
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2026-04-24 v7.01q Hyperref driver for pdfTeX
 \Fld@listcount=\count293
 \c@bookmark@seq@number=\count294
-
-(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+ (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-84.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
 \Hy@SectionHShift=\skip51
-)
-(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
-
-(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
-File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
-)
+ (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 \BKM@id=\count295
-))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2026/04/15 v26.6 The multilingual framework for LuaLaTeX, pdfLaT
-eX and XeLaTeX
+)) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2026/04/15 v26.6 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
 \babel@savecnt=\count296
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2078.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2080.
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2082.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2083.
-LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2084.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2086.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2111.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2078.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2080.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2082.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2083.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2084.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2086.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2111.
 \U@D=\dimen155
 \l@unhyphenated=\language90
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count297
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex)
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex)
 Package babel Info: Importing font and identification data for spanish
 (babel)             from babel-es.ini. Reported on input line 4330.
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+ (/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 \es@quottoks=\toks18
 \es@quotdepth=\count298
 ))
-LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) 
-on input line 15.
-LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1)
- on input line 15.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) on input line 15.
+LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1) on input line 15.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks19
 \inpenc@posthook=\toks20
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
-)
-(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
 \csq@reset=\count299
 \csq@gtype=\count300
@@ -221,20 +173,16 @@ Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
 \csq@maxlvl=\count303
 \csq@tshold=\count304
 \csq@ltx@everypar=\toks21
-
-(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
+ (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
-
-(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
+ (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
-))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
-
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 
 LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
                but only release `2025-11-01' is available.
@@ -262,54 +210,38 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box55
 \@float@everytoks=\toks25
 \@floatcapt=\box56
-)
-(/usr/share/texlive/texmf-dist/tex/latex/scrhack/scrhack.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/scrhack/scrhack.sty
 Package: scrhack 2024-09-04 v3.42 scrhack emulation package
-
-(/usr/share/texlive/texmf-dist/tex/latex/floatbytocbasic/floatbytocbasic.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/floatbytocbasic/floatbytocbasic.sty
 Package: floatbytocbasic 2023-08-16 v1.0 improved float package using tocbasic
-
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
 Package: tocbasic 2026/02/02 v3.49.2 KOMA-Script package (handling toc-files)
-
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2026/02/02 v3.49.2 KOMA-Script package (KOMA-Script-independen
-t basics and keyval usage)
-
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2026/02/02 v3.49.2 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
 Package: scrlfile 2026/02/02 v3.49.2 KOMA-Script package (file load hooks)
-
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
-Package: scrlfile-hook 2026/02/02 v3.49.2 KOMA-Script package (using LaTeX hook
-s)
-
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlogo.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2026/02/02 v3.49.2 KOMA-Script package (using LaTeX hooks)
+ (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlogo.sty
 Package: scrlogo 2026/02/02 v3.49.2 KOMA-Script package (logo)
 )))
 Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
-Already applied: [0000/00/00] Usage of raw or classic option list on input line
- 370.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line 370.
 )
 \scr@dte@tocline@numberwidth=\skip54
 \scr@dte@tocline@numbox=\box57
-)
-(/usr/share/texlive/texmf-dist/tex/latex/xpatch/xpatch.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/xpatch/xpatch.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2026-03-20 L3 programming layer (loader) 
-
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count307
 ))
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
-
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2025-10-09 L3 Experimental document command parser
-))))
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+)))) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2026/03/07 v6.0 Page Geometry
-
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count308
@@ -324,25 +256,21 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen169
 \Gm@layoutvoffset=\dimen170
 \Gm@dimlist=\toks26
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip55
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks27
 \ex@=\dimen171
-))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen172
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count311
@@ -392,25 +320,17 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks31
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/newtx/newtxtext.sty
-Package: newtxtext 2024/04/01 v1.744(Michael Sharpe) latex and unicode latex su
-pport for TeXGyreTermesX
-
-`newtxtext' v1.744, 2024/04/01 Text macros taking advantage of TeXGyre Termes a
-nd its extensions (msharpe)
-(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/newtx/newtxtext.sty
+Package: newtxtext 2024/04/01 v1.744(Michael Sharpe) latex and unicode latex support for TeXGyreTermesX
+ `newtxtext' v1.744, 2024/04/01 Text macros taking advantage of TeXGyre Termes and its extensions (msharpe) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -420,47 +340,36 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2025/11/04 v2.10 package option processing (HA)
-
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+ (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks32
 \XKV@tempa@toks=\toks33
 \XKV@tempb@toks=\toks34
 )
 \XKV@depth=\count323
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
-)
-(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
 \xs_counta=\count324
 \xs_countb=\count325
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+) (/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
 LaTeX Font Info:    Setting ntxLF sub-encoding to TS1/0 on input line 24.
 LaTeX Font Info:    Setting ntxTLF sub-encoding to TS1/0 on input line 24.
 LaTeX Font Info:    Setting ntxOsF sub-encoding to TS1/0 on input line 24.
 LaTeX Font Info:    Setting ntxTOsF sub-encoding to TS1/0 on input line 24.
-
-(/usr/share/texlive/texmf-dist/tex/generic/kastrup/binhex.tex)
+ (/usr/share/texlive/texmf-dist/tex/generic/kastrup/binhex.tex)
 \ntx@tmpcnta=\count326
 \ntx@cnt=\count327
-
-(/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty
 Package: fontaxes 2026-01-02 v2.0.2 Font selection axes (deprecated)
 Applying: [2024-11-01] Use figureversions if present on input line 74.
-
-(/usr/share/texlive/texmf-dist/tex/latex/figureversions/figureversions.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/figureversions/figureversions.sty
 Package: figureversions 2025-04-29 v1.0.1 Figure versions
 )
 Already applied: [0000-00-00] Fall back to v1 on input line 76.
@@ -480,17 +389,13 @@ Already applied: [0000-00-00] Fall back to v1 on input line 76.
 \tx@dimBB=\dimen192
 \tx@dimC=\dimen193
 LaTeX Info: Redefining \oldstylenums on input line 902.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/newtx/newtxmath.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/newtx/newtxmath.sty
 Package: newtxmath 2024/09/22 v1.754
-
-`newtxmath' v1.754, 2024/09/22 Math macros based originally on txfonts (msharpe
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/centernot.sty
+ `newtxmath' v1.754, 2024/09/22 Math macros based originally on txfonts (msharpe) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/centernot.sty
 Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 )
 \tx@cntz=\count328
-
-(/usr/share/texlive/texmf-dist/tex/generic/kastrup/binhex.tex)
+ (/usr/share/texlive/texmf-dist/tex/generic/kastrup/binhex.tex)
 \tx@Isdigit=\count329
 \tx@IsAlNum=\count330
 \tx@tA=\toks35
@@ -564,20 +469,17 @@ Now handling font encoding LMX ...
 ... no UTF-8 mapping file for font encoding LMX
 LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 664.
 LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 6
-64.
+(Font)              `largesymbols' in the math version `normal' on input line 664.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 664.
 LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 664
-.
+(Font)              `largesymbols' in the math version `bold' on input line 664.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 664.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  LMX/ntxexx/m/n --> LMX/ntxexx/b/n on input line 665.
 \symlargesymbolsTXA=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
-
 (Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 679.
 \tx@sbptoks=\toks37
 LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 902.
@@ -598,27 +500,22 @@ LaTeX Info: Redefining \Bbbk on input line 2847.
 LaTeX Info: Redefining \not on input line 2995.
 ) (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-)
-(/usr/share/texlive/texmf-dist/tex/latex/setspaceenhanced/setspaceenhanced.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/setspaceenhanced/setspaceenhanced.sty
 Package: setspaceenhanced 2024-11-12 v1.04 improved setspace package
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
 )
 \Gin@req@height=\dimen194
 \Gin@req@width=\dimen195
-)
-(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen196
 \lightrulewidth=\dimen197
@@ -637,245 +534,234 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count333
 \@lastruleclass=\count334
 \@thisrulewidth=\dimen264
-)
-(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip58
+\multirow@cntb=\count335
+\multirow@dima=\skip59
+\bigstrutjot=\dimen265
+) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
-\labelindent=\skip58
-\enit@outerparindent=\dimen265
+\labelindent=\skip60
+\enit@outerparindent=\dimen266
 \enit@toks=\toks38
 \enit@inbox=\box60
-\enit@count@id=\count335
-\enitdp@description=\count336
-)
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+\enit@count@id=\count336
+\enitdp@description=\count337
+) (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
-
-(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count337
-
-(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+\lrq@indent=\count338
+ (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count338
-\c@listtotal=\count339
-\c@listcount=\count340
-\c@liststart=\count341
-\c@liststop=\count342
-\c@citecount=\count343
-\c@citetotal=\count344
-\c@multicitecount=\count345
-\c@multicitetotal=\count346
-\c@instcount=\count347
-\c@maxnames=\count348
-\c@minnames=\count349
-\c@maxitems=\count350
-\c@minitems=\count351
-\c@citecounter=\count352
-\c@maxcitecounter=\count353
-\c@savedcitecounter=\count354
-\c@uniquelist=\count355
-\c@uniquename=\count356
-\c@refsection=\count357
-\c@refsegment=\count358
-\c@maxextratitle=\count359
-\c@maxextratitleyear=\count360
-\c@maxextraname=\count361
-\c@maxextradate=\count362
-\c@maxextraalpha=\count363
-\c@abbrvpenalty=\count364
-\c@highnamepenalty=\count365
-\c@lownamepenalty=\count366
-\c@maxparens=\count367
-\c@parenlevel=\count368
-\blx@tempcnta=\count369
-\blx@tempcntb=\count370
-\blx@tempcntc=\count371
-\c@blx@maxsection=\count372
-\blx@maxsegment@0=\count373
-\blx@notetype=\count374
-\blx@parenlevel@text=\count375
-\blx@parenlevel@foot=\count376
-\blx@sectionciteorder@0=\count377
-\blx@sectionciteorderinternal@0=\count378
-\blx@entrysetcounter=\count379
-\blx@biblioinstance=\count380
-\labelnumberwidth=\skip59
-\labelalphawidth=\skip60
-\biblabelsep=\skip61
-\bibitemsep=\skip62
-\bibnamesep=\skip63
-\bibinitsep=\skip64
-\bibparsep=\skip65
-\bibhang=\skip66
+\c@tabx@nest=\count339
+\c@listtotal=\count340
+\c@listcount=\count341
+\c@liststart=\count342
+\c@liststop=\count343
+\c@citecount=\count344
+\c@citetotal=\count345
+\c@multicitecount=\count346
+\c@multicitetotal=\count347
+\c@instcount=\count348
+\c@maxnames=\count349
+\c@minnames=\count350
+\c@maxitems=\count351
+\c@minitems=\count352
+\c@citecounter=\count353
+\c@maxcitecounter=\count354
+\c@savedcitecounter=\count355
+\c@uniquelist=\count356
+\c@uniquename=\count357
+\c@refsection=\count358
+\c@refsegment=\count359
+\c@maxextratitle=\count360
+\c@maxextratitleyear=\count361
+\c@maxextraname=\count362
+\c@maxextradate=\count363
+\c@maxextraalpha=\count364
+\c@abbrvpenalty=\count365
+\c@highnamepenalty=\count366
+\c@lownamepenalty=\count367
+\c@maxparens=\count368
+\c@parenlevel=\count369
+\blx@tempcnta=\count370
+\blx@tempcntb=\count371
+\blx@tempcntc=\count372
+\c@blx@maxsection=\count373
+\blx@maxsegment@0=\count374
+\blx@notetype=\count375
+\blx@parenlevel@text=\count376
+\blx@parenlevel@foot=\count377
+\blx@sectionciteorder@0=\count378
+\blx@sectionciteorderinternal@0=\count379
+\blx@entrysetcounter=\count380
+\blx@biblioinstance=\count381
+\labelnumberwidth=\skip61
+\labelalphawidth=\skip62
+\biblabelsep=\skip63
+\bibitemsep=\skip64
+\bibnamesep=\skip65
+\bibinitsep=\skip66
+\bibparsep=\skip67
+\bibhang=\skip68
 \blx@bcfin=\read4
 \blx@bcfout=\write3
 \blx@langwohyphens=\language91
-\c@mincomprange=\count381
-\c@maxcomprange=\count382
-\c@mincompwidth=\count383
+\c@mincomprange=\count382
+\c@maxcomprange=\count383
+\c@mincompwidth=\count384
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'apa.dbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/apa.dbx
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/apa.dbx
 File: apa.dbx 2025/08/27 v9.20 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count384
-\c@savedafterword=\count385
-\c@annotator=\count386
-\c@savedannotator=\count387
-\c@author=\count388
-\c@savedauthor=\count389
-\c@bookauthor=\count390
-\c@savedbookauthor=\count391
-\c@commentator=\count392
-\c@savedcommentator=\count393
-\c@editor=\count394
-\c@savededitor=\count395
-\c@editora=\count396
-\c@savededitora=\count397
-\c@editorb=\count398
-\c@savededitorb=\count399
-\c@editorc=\count400
-\c@savededitorc=\count401
-\c@foreword=\count402
-\c@savedforeword=\count403
-\c@holder=\count404
-\c@savedholder=\count405
-\c@introduction=\count406
-\c@savedintroduction=\count407
-\c@namea=\count408
-\c@savednamea=\count409
-\c@nameb=\count410
-\c@savednameb=\count411
-\c@namec=\count412
-\c@savednamec=\count413
-\c@translator=\count414
-\c@savedtranslator=\count415
-\c@shortauthor=\count416
-\c@savedshortauthor=\count417
-\c@shorteditor=\count418
-\c@savedshorteditor=\count419
-\c@narrator=\count420
-\c@savednarrator=\count421
-\c@execproducer=\count422
-\c@savedexecproducer=\count423
-\c@execdirector=\count424
-\c@savedexecdirector=\count425
-\c@with=\count426
-\c@savedwith=\count427
-\c@labelname=\count428
-\c@savedlabelname=\count429
-\c@institution=\count430
-\c@savedinstitution=\count431
-\c@lista=\count432
-\c@savedlista=\count433
-\c@listb=\count434
-\c@savedlistb=\count435
-\c@listc=\count436
-\c@savedlistc=\count437
-\c@listd=\count438
-\c@savedlistd=\count439
-\c@liste=\count440
-\c@savedliste=\count441
-\c@listf=\count442
-\c@savedlistf=\count443
-\c@location=\count444
-\c@savedlocation=\count445
-\c@organization=\count446
-\c@savedorganization=\count447
-\c@origlocation=\count448
-\c@savedoriglocation=\count449
-\c@origpublisher=\count450
-\c@savedorigpublisher=\count451
-\c@publisher=\count452
-\c@savedpublisher=\count453
-\c@language=\count454
-\c@savedlanguage=\count455
-\c@origlanguage=\count456
-\c@savedoriglanguage=\count457
-\c@citation=\count458
-\c@savedcitation=\count459
-\c@pageref=\count460
-\c@savedpageref=\count461
-\shorthandwidth=\skip67
-\shortjournalwidth=\skip68
-\shortserieswidth=\skip69
-\shorttitlewidth=\skip70
-\shortauthorwidth=\skip71
-\shorteditorwidth=\skip72
-\locallabelnumberwidth=\skip73
-\locallabelalphawidth=\skip74
-\localshorthandwidth=\skip75
-\localshortjournalwidth=\skip76
-\localshortserieswidth=\skip77
-\localshorttitlewidth=\skip78
-\localshortauthorwidth=\skip79
-\localshorteditorwidth=\skip80
+\c@afterword=\count385
+\c@savedafterword=\count386
+\c@annotator=\count387
+\c@savedannotator=\count388
+\c@author=\count389
+\c@savedauthor=\count390
+\c@bookauthor=\count391
+\c@savedbookauthor=\count392
+\c@commentator=\count393
+\c@savedcommentator=\count394
+\c@editor=\count395
+\c@savededitor=\count396
+\c@editora=\count397
+\c@savededitora=\count398
+\c@editorb=\count399
+\c@savededitorb=\count400
+\c@editorc=\count401
+\c@savededitorc=\count402
+\c@foreword=\count403
+\c@savedforeword=\count404
+\c@holder=\count405
+\c@savedholder=\count406
+\c@introduction=\count407
+\c@savedintroduction=\count408
+\c@namea=\count409
+\c@savednamea=\count410
+\c@nameb=\count411
+\c@savednameb=\count412
+\c@namec=\count413
+\c@savednamec=\count414
+\c@translator=\count415
+\c@savedtranslator=\count416
+\c@shortauthor=\count417
+\c@savedshortauthor=\count418
+\c@shorteditor=\count419
+\c@savedshorteditor=\count420
+\c@narrator=\count421
+\c@savednarrator=\count422
+\c@execproducer=\count423
+\c@savedexecproducer=\count424
+\c@execdirector=\count425
+\c@savedexecdirector=\count426
+\c@with=\count427
+\c@savedwith=\count428
+\c@labelname=\count429
+\c@savedlabelname=\count430
+\c@institution=\count431
+\c@savedinstitution=\count432
+\c@lista=\count433
+\c@savedlista=\count434
+\c@listb=\count435
+\c@savedlistb=\count436
+\c@listc=\count437
+\c@savedlistc=\count438
+\c@listd=\count439
+\c@savedlistd=\count440
+\c@liste=\count441
+\c@savedliste=\count442
+\c@listf=\count443
+\c@savedlistf=\count444
+\c@location=\count445
+\c@savedlocation=\count446
+\c@organization=\count447
+\c@savedorganization=\count448
+\c@origlocation=\count449
+\c@savedoriglocation=\count450
+\c@origpublisher=\count451
+\c@savedorigpublisher=\count452
+\c@publisher=\count453
+\c@savedpublisher=\count454
+\c@language=\count455
+\c@savedlanguage=\count456
+\c@origlanguage=\count457
+\c@savedoriglanguage=\count458
+\c@citation=\count459
+\c@savedcitation=\count460
+\c@pageref=\count461
+\c@savedpageref=\count462
+\shorthandwidth=\skip69
+\shortjournalwidth=\skip70
+\shortserieswidth=\skip71
+\shorttitlewidth=\skip72
+\shortauthorwidth=\skip73
+\shorteditorwidth=\skip74
+\locallabelnumberwidth=\skip75
+\locallabelalphawidth=\skip76
+\localshorthandwidth=\skip77
+\localshortjournalwidth=\skip78
+\localshortserieswidth=\skip79
+\localshorttitlewidth=\skip80
+\localshortauthorwidth=\skip81
+\localshorteditorwidth=\skip82
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
 File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count462
-\c@textcitetotal=\count463
-\c@textcitemaxnames=\count464
-\c@biburlbigbreakpenalty=\count465
-\c@biburlbreakpenalty=\count466
-\c@biburlnumpenalty=\count467
-\c@biburlucpenalty=\count468
-\c@biburllcpenalty=\count469
+\c@textcitecount=\count463
+\c@textcitetotal=\count464
+\c@textcitemaxnames=\count465
+\c@biburlbigbreakpenalty=\count466
+\c@biburlbreakpenalty=\count467
+\c@biburlnumpenalty=\count468
+\c@biburlucpenalty=\count469
+\c@biburllcpenalty=\count470
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count470
+\c@smartand=\count471
 )
 Package biblatex Info: Trying to load bibliography style 'apa'...
 Package biblatex Info: ... file 'apa.bbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/apa.bbx
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/apa.bbx
 File: apa.bbx 2025/08/27 v9.20 APA biblatex references style
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count471
-\c@bbx:relatedtotal=\count472
+\c@bbx:relatedcount=\count472
+\c@bbx:relatedtotal=\count473
 )
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defin
-ed, overwriting.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already d
-efined, overwriting.
-Package biblatex Info: Delimiter 'nonameyeardelim' in context 'bib' already def
-ined, overwriting.
-Package biblatex Info: Delimiter 'nonameyeardelim' in context 'biblist' already
- defined, overwriting.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'bib' already defined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'biblist' already defined, overwriting.
 )
 Package biblatex Info: Trying to load citation style 'apa'...
 Package biblatex Info: ... file 'apa.cbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/apa.cbx
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/apa.cbx
 File: apa.cbx 2025/08/27 v9.20 APA biblatex citation style
-Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
- overwriting.
-Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined
-, overwriting.
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
+Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined, overwriting.
 Package biblatex Info: Redefining '\fullcite'.
 Package biblatex Info: Redefining '\citeauthor'.
 Package biblatex Info: Redefining '\citeyear'.
@@ -894,8 +780,7 @@ Package biblatex Info: Redefining '\textcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -904,41 +789,36 @@ Package biblatex Info: ... and expl3
 (biblatex)             2026-03-20 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
-))
-(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
-
-\f@nch@headwidth=\skip81
-\f@nch@offset@elh=\skip82
-\f@nch@offset@erh=\skip83
-\f@nch@offset@olh=\skip84
-\f@nch@offset@orh=\skip85
-\f@nch@offset@elf=\skip86
-\f@nch@offset@erf=\skip87
-\f@nch@offset@olf=\skip88
-\f@nch@offset@orf=\skip89
-\f@nch@height=\skip90
-\f@nch@footalignment=\skip91
-\f@nch@widthL=\skip92
-\f@nch@widthC=\skip93
-\f@nch@widthR=\skip94
+\f@nch@headwidth=\skip83
+\f@nch@offset@elh=\skip84
+\f@nch@offset@erh=\skip85
+\f@nch@offset@olh=\skip86
+\f@nch@offset@orh=\skip87
+\f@nch@offset@elf=\skip88
+\f@nch@offset@erf=\skip89
+\f@nch@offset@olf=\skip90
+\f@nch@offset@orf=\skip91
+\f@nch@height=\skip92
+\f@nch@footalignment=\skip93
+\f@nch@widthL=\skip94
+\f@nch@widthC=\skip95
+\f@nch@widthR=\skip96
 \@temptokenb=\toks39
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
-LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line
- 73.
-
-(/usr/share/texlive/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
+LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line 74.
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 73.
+(Font)              scaled to size 10.0pt on input line 74.
  (./main.aux
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
@@ -947,55 +827,47 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 73.
-LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
- 73.
-
-(/usr/share/texlive/texmf-dist/tex/latex/newtx/omlntxmi.fd
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 74.
+LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 74.
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 73.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-73.
-
-(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 74.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 74.
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 73.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 73.
-
-(/usr/share/texlive/texmf-dist/tex/latex/newtx/lmsntxsy.fd
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 74.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 74.
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 73.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 73.
-
-(/usr/share/texlive/texmf-dist/tex/latex/newtx/lmxntxexx.fd
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 74.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 74.
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 73.
-Package hyperref Info: Link coloring ON on input line 73.
-LaTeX Info: Redefining \. on input line 73.
-LaTeX Info: Redefining \% on input line 73.
+LaTeX Font Info:    ... okay on input line 74.
+Package hyperref Info: Link coloring ON on input line 74.
+LaTeX Info: Redefining \. on input line 74.
+LaTeX Info: Redefining \% on input line 74.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1031,47 +903,41 @@ LaTeX Info: Redefining \% on input line 73.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Command `\dddot' is already robust on input line 73.
-LaTeX Info: Command `\ddddot' is already robust on input line 73.
+LaTeX Info: Command `\dddot' is already robust on input line 74.
+LaTeX Info: Command `\ddddot' is already robust on input line 74.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count473
-\scratchdimen=\dimen266
+\scratchcounter=\count474
+\scratchdimen=\dimen267
 \scratchbox=\box61
-\nofMPsegments=\count474
-\nofMParguments=\count475
+\nofMPsegments=\count475
+\nofMParguments=\count476
 \everyMPshowfont=\toks40
-\MPscratchCnt=\count476
-\MPscratchDim=\dimen267
-\MPnumerator=\count477
-\makeMPintoPDFobject=\count478
+\MPscratchCnt=\count477
+\MPscratchDim=\dimen268
+\MPnumerator=\count478
+\makeMPintoPDFobject=\count479
 \everyMPtoPDFconversion=\toks41
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\c@mv@tabular=\count479
-\c@mv@boldtabular=\count480
+\c@mv@tabular=\count480
+\c@mv@boldtabular=\count481
 Package biblatex Info: Trying to load language 'spanish' -> 'spanish-apa'...
 Package biblatex Info: ... file 'spanish-apa.lbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/spanish-apa.lbx
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/spanish-apa.lbx
 File: spanish-apa.lbx 2025/08/27 v9.20 APA biblatex localisation
 Package biblatex Info: Trying to load language 'spanish'...
 Package biblatex Info: ... file 'spanish.lbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
 File: spanish.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load language 'spanish'...
 Package biblatex Info: ... file 'spanish.lbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
 File: spanish.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 ))
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -1082,8 +948,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 73.
-Package biblatex Info: Reference segment=0 on input line 73.
+Package biblatex Info: Reference section=0 on input line 74.
+Package biblatex Info: Reference segment=0 on input line 74.
  (./portada.tex
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 18.0pt on input line 11.
@@ -1108,8 +974,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 13.0pt on input line 35.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 13.0pt on input line 35.
-LaTeX Font Info:    Trying to load font information for OT1+minntx on input lin
-e 51.
+LaTeX Font Info:    Trying to load font information for OT1+minntx on input line 51.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/ot1minntx.fd
 File: ot1minntx.fd 2023/09/09 v1.1 font definition file for OT1/minntx
 )
@@ -1137,10 +1002,8 @@ LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
 (Font)              scaled to size 7.3pt on input line 51.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
 (Font)              scaled to size 5.5pt on input line 51.
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-51.
-
-(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxmia.fd
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 51.
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
@@ -1149,10 +1012,8 @@ LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
 (Font)              scaled to size 7.3pt on input line 51.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
 (Font)              scaled to size 5.5pt on input line 51.
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-51.
-
-(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsym.fd
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 51.
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
@@ -1161,10 +1022,8 @@ LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
 (Font)              scaled to size 7.3pt on input line 51.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
 (Font)              scaled to size 5.5pt on input line 51.
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-51.
-
-(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsyc.fd
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 51.
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
@@ -1185,53 +1044,48 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 12.5pt on input line 55.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
-st/fonts/enc/dvips/newtx/ntx-ec-tlf.enc} <./img/Escudo_UNSA.png>])
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc} <./img/Escudo_UNSA.png>])
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 79.
+(Font)              scaled to size 14.4pt on input line 80.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 79.
+(Font)              scaled to size 14.4pt on input line 80.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.0pt on input line 80.
+(Font)              scaled to size 10.0pt on input line 81.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 82.
+(Font)              scaled to size 10.0pt on input line 83.
 <img/logo_episunsa.png, id=14, 195.73125pt x 58.2175pt>
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 85.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 86.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.0pt on input line 85.
+(Font)              scaled to size 7.0pt on input line 86.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 7.0pt on input line 85.
+(Font)              scaled to size 7.0pt on input line 86.
 <img/logo_abet.png, id=15, 58.2175pt x 65.24374pt>
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 85.
+Package pdftex.def Info: img/logo_abet.png  used on input line 86.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
-e 85.
-
-(/usr/share/texlive/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 86.
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 85.
+(Font)              scaled to size 10.0pt on input line 86.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.85 \newpage
-              [1{/usr/share/texlive/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.e
-nc} <./img/logo_episunsa.png> <./img/logo_abet.png>]
+l.86 \newpage
+              [1{/usr/share/texlive/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc} <./img/logo_episunsa.png> <./img/logo_abet.png>]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 92.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 93.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 92.
+Package pdftex.def Info: img/logo_abet.png  used on input line 93.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
  [2] (./main.toc
 LaTeX Info: Redefining \sptext on input line 1.
@@ -1243,118 +1097,153 @@ LaTeX Info: Redefining \% on input line 1.
 
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 94.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 95.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 94.
+Package pdftex.def Info: img/logo_abet.png  used on input line 95.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
  [3
 
 ]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 101.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 102.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 101.
+Package pdftex.def Info: img/logo_abet.png  used on input line 102.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
-
-[4
+ [4
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 106.
+(Font)              scaled to size 12.0pt on input line 107.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 106.
+(Font)              scaled to size 12.0pt on input line 107.
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 146.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 147.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 146.
+Package pdftex.def Info: img/logo_abet.png  used on input line 147.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
  [5
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 185.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 186.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 185.
+Package pdftex.def Info: img/logo_abet.png  used on input line 186.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
-
-[6]
+ [6]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 220.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 235.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 220.
+Package pdftex.def Info: img/logo_abet.png  used on input line 235.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
  [7]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 223.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 307.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 223.
+Package pdftex.def Info: img/logo_abet.png  used on input line 307.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [8
+ [8]
+File: img/logo_episunsa.png Graphic file (type png)
+<use img/logo_episunsa.png>
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 366.
+(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
+File: img/logo_abet.png Graphic file (type png)
+<use img/logo_abet.png>
+Package pdftex.def Info: img/logo_abet.png  used on input line 366.
+(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
+ [9]
+File: img/logo_episunsa.png Graphic file (type png)
+<use img/logo_episunsa.png>
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 369.
+(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
+File: img/logo_abet.png Graphic file (type png)
+<use img/logo_abet.png>
+Package pdftex.def Info: img/logo_abet.png  used on input line 369.
+(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
+ [10
 
 ]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 283.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 429.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 283.
+Package pdftex.def Info: img/logo_abet.png  used on input line 429.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [9
+ [11
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 288.
+(Font)              scaled to size 7.3pt on input line 434.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 288.
+(Font)              scaled to size 5.5pt on input line 434.
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 353.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 498.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 353.
+Package pdftex.def Info: img/logo_abet.png  used on input line 498.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [10]
+ [12]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 361.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 550.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 361.
+Package pdftex.def Info: img/logo_abet.png  used on input line 550.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [11]
+ [13
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.550 
+      ]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 363.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 575.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 363.
+Package pdftex.def Info: img/logo_abet.png  used on input line 575.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [12
+ [14
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.575 \clearpage
+                ]
+File: img/logo_episunsa.png Graphic file (type png)
+<use img/logo_episunsa.png>
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 577.
+(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
+File: img/logo_abet.png Graphic file (type png)
+<use img/logo_abet.png>
+Package pdftex.def Info: img/logo_abet.png  used on input line 577.
+(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
+ [15
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 365.
+LaTeX Warning: Empty bibliography on input line 579.
 
 (./main.aux
 LaTeX Info: Redefining \sptext on input line 9.
@@ -1370,26 +1259,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25960 strings out of 467356
- 442205 string characters out of 5418691
- 1433533 words of memory out of 6000000
- 54646 multiletter control sequences out of 15000+600000
+ 26079 strings out of 467356
+ 444214 string characters out of 5418691
+ 1437146 words of memory out of 6000000
+ 54727 multiletter control sequences out of 15000+600000
  711472 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,17n,134p,1181b,2897s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI5.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/new
-tx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (13 pages, 656362 bytes).
+ 131i,17n,134p,1231b,2897s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsym.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on main.pdf (16 pages, 702008 bytes).
 PDF statistics:
- 259 PDF objects out of 1000 (max. 8388607)
- 214 compressed objects within 3 object streams
- 42 named destinations out of 1000 (max. 500000)
- 200 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 349 PDF objects out of 1000 (max. 8388607)
+ 299 compressed objects within 3 object streams
+ 75 named destinations out of 1000 (max. 500000)
+ 272 words of extra memory for PDF output out of 10000 (max. 10000000)
 
