@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.18)  25 SEP 2026 12:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.18)  28 SEP 2026 16:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1205,45 +1205,57 @@ Package pdftex.def Info: img/logo_abet.png  used on input line 498.
  [12]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 550.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 570.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 550.
+Package pdftex.def Info: img/logo_abet.png  used on input line 570.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
  [13
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.550 
-      ]
+l.570         \end{equation}
+                            ]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 575.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 632.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 575.
+Package pdftex.def Info: img/logo_abet.png  used on input line 632.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [14
+[14]
+File: img/logo_episunsa.png Graphic file (type png)
+<use img/logo_episunsa.png>
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 644.
+(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
+File: img/logo_abet.png Graphic file (type png)
+<use img/logo_abet.png>
+Package pdftex.def Info: img/logo_abet.png  used on input line 644.
+(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
+ [15
 pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.575 \clearpage
+l.644 \clearpage
                 ]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 577.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 646.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 577.
+Package pdftex.def Info: img/logo_abet.png  used on input line 646.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
- [15
+ [16
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 579.
+LaTeX Warning: Empty bibliography on input line 648.
 
 (./main.aux
 LaTeX Info: Redefining \sptext on input line 9.
@@ -1259,18 +1271,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26079 strings out of 467356
- 444214 string characters out of 5418691
- 1437146 words of memory out of 6000000
- 54727 multiletter control sequences out of 15000+600000
+ 26083 strings out of 467356
+ 444288 string characters out of 5418691
+ 1438146 words of memory out of 6000000
+ 54728 multiletter control sequences out of 15000+600000
  711472 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,17n,134p,1231b,2897s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsym.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (16 pages, 702008 bytes).
+Output written on main.pdf (17 pages, 687759 bytes).
 PDF statistics:
- 349 PDF objects out of 1000 (max. 8388607)
- 299 compressed objects within 3 object streams
- 75 named destinations out of 1000 (max. 500000)
+ 356 PDF objects out of 1000 (max. 8388607)
+ 304 compressed objects within 4 object streams
+ 78 named destinations out of 1000 (max. 500000)
  272 words of extra memory for PDF output out of 10000 (max. 10000000)
 

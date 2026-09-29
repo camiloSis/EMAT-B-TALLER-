@@ -522,21 +522,60 @@ Se define la variable aleatoria $X$ como el número de plumones claros obtenidos
 
 La distribución de $X$ sigue el modelo \textbf{Hipergeométrico}, y se resume en la siguiente tabla:
 
+\begin{itemize}
+    \item $P(\text{Oscuro--Oscuro}) =
+    \dfrac{\binom{7}{2}\binom{5}{0}}{\binom{12}{2}}
+    = \dfrac{21}{66} = \dfrac{7}{22}$
+
+    \item $P(\text{Claro--Oscuro}) =
+    \dfrac{\binom{5}{1}\binom{7}{1}}{\binom{12}{2}}
+    = \dfrac{35}{66}$
+
+    \item $P(\text{Claro--Claro}) =
+    \dfrac{\binom{5}{2}\binom{7}{0}}{\binom{12}{2}}
+    = \dfrac{10}{66} = \dfrac{5}{33}$
+\end{itemize}
+
 \begin{table}[h]
-\centering
-\begin{tabular}{|c|c|c|}
-\hline
-Resultado (tipo) & $X$ (N° de claros) & $P(X=x_i)$ \\
-\hline
-Oscuro--Oscuro & 0 & $\dfrac{\binom{7}{2}\binom{5}{0}}{\binom{12}{2}} = \dfrac{21}{66} = \dfrac{7}{22}$ \\[10pt]
-Claro--Oscuro & 1 & $\dfrac{\binom{5}{1}\binom{7}{1}}{\binom{12}{2}} = \dfrac{35}{66}$ \\[10pt]
-Claro--Claro & 2 & $\dfrac{\binom{5}{2}\binom{7}{0}}{\binom{12}{2}} = \dfrac{10}{66} = \dfrac{5}{33}$ \\
-\hline
-\textbf{Total} & & \textbf{1} \\
-\hline
-\end{tabular}
-\caption{Distribución de probabilidad de $X$, extracción sin reposición}
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        $x_i$ & $p(x)$ \\
+        \hline
+        0 & $\dfrac{7}{22}$ \\[10pt]
+        1 & $\dfrac{35}{66}$ \\[10pt]
+        2 & $\dfrac{5}{33}$ \\
+        \hline
+        \textbf{Total} & \textbf{1} \\
+        \hline
+    \end{tabular}
+    \caption{Distribución de probabilidad de $X$, extracción sin reposición}
 \end{table}
+
+\begin{itemize}
+    \item \textbf{Aplicación de esperanza matemática.} La esperanza de $X$ se
+    calcula como el promedio ponderado de sus valores, utilizando las
+    probabilidades de la tabla:
+
+        \begin{equation}
+        \begin{aligned}
+        E(X) &= \sum_i x_i p_i \\
+            &= 0\left(\frac{7}{22}\right)
+            + 1\left(\frac{35}{66}\right)
+            + 2\left(\frac{5}{33}\right) \\
+            &= \frac{55}{66}
+            = \frac{5}{6}
+            \approx 0.833.
+        \end{aligned}
+        \end{equation}
+
+    Por tanto, al extraer dos plumones sin reposición se esperan, en promedio,
+    $5/6$ plumones claros.
+\end{itemize} 
+
+\begin{itemize}
+    \item  En promedio, al extraer dos plumones sin devolver el primero, se espera obtener aproximadamente 0.83 plumones claros. Este valor describe el promedio teórico a largo plazo de muchas repeticiones; en una extracción concreta, el número de plumones claros será 0, 1 o 2.
+\end{itemize}
 
 \subsubsection{Caso con reposición}
 
@@ -555,22 +594,52 @@ Se define la variable aleatoria $X$ como el número de plumones claros obtenidos
 
 La distribución de $X$ sigue el modelo \textbf{Binomial} con $n=2$ y $p=5/12$, y se resume en la siguiente tabla:
 
+\begin{itemize}
+    \item $P(CC) = \left(\dfrac{5}{12}\right)^2 = \dfrac{25}{144}$
+    \item $P(CO) = \dfrac{5}{12}\cdot\dfrac{7}{12} = \dfrac{35}{144}$
+    \item $P(OC) = \dfrac{7}{12}\cdot\dfrac{5}{12} = \dfrac{35}{144}$
+    \item $P(OO) = \left(\dfrac{7}{12}\right)^2 = \dfrac{49}{144}$
+\end{itemize}
+
 \begin{table}[h]
-\centering
-\begin{tabular}{|c|c|c|c|}
-\hline
-$\Omega$ & $P$ & $X$ (N° de claros) & $P(X=x_i)$ \\
-\hline
-$CC$ & $\left(\dfrac{5}{12}\right)^2 = \dfrac{25}{144}$ & 2 & $\dfrac{25}{144}$ \\[10pt]
-$CO$ & $\dfrac{5}{12}\cdot\dfrac{7}{12} = \dfrac{35}{144}$ & \multirow{2}{*}{1} & \multirow{2}{*}{$\dfrac{70}{144} = \dfrac{35}{72}$} \\[6pt]
-$OC$ & $\dfrac{7}{12}\cdot\dfrac{5}{12} = \dfrac{35}{144}$ & & \\[6pt]
-$OO$ & $\left(\dfrac{7}{12}\right)^2 = \dfrac{49}{144}$ & 0 & $\dfrac{49}{144}$ \\
-\hline
-\textbf{Total} & \textbf{1} & & \textbf{1} \\
-\hline
-\end{tabular}
-\caption{Distribución de probabilidad de $X$, extracción con reposición}
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        $x_i$ & $p(x)$ \\
+        \hline
+        2 & $\dfrac{25}{144}$ \\[10pt]
+        1 & $\dfrac{35}{72}$ \\[10pt]
+        0 & $\dfrac{49}{144}$ \\
+        \hline
+        \textbf{Total} & \textbf{1} \\
+        \hline
+    \end{tabular}
+    \caption{Distribución de probabilidad de $X$, extracción con reposición}
 \end{table}
+
+\begin{itemize}
+    \item \textbf{Aplicación de esperanza matemática.} En este caso, la
+    esperanza se obtiene con las probabilidades de la distribución binomial:
+
+        \begin{equation}
+        \begin{aligned}
+        E(X) &= \sum_i x_i p_i \\
+            &= 0\left(\frac{49}{144}\right)
+            + 1\left(\frac{35}{72}\right)
+            + 2\left(\frac{25}{144}\right) \\
+            &= \frac{5}{6} \approx 0.833.
+        \end{aligned}
+        \end{equation}
+
+    Así, también se esperan $5/6$ plumones claros en promedio. Las esperanzas
+    coinciden en ambos casos porque se realizan dos extracciones con
+    probabilidad marginal $5/12$ de obtener un plumón claro; sin embargo, las
+    distribuciones de probabilidad de $X$ no son iguales.
+\end{itemize}
+
+\begin{itemize}
+    \item En promedio, al extraer dos plumones devolviendo el primero antes de la segunda extracción, también se espera obtener aproximadamente 0.83 plumones claros. Aunque el valor esperado coincide con el caso sin reposición, las probabilidades de obtener 0, 1 o 2 plumones claros son distintas porque la reposición cambia las probabilidades de la segunda extracción.
+\end{itemize}
 
 \clearpage
 \section{Conclusiones}
