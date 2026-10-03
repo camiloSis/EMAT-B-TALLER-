@@ -1,0 +1,13 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Descripción de los datos}{2}{section.1}%
+\contentsline {section}{\numberline {2}Metodología}{2}{section.2}%
+\contentsline {section}{\numberline {3}Resultados}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Lectura de datos}{2}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Tabla de frecuencias}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Histogramas}{3}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Ojiva, cuartiles y diagrama de caja y bigote}{4}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Interpretación de los resultados}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Distribución de frecuencias}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Histogramas y ojiva}{4}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Resumen de cinco puntos y diagrama de caja}{5}{subsection.4.3}%
+\contentsline {section}{\numberline {A}Código utilizado en el Rj Editor de jamovi}{5}{section.A}%
