@@ -521,10 +521,6 @@ Se define la variable aleatoria $X$ como el número de plumones claros obtenidos
 \end{equation}
 
 \begin{itemize}
-    \item La distribución de $X$ sigue un modelo \textbf{Hipergeométrico}, pues se extraen 2 plumones de una población finita de 12, compuesta por 5 claros y 7 oscuros, sin reposición. Por tanto, la composición del conjunto cambia tras la primera extracción y las extracciones son dependientes. Como $X$ cuenta la cantidad de plumones claros obtenidos, su distribución se resume en la siguiente tabla:
-\end{itemize}
-
-\begin{itemize}
     \item $P(\text{Oscuro--Oscuro}) =
     \dfrac{\binom{7}{2}\binom{5}{0}}{\binom{12}{2}}
     = \dfrac{21}{66} = \dfrac{7}{22}$
@@ -553,6 +549,19 @@ Se define la variable aleatoria $X$ como el número de plumones claros obtenidos
     \end{tabular}
     \caption{Distribución de probabilidad de $X$, extracción sin reposición}
 \end{table}
+
+\begin{itemize}
+    \item Las probabilidades obtenidas corresponden a una distribución \textbf{Hipergeométrica}, pues se extraen 2 plumones de una población finita de 12, compuesta por 5 claros y 7 oscuros, sin reposición. Por tanto, la composición del conjunto cambia tras la primera extracción y las extracciones son dependientes.
+    \item La función de probabilidad general de una variable aleatoria hipergeométrica es:
+    \begin{equation}
+        P(X=x)=\frac{\binom{K}{x}\binom{N-K}{n-x}}{\binom{N}{n}}.
+    \end{equation}
+    \item En esta expresión, $N$ es el número total de elementos de la población, $K$ es la cantidad de elementos considerados éxitos, $N-K$ es la cantidad de elementos restantes, $n$ es el número de elementos extraídos y $x$ es el número de éxitos obtenidos. Para este experimento, $N=12$, $K=5$, $N-K=7$ y $n=2$; por tanto:
+    \begin{equation}
+        P(X=x)=\frac{\binom{5}{x}\binom{7}{2-x}}{\binom{12}{2}},
+        \qquad x=0,1,2.
+    \end{equation}
+\end{itemize}
 
 \begin{itemize}
     \item \textbf{Aplicación de esperanza matemática.} La esperanza de $X$ se
@@ -595,10 +604,6 @@ Se define la variable aleatoria $X$ como el número de plumones claros obtenidos
 \end{equation}
 
 \begin{itemize}
-    \item La distribución de $X$ sigue un modelo \textbf{Binomial} con $n=2$ y $p=5/12$, pues se realizan dos extracciones independientes al devolver el plumón antes de la segunda. Así, la probabilidad de obtener un plumón claro se mantiene constante en cada extracción, y $X$ cuenta el número de éxitos obtenidos. La distribución se resume en la siguiente tabla:
-\end{itemize}
-
-\begin{itemize}
     \item $P(CC) = \left(\dfrac{5}{12}\right)^2 = \dfrac{25}{144}$
     \item $P(CO) = \dfrac{5}{12}\cdot\dfrac{7}{12} = \dfrac{35}{144}$
     \item $P(OC) = \dfrac{7}{12}\cdot\dfrac{5}{12} = \dfrac{35}{144}$
@@ -620,6 +625,19 @@ Se define la variable aleatoria $X$ como el número de plumones claros obtenidos
     \end{tabular}
     \caption{Distribución de probabilidad de $X$, extracción con reposición}
 \end{table}
+
+\begin{itemize}
+    \item Las probabilidades obtenidas corresponden a una distribución \textbf{Binomial} con $n=2$ y $p=5/12$, pues se realizan dos extracciones independientes al devolver el plumón antes de la segunda. Así, la probabilidad de obtener un plumón claro se mantiene constante en cada extracción y $X$ cuenta el número de éxitos obtenidos.
+    \item La función de probabilidad general de una variable aleatoria binomial es:
+    \begin{equation}
+        P(X=x)=\binom{n}{x}p^xq^{n-x}, \qquad q=1-p.
+    \end{equation}
+    \item En esta expresión, $n$ es el número de ensayos independientes, $p$ es la probabilidad de éxito en cada ensayo, $q$ es la probabilidad de fracaso y $x$ es el número de éxitos obtenidos. Para este experimento, $n=2$, $p=5/12$ y $q=1-p=7/12$; por tanto:
+    \begin{equation}
+        P(X=x)=\binom{2}{x}\left(\frac{5}{12}\right)^x
+        \left(\frac{7}{12}\right)^{2-x}, \qquad x=0,1,2.
+    \end{equation}
+\end{itemize}
 
 \begin{itemize}
     \item \textbf{Aplicación de esperanza matemática.} En este caso, la
