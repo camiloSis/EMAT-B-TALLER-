@@ -520,7 +520,9 @@ Se define la variable aleatoria $X$ como el número de plumones claros obtenidos
     X: \Omega \rightarrow \{0,1,2\}, \qquad X(\{P_i,P_j\}) = \text{número de plumones claros en } \{P_i,P_j\}
 \end{equation}
 
-La distribución de $X$ sigue el modelo \textbf{Hipergeométrico}, y se resume en la siguiente tabla:
+\begin{itemize}
+    \item La distribución de $X$ sigue un modelo \textbf{Hipergeométrico}, pues se extraen 2 plumones de una población finita de 12, compuesta por 5 claros y 7 oscuros, sin reposición. Por tanto, la composición del conjunto cambia tras la primera extracción y las extracciones son dependientes. Como $X$ cuenta la cantidad de plumones claros obtenidos, su distribución se resume en la siguiente tabla:
+\end{itemize}
 
 \begin{itemize}
     \item $P(\text{Oscuro--Oscuro}) =
@@ -569,12 +571,12 @@ La distribución de $X$ sigue el modelo \textbf{Hipergeométrico}, y se resume e
         \end{aligned}
         \end{equation}
 
-    Por tanto, al extraer dos plumones sin reposición se esperan, en promedio,
-    $5/6$ plumones claros.
 \end{itemize} 
 
 \begin{itemize}
-    \item  En promedio, al extraer dos plumones sin devolver el primero, se espera obtener aproximadamente 0.83 plumones claros. Este valor describe el promedio teórico a largo plazo de muchas repeticiones; en una extracción concreta, el número de plumones claros será 0, 1 o 2.
+    \item Por tanto, al extraer dos plumones sin reposición se esperan, en promedio,
+    $5/6 \approx 0.83$ plumones claros. Este valor representa el promedio teórico
+    a largo plazo; en una extracción concreta, se pueden obtener 0, 1 o 2 plumones claros.
 \end{itemize}
 
 \subsubsection{Caso con reposición}
@@ -592,7 +594,9 @@ Se define la variable aleatoria $X$ como el número de plumones claros obtenidos
     X: \Omega \rightarrow \{0,1,2\}, \qquad X(CC)=2,\ X(CO)=X(OC)=1,\ X(OO)=0
 \end{equation}
 
-La distribución de $X$ sigue el modelo \textbf{Binomial} con $n=2$ y $p=5/12$, y se resume en la siguiente tabla:
+\begin{itemize}
+    \item La distribución de $X$ sigue un modelo \textbf{Binomial} con $n=2$ y $p=5/12$, pues se realizan dos extracciones independientes al devolver el plumón antes de la segunda. Así, la probabilidad de obtener un plumón claro se mantiene constante en cada extracción, y $X$ cuenta el número de éxitos obtenidos. La distribución se resume en la siguiente tabla:
+\end{itemize}
 
 \begin{itemize}
     \item $P(CC) = \left(\dfrac{5}{12}\right)^2 = \dfrac{25}{144}$
@@ -631,17 +635,15 @@ La distribución de $X$ sigue el modelo \textbf{Binomial} con $n=2$ y $p=5/12$, 
         \end{aligned}
         \end{equation}
 
-    Así, también se esperan $5/6$ plumones claros en promedio. Las esperanzas
-    coinciden en ambos casos porque se realizan dos extracciones con
-    probabilidad marginal $5/12$ de obtener un plumón claro; sin embargo, las
-    distribuciones de probabilidad de $X$ no son iguales.
 \end{itemize}
 
 \begin{itemize}
-    \item En promedio, al extraer dos plumones devolviendo el primero antes de la segunda extracción, también se espera obtener aproximadamente 0.83 plumones claros. Aunque el valor esperado coincide con el caso sin reposición, las probabilidades de obtener 0, 1 o 2 plumones claros son distintas porque la reposición cambia las probabilidades de la segunda extracción.
+    \item Así, al extraer dos plumones con reposición también se esperan, en promedio,
+    $5/6 \approx 0.83$ plumones claros. Aunque este valor coincide con el caso sin
+    reposición, las probabilidades de obtener 0, 1 o 2 plumones claros son distintas,
+    pues la reposición mantiene constante la probabilidad de la segunda extracción.
 \end{itemize}
 
-\clearpage
 \section{Conclusiones}
 \clearpage 
 
