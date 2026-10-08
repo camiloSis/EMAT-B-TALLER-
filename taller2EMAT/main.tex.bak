@@ -112,27 +112,17 @@ La práctica del informe se centra en dos aspectos principales: por un lado, la 
 De esta manera, el informe combina la fundamentación teórica con una aplicación concreta, evidenciando que la probabilidad no es solo un conjunto de fórmulas, sino un lenguaje útil para describir situaciones aleatorias y tomar decisiones informadas a partir de la información disponible.
 
 \clearpage
-\section{Marco Teórico}\label{sec:marco}
+\section{Marco Teórico}
 
 La probabilidad permite cuantificar la incertidumbre asociada a experimentos aleatorios y evaluar la posibilidad de ocurrencia de eventos dentro de un espacio de resultados definido. Para ello, es necesario contar resultados posibles, distinguir entre eventos simples y compuestos, y aplicar leyes que vinculan la ocurrencia de distintos sucesos.
-
-\subsection{Espacio muestral y eventos}
-
-\subsubsection{Experimento aleatorio, espacio muestral y evento}
-
-Un \textbf{experimento aleatorio} es un proceso cuyo resultado no puede predecirse con certeza antes de ejecutarse. El conjunto de todos los resultados posibles se denomina \textbf{espacio muestral} y se denota por $\Omega$ o $S$. Un \textbf{evento} es cualquier subconjunto del espacio muestral. Un evento es \textbf{simple} si contiene un solo resultado del espacio muestral, y \textbf{compuesto} si contiene más de uno o se forma combinando otros eventos, por ejemplo mediante la intersección de eventos sucesivos.
-
-\subsubsection{Eventos mutuamente excluyentes}
-
-Dos o más eventos son \textbf{mutuamente excluyentes} si, al ocurrir uno, los demás no pueden ocurrir simultáneamente. En este caso, si $A$ y $B$ son excluyentes, no pueden tener elementos comunes.
 
 \subsection{Técnicas de conteo}
 
 Para calcular probabilidades es necesario contar el número de maneras en que puede ocurrir un evento. Una técnica fundamental es el \textbf{principio de la multiplicación}: si una operación se puede realizar de $n_1$ maneras, otra de $n_2$ maneras, y así sucesivamente hasta $n_k$ maneras, entonces la secuencia completa puede realizarse de
 
-\[
+$$
 (n_1)(n_2)\cdots(n_k)
-\]
+$$
 
 maneras.
 
@@ -140,45 +130,49 @@ maneras.
 
 Una \textbf{permutación} es un arreglo ordenado de objetos, donde el orden importa. El número de permutaciones de $n$ objetos diferentes tomados de $n$ en $n$ es
 
-\[P_n = n!\]
+$$P_n = n!$$
 
 y el número de permutaciones de $n$ objetos tomados de $r$ en $r$ es
 
-\[P_r^n = \frac{n!}{(n-r)!}\]
+$$P_r^n = \frac{n!}{(n-r)!}$$
 
 \subsubsection{Combinaciones}
 
 Una \textbf{combinación} es un arreglo de objetos en el que el orden no importa. El número de combinaciones de $n$ objetos tomados de $r$ en $r$ es
 
-\[C_r^n = \frac{n!}{r!\,(n-r)!} = \binom{n}{r}\]
-
-que también se denota $\dbinom{n}{r}$ (coeficiente binomial).
+$$C_r^n = \frac{n!}{r!\,(n-r)!}$$
 
 \subsubsection{Permutaciones con repetición}
 
 Si existen $n_1, n_2, \ldots, n_k$ elementos repetidos de distintos tipos, entonces el número de permutaciones distintas es
 
-\[P^{n}_{n_1,n_2,\ldots,n_k} = \frac{n!}{n_1!\,n_2!\cdots n_k!}\]
+$$P^{n}_{n_1,n_2,\ldots,n_k} = \frac{n!}{n_1!\,n_2!\cdots n_k!}$$
 
-\subsection{Probabilidad}
+\subsection{Experimento aleatorio, espacio muestral y evento}
 
-\subsubsection{Probabilidad de un evento}
+Un \textbf{experimento aleatorio} es un proceso cuyo resultado no puede predecirse con certeza antes de ejecutarse. El conjunto de todos los resultados posibles se denomina \textbf{espacio muestral} y se denota por $\Omega$ o $S$. Un \textbf{evento} es cualquier subconjunto del espacio muestral.
+
+\subsection{Eventos excluyentes}
+
+Dos o más eventos son \textbf{mutuamente excluyentes} si, al ocurrir uno, los demás no pueden ocurrir simultáneamente. En este caso, si $A$ y $B$ son excluyentes, no pueden tener elementos comunes.
+
+\subsection{Probabilidad de un evento}
 
 Bajo la definición clásica de Laplace, si todos los resultados del espacio muestral son equiprobables, la probabilidad de un evento $A \subset \Omega$ es
 
-\[P(A) = \frac{n(A)}{n(\Omega)}\]
+$$P(A) = \frac{n(A)}{n(\Omega)}$$
 
 donde $n(A)$ es el número de casos favorables y $n(\Omega)$ el número total de casos posibles.
 
 También puede definirse la probabilidad por \textbf{frecuencia relativa}: si un experimento se repite $n$ veces y el evento $A$ ocurre $n_A$ veces, entonces
 
-\[P(A) = \frac{n_A}{n}\]
+$$P(A) = \frac{n_A}{n}$$
 
 y, cuando $n$ crece indefinidamente,
 
-\[P(A) = \lim_{n \to \infty} \frac{n_A}{n}\]
+$$P(A) = \lim_{n \to \infty} \frac{n_A}{n}$$
 
-\subsubsection{Axiomas de probabilidad}
+\subsection{Axiomas de probabilidad}
 
 La probabilidad se basa en los siguientes axiomas:
 
@@ -186,55 +180,53 @@ La probabilidad se basa en los siguientes axiomas:
     \item $P(\Omega)=1$
     \item $0 \leq P(A) \leq 1$, para cualquier $A \subset \Omega$
     \item Si $A$ y $B$ son mutuamente excluyentes, entonces
-    \[P(A \cup B) = P(A) + P(B)\]
+    $$P(A \cup B) = P(A) + P(B)$$
 \end{enumerate}
 
-\subsubsection{Teoremas importantes sobre probabilidades}
+\subsection{Teoremas importantes sobre probabilidades}
 
 \begin{itemize}[leftmargin=1.5em]
     \item Si $\emptyset$ es el evento imposible, entonces
-    \[P(\emptyset)=0\]
+    $$P(\emptyset)=0$$
     \item Si $A^c$ es el complemento de $A$, entonces
-    \[P(A^c) = 1 - P(A)\]
+    $$P(A^c) = 1 - P(A)$$
     \item Si $A \subset B$, entonces
-    \[P(A) \leq P(B)\]
+    $$P(A) \leq P(B)$$
     \item Si $A$ y $B$ son dos eventos, entonces
-    \[P(A-B) = P(A) - P(A\cap B)\]
+    $$P(A-B) = P(A) - P(A\cap B)$$
     \item Si $A$ y $B$ son dos eventos cualesquiera, entonces
-    \[P(A \cup B) = P(A) + P(B) - P(A\cap B)\]
+    $$P(A \cup B) = P(A) + P(B) - P(A\cap B)$$
 \end{itemize}
 
-\subsection{Probabilidad condicional y teorema de Bayes}
-
-\subsubsection{Probabilidad condicional}
+\subsection{Probabilidad condicional}
 
 La probabilidad condicional mide la probabilidad de que ocurra $B$ dado que $A$ ya ocurrió. Se define como
 
-\[P(B\mid A) = \frac{P(A \cap B)}{P(A)}, \qquad P(A) \neq 0\]
+$$P(B\mid A) = \frac{P(A \cap B)}{P(A)}, \qquad P(A) \neq 0$$
 
-\subsubsection{Regla de la multiplicación}
+\subsection{Regla de la multiplicación}
 
 Para dos eventos $A$ y $B$,
 
-\[P(A \cap B) = P(A)\,P(B\mid A)\]
+$$P(A \cap B) = P(A)\,P(B\mid A)$$
 
-si $B$ depende de $A$. Dos eventos $A$ y $B$ son \textbf{independientes} si la ocurrencia de uno no modifica la probabilidad del otro, es decir, si $P(B\mid A)=P(B)$. En ese caso,
+si $B$ depende de $A$. Si $A$ y $B$ son independientes, entonces
 
-\[P(A \cap B) = P(A)\,P(B)\]
+$$P(A \cap B) = P(A)\,P(B)$$
 
-\subsubsection{Probabilidad total}
+\subsection{Probabilidad total}
 
-Si $\{E_1, E_2, \ldots, E_n\}$ es una partición del espacio muestral $\Omega$ (es decir, los $E_i$ son mutuamente excluyentes y su unión es $\Omega$), entonces para cualquier evento $E$,
+Si $\{E_1, E_2, \ldots, E_n\}$ es una partición del espacio muestral $\Omega$, entonces para cualquier evento $E$,
 
-\[P(E) = \sum_{i=1}^{n} P(E_i)\,P(E\mid E_i)\]
+$$P(E) = \sum_{i=1}^{n} P(E_i)\,P(E\mid E_i)$$
 
 siempre que $P(E_i) \neq 0$ para $i=1,2,\ldots,n$.
 
-\subsubsection{Teorema de Bayes}
+\subsection{Teorema de Bayes}
 
 Sea $\{E_1, E_2, \ldots, E_n\}$ una partición del espacio muestral, con $P(E_i) \neq 0$. Entonces para cualquier evento $E$ con $P(E) \neq 0$ y para $1 \leq k \leq n$,
 
-\[P(E_k\mid E) = \frac{P(E_k)\,P(E\mid E_k)}{\sum_{i=1}^{n} P(E_i)\,P(E\mid E_i)}\]
+$$P(E_k\mid E) = \frac{P(E_k)\,P(E\mid E_k)}{\sum_{i=1}^{n} P(E_i)\,P(E\mid E_i)}$$
 
 Este teorema permite actualizar la probabilidad de una hipótesis a partir de la información observada.
 
@@ -267,17 +259,20 @@ describirse mediante una función de densidad de probabilidad $f(x)$, que satisf
     \int_{-\infty}^{\infty}f(x)\,dx=1.
 \end{equation}
 
-En este caso, la probabilidad de que $X$ pertenezca a un intervalo se obtiene mediante el área bajo la función de densidad:
+En este caso, la probabilidad de que $X$ pertenezca a un intervalo se obtiene 
+mediante el área bajo la función de densidad:
 
 \begin{equation}
     P(a\leq X\leq b)=\int_a^b f(x)\,dx.
 \end{equation}
 
-Además, para una variable aleatoria continua se cumple que $P(X=x)=0$ para cualquier valor puntual $x$.
+Además, para una variable aleatoria continua se cumple que
+$P(X=x)=0$ para cualquier valor puntual $x$.
 
 \subsubsection{Función de distribución acumulada}
 
-Para cualquier variable aleatoria, discreta o continua, la función de distribución acumulada se define como:
+Para cualquier variable aleatoria, discreta o continua, la función de 
+distribución acumulada se define como:
 
 \begin{equation}
     F(x)=P(X\leq x).
@@ -312,7 +307,8 @@ Cuando $F$ es derivable, la función de densidad se obtiene mediante
 
 \subsubsection{Esperanza matemática}
 
-La esperanza matemática representa el valor promedio teórico de una variable aleatoria. Para una variable aleatoria discreta se define como:
+La esperanza matemática representa el valor promedio teórico de una variable 
+aleatoria. Para una variable aleatoria discreta se define como:
 
 \begin{equation}
     E(X)=\sum_i x_i p_i.
@@ -324,7 +320,8 @@ Para una variable aleatoria continua:
     E(X)=\int_{-\infty}^{\infty}x f(x)\,dx.
 \end{equation}
 
-Cuando las esperanzas involucradas existen, se cumplen las propiedades de linealidad:
+Cuando las esperanzas involucradas existen, se cumplen las propiedades de 
+linealidad:
 
 \begin{equation}
     E(aX+b)=aE(X)+b,
@@ -336,7 +333,8 @@ La segunda propiedad no requiere que $X$ e $Y$ sean independientes.
 
 \subsubsection{Varianza y desviación estándar}
 
-La varianza mide la dispersión de los valores de una variable aleatoria respecto a su esperanza matemática y se define como:
+La varianza mide la dispersión de los valores de una variable aleatoria respecto 
+a su esperanza matemática y se define como:
 
 \begin{equation}
     \operatorname{Var}(X)
@@ -363,78 +361,91 @@ La desviación estándar es la raíz cuadrada positiva de la varianza:
     \sigma_X=\sqrt{\operatorname{Var}(X)}.
 \end{equation}
 
-\subsection{Modelos de distribución discreta}
+\subsubsection{Modelos de distribución de probabilidad}
 
-Las distribuciones de probabilidad describen cómo se asignan las probabilidades a los valores de una variable aleatoria. A continuación se presentan los modelos discretos; los modelos continuos se presentan en la Sección~\ref{sec:continuas}.
+Las distribuciones de probabilidad describen cómo se asignan las probabilidades a los valores de una variable aleatoria. Se clasifican en discretas y continuas, y cada una se caracteriza por una función de masa o de densidad, además de su media y varianza.
 
-\subsubsection{Distribución de Bernoulli}
+\textbf{Distribución de Bernoulli.} Modela un único ensayo con dos resultados posibles: éxito o fracaso. Si $P(X=1)=p$ y $P(X=0)=1-p=q$, entonces
 
-Modela un único ensayo con dos resultados posibles: éxito o fracaso. Si $P(X=1)=p$ y $P(X=0)=1-p=q$, entonces
-
-\[P(X=x)=p^x(1-p)^{1-x},\qquad x\in\{0,1\}\]
+$$
+P(X=x)=p^x(1-p)^{1-x},\qquad x\in\{0,1\}
+$$
 
 y
 
-\[E(X)=p,\qquad \operatorname{Var}(X)=p(1-p).\]
+$$
+E(X)=p,\qquad \operatorname{Var}(X)=p(1-p).
+$$
 
-\subsubsection{Distribución binomial}
+\textbf{Distribución binomial.} Representa el número de éxitos en $n$ ensayos independientes con probabilidad de éxito $p$:
 
-Representa el número de éxitos en $n$ ensayos independientes con probabilidad de éxito $p$:
-
-\[P(X=x)=\binom{n}{x}p^x(1-p)^{n-x},\qquad x=0,1,\dots,n.\]
+$$
+P(X=x)=\binom{n}{x}p^x(1-p)^{n-x},\qquad x=0,1,\dots,n.
+$$
 
 Su media y varianza son:
 
-\[E(X)=np,\qquad \operatorname{Var}(X)=np(1-p).\]
+$$
+E(X)=np,\qquad \operatorname{Var}(X)=np(1-p).
+$$
 
-\subsubsection{Distribución de Poisson}
+\textbf{Distribución de Poisson.} Se utiliza para modelar el número de ocurrencias de un evento en un intervalo de tiempo o espacio, con tasa media $\lambda$:
 
-Se utiliza para modelar el número de ocurrencias de un evento en un intervalo de tiempo o espacio, con tasa media $\lambda$:
-
-\[P(X=x)=\frac{\lambda^x e^{-\lambda}}{x!},\qquad x=0,1,2,\dots\]
+$$
+P(X=x)=\frac{\lambda^x e^{-\lambda}}{x!},\qquad x=0,1,2,\dots
+$$
 
 con
 
-\[E(X)=\lambda,\qquad \operatorname{Var}(X)=\lambda.\]
+$$
+E(X)=\lambda,\qquad \operatorname{Var}(X)=\lambda.
+$$
 
-\subsubsection{Distribución hipergeométrica}
+\textbf{Distribución hipergeométrica.} Se emplea cuando se extraen elementos sin reposición de una población finita. Si $N$ es el total, $K$ el número de éxitos en la población y $n$ la muestra, entonces
 
-Se emplea cuando se extraen elementos sin reposición de una población finita. Si $N$ es el total, $K$ el número de éxitos en la población y $n$ la muestra, entonces
-
-\[P(X=x)=\frac{\binom{K}{x}\binom{N-K}{n-x}}{\binom{N}{n}},\qquad x=0,1,\dots,n.\]
+$$
+P(X=x)=\frac{\binom{K}{x}\binom{N-K}{n-x}}{\binom{N}{n}},\qquad x=0,1,\dots,n.
+$$
 
 Además,
 
-\[E(X)=\frac{nK}{N},\qquad \operatorname{Var}(X)=n\frac{K}{N}\left(1-\frac{K}{N}\right)\frac{N-n}{N-1}.\]
+$$
+E(X)=\frac{nK}{N},\qquad \operatorname{Var}(X)=n\frac{K}{N}\left(1-\frac{K}{N}\right)\frac{N-n}{N-1}.
+$$
 
-\subsection{Modelos de distribución continua}\label{sec:continuas}
+\textbf{Distribución normal.} Es la distribución continua más importante en estadística y responde a la forma de la campana de Gauss:
 
-\subsubsection{Distribución normal}
-
-Es la distribución continua más importante en estadística y responde a la forma de la campana de Gauss:
-
-\[f(x)=\frac{1}{\sigma\sqrt{2\pi}}\exp\left[-\frac{(x-\mu)^2}{2\sigma^2}\right],\qquad -\infty<x<\infty.\]
+$$
+f(x)=\frac{1}{\sigma\sqrt{2\pi}}\exp\left[-\frac{(x-\mu)^2}{2\sigma^2}\right],\qquad -\infty<x<\infty.
+$$
 
 Su media y varianza son:
 
-\[E(X)=\mu,\qquad \operatorname{Var}(X)=\sigma^2.\]
+$$
+E(X)=\mu,\qquad \operatorname{Var}(X)=\sigma^2.
+$$
 
-\subsubsection{Distribución exponencial}
+\textbf{Distribución exponencial.} Se usa para modelar tiempos de espera entre eventos o tiempos de vida útil:
 
-Se usa para modelar tiempos de espera entre eventos o tiempos de vida útil:
-
-\[f(x)=\lambda e^{-\lambda x},\qquad x\geq 0,\]
+$$
+f(x)=\lambda e^{-\lambda x},\qquad x\geq 0,
+$$
 
 con
 
-\[E(X)=\frac{1}{\lambda},\qquad \operatorname{Var}(X)=\frac{1}{\lambda^2}.\]
+$$
+E(X)=\frac{1}{\lambda},\qquad \operatorname{Var}(X)=\frac{1}{\lambda^2}.
+$$
+
+En el caso del taller, la comparación entre extracciones con y sin reposición es particularmente relevante: la primera se modela con una distribución hipergeométrica, mientras que la segunda corresponde a una distribución binomial. Esta diferencia explica por qué, aunque el valor esperado pueda coincidir, las probabilidades de cada resultado son distintas en ambos escenarios.
 
 \clearpage
 
 % ============================================================
-% 3. APLICACIONES DE PROBABILIDAD
+% 4.3 APLICACIÓN DE PROBABILIDAD
+% Experimento aleatorio independiente de las variables anteriores.
 % ============================================================
-\section{Aplicaciones de probabilidad}\label{sec:aplicaciones}
+\section{Aplicaciones de probabilidades}
 
 % ---------- Contexto del experimento ----------
 \subsection{Contexto general del experimento}
