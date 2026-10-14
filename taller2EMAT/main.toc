@@ -1,41 +1,35 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}Introducción}{5}{section.1}%
-\contentsline {section}{\numberline {2}Marco Teórico}{6}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Espacio muestral y eventos}{6}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Experimento aleatorio, espacio muestral y evento}{6}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Eventos mutuamente excluyentes}{6}{subsubsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.2}Técnicas de conteo}{6}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Permutaciones}{6}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Combinaciones}{6}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}Permutaciones con repetición}{7}{subsubsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.3}Probabilidad}{7}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Probabilidad de un evento}{7}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Axiomas de probabilidad}{7}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}Teoremas importantes sobre probabilidades}{7}{subsubsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.4}Probabilidad condicional y teorema de Bayes}{8}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1}Probabilidad condicional}{8}{subsubsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.2}Regla de la multiplicación}{8}{subsubsection.2.4.2}%
-\contentsline {subsubsection}{\numberline {2.4.3}Probabilidad total}{8}{subsubsection.2.4.3}%
-\contentsline {subsubsection}{\numberline {2.4.4}Teorema de Bayes}{8}{subsubsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.5}Variable aleatoria}{8}{subsection.2.5}%
-\contentsline {subsubsection}{\numberline {2.5.1}Tipos de variable aleatoria}{9}{subsubsection.2.5.1}%
-\contentsline {subsubsection}{\numberline {2.5.2}Función de distribución acumulada}{9}{subsubsection.2.5.2}%
-\contentsline {subsubsection}{\numberline {2.5.3}Esperanza matemática}{9}{subsubsection.2.5.3}%
-\contentsline {subsubsection}{\numberline {2.5.4}Varianza y desviación estándar}{10}{subsubsection.2.5.4}%
-\contentsline {subsection}{\numberline {2.6}Modelos de distribución discreta}{10}{subsection.2.6}%
-\contentsline {subsubsection}{\numberline {2.6.1}Distribución de Bernoulli}{10}{subsubsection.2.6.1}%
-\contentsline {subsubsection}{\numberline {2.6.2}Distribución binomial}{11}{subsubsection.2.6.2}%
-\contentsline {subsubsection}{\numberline {2.6.3}Distribución de Poisson}{11}{subsubsection.2.6.3}%
-\contentsline {subsubsection}{\numberline {2.6.4}Distribución hipergeométrica}{11}{subsubsection.2.6.4}%
-\contentsline {subsection}{\numberline {2.7}Modelos de distribución continua}{11}{subsection.2.7}%
-\contentsline {subsubsection}{\numberline {2.7.1}Distribución normal}{11}{subsubsection.2.7.1}%
-\contentsline {subsubsection}{\numberline {2.7.2}Distribución exponencial}{11}{subsubsection.2.7.2}%
-\contentsline {section}{\numberline {3}Aplicaciones de probabilidad}{13}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Contexto general del experimento}{13}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Evento simple}{13}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Evento compuesto}{13}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Aplicación del teorema de Bayes}{14}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Aplicación de variable aleatoria}{15}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}Caso sin reposición}{15}{subsubsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.2}Caso con reposición}{16}{subsubsection.3.5.2}%
-\contentsline {section}{\numberline {4}Conclusiones}{17}{section.4}%
+\contentsline {section}{\numberline {1}Introducción}{4}{section.1}%
+\contentsline {section}{\numberline {2}Marco Teórico}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Espacio muestral y eventos}{5}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Experimento aleatorio, espacio muestral y evento}{5}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Eventos mutuamente excluyentes}{5}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Técnicas de conteo}{5}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Combinaciones}{5}{subsubsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.3}Probabilidad}{5}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Probabilidad de un evento}{5}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Axiomas de probabilidad}{5}{subsubsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.4}Probabilidad condicional y teorema de Bayes}{6}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Probabilidad condicional}{6}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Regla de la multiplicación}{6}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Probabilidad total}{6}{subsubsection.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.4.4}Teorema de Bayes}{6}{subsubsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.5}Variable aleatoria}{7}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Variable aleatoria discreta}{7}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Esperanza matemática}{7}{subsubsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.6}Modelos de distribución discreta}{7}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.6.1}Distribución binomial}{7}{subsubsection.2.6.1}%
+\contentsline {subsubsection}{\numberline {2.6.2}Distribución hipergeométrica}{7}{subsubsection.2.6.2}%
+\contentsline {section}{\numberline {3}Aplicaciones de probabilidad}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Contexto general del experimento}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Evento simple}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Evento compuesto}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Teorema de Bayes}{9}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Variable aleatoria: Número de plumones claros obtenidos en dos extracciones }{10}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Caso sin reposición}{10}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Caso sin reposición: Distribución de probabilidad hipergeométrica}{10}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}Caso sin reposición: Esperanza matemática}{11}{subsubsection.3.5.3}%
+\contentsline {subsubsection}{\numberline {3.5.4}Caso con reposición}{11}{subsubsection.3.5.4}%
+\contentsline {subsubsection}{\numberline {3.5.5}Caso con reposición: Distribución de probabilidad binomial}{12}{subsubsection.3.5.5}%
+\contentsline {subsubsection}{\numberline {3.5.6}Caso con reposición: Esperanza matemática}{12}{subsubsection.3.5.6}%
+\contentsline {section}{\numberline {4}Conclusiones}{13}{section.4}%
