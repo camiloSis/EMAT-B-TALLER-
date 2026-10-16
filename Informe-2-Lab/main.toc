@@ -1,0 +1,8 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Actividades}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Ejercicio 4.9: tasas de mortalidad en África Oriental}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Ejercicio 4.21: tuberculosis y prueba diagnóstica}{5}{subsection.1.2}%
+\contentsline {paragraph}{1. Diagrama de árbol.}{6}{section*.15}%
+\contentsline {paragraph}{2. Probabilidad de tener la enfermedad y dar positivo.}{6}{section*.16}%
+\contentsline {paragraph}{3. Probabilidad de que la prueba sea positiva.}{6}{section*.17}%
+\contentsline {paragraph}{4. Probabilidad de tener la enfermedad dado que la prueba es positiva.}{6}{section*.18}%

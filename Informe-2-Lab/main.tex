@@ -272,24 +272,26 @@ P(E \mid F) = \frac{P(E \cap F)}{P(F)} = \frac{0.00196}{0.15166} \approx 0.0129.
 \]
  
 \subsubsection*{Cálculo en R}
-\begin{lstlisting}[style=rstyle]
-pE     <- 0.002   # prevalencia
-pF_E   <- 0.98    # sensibilidad
-pF_nE  <- 0.15    # 1 - especificidad
- 
-pEF    <- pE * pF_E                  # P(E y F)
-pF     <- pEF + (1 - pE) * pF_nE     # P(F)
-pE_F   <- pEF / pF                   # P(E | F)
- 
-round(c(P_E_y_F = pEF, P_F = pF, P_E_dado_F = pE_F), 5)
-\end{lstlisting}
- 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.82\textwidth]{img/3.png}
+\caption{Probabilidad condicional en pruebas diagnósticas: cálculo de $P(E \cap F)$, $P(F)$ y $P(E \mid F)$ en el caso de la tuberculosis}
+\end{figure}
+
 \subsubsection*{Resultados}
+
 \begin{itemize}
   \item $P(E \cap F) = 0.00196$
   \item $P(F) = 0.15166$
   \item $P(E \mid F) \approx 0.0129$ (aproximadamente $1.3\%$)
 \end{itemize}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.82\textwidth]{img/4.png}
+\caption{Ejecución del script}
+\end{figure}
  
 \subsubsection*{Interpretación}
 Aunque la prueba detecta al $98\%$ de los enfermos, solo cerca del $1.3\%$ de quienes dan positivo tienen realmente tuberculosis. Esto ocurre porque la enfermedad es muy poco frecuente ($0.2\%$) y el $15\%$ de los sanos da un falso positivo, de modo que los falsos positivos superan ampliamente a los verdaderos positivos. Es un ejemplo del efecto de la tasa base: un resultado positivo no equivale a un diagnóstico confirmado y requiere pruebas complementarias.
